@@ -8,7 +8,7 @@ import { StylesContext } from '@material-ui/core/node_modules/@material-ui/style
 
 const styles = makeStyles ({
     bar: {
-        paddingBottom: "0rem",
+        paddingBottom: "1.5rem",
         backgroundColor: "#fff",
         position: "absolute",
         left: 0,
@@ -18,23 +18,21 @@ const styles = makeStyles ({
         }
     },
     logoLight: {
-        width: "3%",
+        width: "5%",
         ['@media (max-width: 780px)']: {
             display: "none"
         }
     },
-    logoMobile: {
-        width: "100%",
-        display: "none",
-        ['@media (max-width: 780px)']: {
-            display: "inline-block"
-        }
-    },
     menuItem: {
         cursor: "pointer",
+        fontSize: 15,
+        width: 10,
+        color: "#000000",
+        paddingTop: "0.5rem",
+        paddingBottom: "0.5rem",
         flexGrow: 1,
         "&:hover": {
-            color: "#4f25c8"
+            backgroundColor: "rgba(150, 150, 150, 0.2)"
         },
         ['@media (max-width: 780px)']: {
             paddingBottom: "1rem" 
@@ -44,19 +42,19 @@ const styles = makeStyles ({
 function NavBar() {
     const classes = styles()
     return (
-        <Toolbar position="sticky" color="rgba(0, 0, 0.87)" className={classes.bar}>
+        <Toolbar position="sticky" className={classes.bar}>
             <img src={logoLight} className={classes.logoLight}/>
-            <Typography variant="h6" className={classes.menuItem}>
-                About
+            <Typography variant="h5" className={classes.menuItem}>
+                ABOUT
             </Typography>
-            <Typography variant="h6" className={classes.menuItem}>
-                Portfolio
+            <Typography variant="h5" className={classes.menuItem}>
+                PORTFOLIO
             </Typography>
-            <Typography variant="h6" className={classes.menuItem}>
-                Gallery
+            <Typography variant="h5" className={classes.menuItem}>
+                GALLERY
             </Typography>
-            <Typography variant="h6" className={classes.menuItem}>
-                Contact
+            <Typography variant="h5" className={classes.menuItem}>
+                CONTACT
             </Typography>
         </Toolbar>
     )

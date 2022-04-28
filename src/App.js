@@ -30,11 +30,11 @@ const theme = createTheme({
   h4 : {
     fontWeight: 300,
     fontSize: 28,
-    lineHeight: '2rem'
+    lineHeight: '1rem'
   },
   h5 : {
     fontWeight: 100,
-    lineHeight: '2rem'
+    lineHeight: '1rem'
   }
 })
 
