@@ -8,7 +8,7 @@ import { StylesContext } from '@material-ui/core/node_modules/@material-ui/style
 
 const styles = makeStyles ({
     bar: {
-        paddingTop: "1.15rem",
+        paddingBottom: "0rem",
         backgroundColor: "#fff",
         ['@media (max-width: 780px)']: {
             flexDirection: "column"
@@ -43,7 +43,6 @@ function NavBar() {
     return (
         <Toolbar position="sticky" color="rgba(0, 0, 0.87)" className={classes.bar}>
             <img src={logoLight} className={classes.logoLight}/>
-            <img src={logoMobile} className={classes.logoMobile}/>
             <Typography variant="h6" className={classes.menuItem}>
                 About
             </Typography>
@@ -59,7 +58,6 @@ function NavBar() {
             <Typography variant="h6" className={classes.menuItem}>
                 Contact Us
             </Typography>
-            <CustomBtn txt="Trial Our Product"/>
         </Toolbar>
     )
 }
