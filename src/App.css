@@ -70,6 +70,8 @@
 .Navbar .leftSide button{
   display: none;
   margin-left: 20px;
+  background-color: white;
+  border: 0px;
 }
 
 .Navbar .leftSide .links a:hover{
