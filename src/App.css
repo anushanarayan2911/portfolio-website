@@ -43,6 +43,9 @@
   height: 80px;
   font-family: 'runda';
   display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .Navbar .leftSide {
