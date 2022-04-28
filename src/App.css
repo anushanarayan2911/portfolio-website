@@ -65,6 +65,7 @@
   color: black;
   font-size: 2.5vh;
   margin-left: 15px;
+  padding: 10px;
 }
 
 .Navbar .leftSide button{
@@ -75,7 +76,7 @@
 }
 
 .Navbar .leftSide .links a:hover{
-  background-color: #61dafb;
+  background-color: rgb(220, 220, 220, 0.5);
 }
 
 .Navbar .leftSide #hidden {
