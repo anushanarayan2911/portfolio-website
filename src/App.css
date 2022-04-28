@@ -94,8 +94,7 @@
   .Navbar .leftSide #hidden {
     position: absolute;
     left: 0px;
-    top: 80px;
-    height: 230px;
+    bottom: 80px;
     max-height: 230px;
     width: 100%;
     background-color: #021e39;
