@@ -43,24 +43,20 @@
   height: 80px;
   font-family: 'runda';
   display: flex;
+  flex: 100%;
+  justify-content: left;
+  align-items: center;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-.Navbar .leftSide {
-  display: flex;
-  flex: 50%;
-  justify-content: left;
-  align-items: center;
-}
-
-.Navbar .leftSide .links {
+.Navbar .links {
   max-height: 80px;
   cursor: pointer;
 }
 
-.Navbar .leftSide .links a{
+.Navbar .links a{
   text-decoration: none;
   color: black;
   font-size: 2.5vh;
@@ -68,33 +64,29 @@
   padding: 10px;
 }
 
-.Navbar .leftSide button{
+.Navbar button{
   display: none;
   margin-left: 20px;
   background-color: white;
   border: 0px;
 }
 
-.Navbar .leftSide .links a:hover{
+.Navbar .links a:hover{
   background-color: rgb(220, 220, 220, 0.5);
 }
 
-.Navbar .leftSide #hidden {
+.Navbar #hidden {
   display: flex;
 }
 
-.Navbar .rightSide {
-  flex: 50%;
-}
-
 @media screen and (max-width: 780px) {
-  .Navbar .leftSide button{
+  .Navbar button{
     display: flex;
   }
-  .Navbar .leftSide .links {
+  .Navbar .links {
     display: none;
   }
-  .Navbar .leftSide #hidden {
+  .Navbar #hidden {
     position: absolute;
     left: 0px;
     bottom: 80px;
@@ -106,8 +98,7 @@
     align-items: center;
   }
 
-  .Navbar .leftSide #hidden a{
+  .Navbar #hidden a{
     margin: 10px;
-
   }
 }
