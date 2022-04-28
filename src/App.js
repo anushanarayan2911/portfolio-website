@@ -1,17 +1,8 @@
-import logo from './logo.svg';
 import {createTheme, ThemeProvider, makeStyles} from '@material-ui/core/styles';
-import NavBar from './components/navBar'
-import Grid from './components/grid';
-import Footer from './components/footer';
+import Navbar from './components/Navbar/navBar'
+import Slideshow from './components/slideshow';
+import About from './about'
 import './App.css';
-
-import SecurityIcon from '@material-ui/icons/Security';
-import EventNoteIcon from '@material-ui/icons/EventNote';
-import TrendingUpIcon from '@material-ui/icons/TrendingUp';
-import ImportExportIcon from '@material-ui/icons/ImportExport';
-import ComputerIcon from '@material-ui/icons/Computer';
-import HttpIcon from'@material-ui/icons/Http';
-import { Typography } from '@material-ui/core';
 
 const theme = createTheme({
   palette : {
@@ -62,9 +53,10 @@ function App() {
   return (
     <div className='App'>
       <ThemeProvider theme={theme}>
-        <NavBar/>
+        <Navbar/>
       </ThemeProvider>
     </div>
+    
   );
 }
 
