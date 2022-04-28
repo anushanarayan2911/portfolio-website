@@ -15,7 +15,7 @@ const styles = makeStyles ({
         }
     },
     logoLight: {
-        width: "15%",
+        width: "3%",
         ['@media (max-width: 780px)']: {
             display: "none"
         }
