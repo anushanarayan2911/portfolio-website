@@ -1,7 +1,6 @@
 import {createTheme, ThemeProvider, makeStyles} from '@material-ui/core/styles';
 import Navbar from './components/Navbar/navBar'
 import Slideshow from './components/slideshow';
-import About from './about'
 import './App.css';
 
 const theme = createTheme({

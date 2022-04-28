@@ -10,9 +10,10 @@ function Navbar() {
       <div className='leftSide'>
         <div className='links' id={showLinks ? "hidden" : ""}>
           <a href="/home">Home</a>
-          <a href="/about">Feedback</a>
-          <a>About Us</a>
-          <a>Contact</a>
+          <a href="/about">About</a>
+          <a href="/portfolio">Portfolio</a>
+          <a href="/gallery">Gallery</a>
+          <a href="/contact">Contact</a>
         </div>
         <button onClick={() => setShowLinks(!showLinks)}><ReorderIcon/></button>
       </div>
