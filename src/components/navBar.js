@@ -50,16 +50,13 @@ function NavBar() {
                 About
             </Typography>
             <Typography variant="h6" className={classes.menuItem}>
-                Blog
+                Portfolio
             </Typography>
             <Typography variant="h6" className={classes.menuItem}>
-                Careers
+                Gallery
             </Typography>
             <Typography variant="h6" className={classes.menuItem}>
-                Demos
-            </Typography>
-            <Typography variant="h6" className={classes.menuItem}>
-                Contact Us
+                Contact
             </Typography>
         </Toolbar>
     )
