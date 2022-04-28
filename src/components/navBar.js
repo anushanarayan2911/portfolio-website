@@ -10,6 +10,9 @@ const styles = makeStyles ({
     bar: {
         paddingBottom: "0rem",
         backgroundColor: "#fff",
+        position: "absolute",
+        left: 0,
+        bottom: 0,
         ['@media (max-width: 780px)']: {
             flexDirection: "column"
         }
