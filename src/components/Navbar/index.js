@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { animateScroll as scroll } from 'react-scroll/modules'
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './navbarElements'
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './navbarElements'
 import {FaBars} from 'react-icons/fa'
 
 const Navbar = ({toggle}) => {
