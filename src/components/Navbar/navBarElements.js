@@ -47,8 +47,8 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 20px;
+        right: 5px;
         transform: translate (-100%, -60%);
         font-size: 1.8rem;
         cursor: pointer;
@@ -84,4 +84,10 @@ export const NavLinks = styled(LinkS)`
     &.active {
         border-bottom: 3px solid #01bf71;
     }
+`
+
+export const Img = styled.img`
+    width: 5%;
+    margin: 0 0 10px 0;
+    padding-right: 0;   
 `
