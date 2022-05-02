@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '# ' : '#010606')};
+    background: #f0f0f0;
     
     @media screen and (max-width: 768px) {
         padding: 100px 0
@@ -77,7 +77,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')}
+    color: #4b4b4b;
 `
 
 export const BtnWrap = styled.div`

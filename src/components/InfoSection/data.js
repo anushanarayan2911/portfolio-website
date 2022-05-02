@@ -1,13 +1,9 @@
-import { Card } from '@material-ui/core';
-
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'unlimited transactions with 0 fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees',
+    description: 'Born and raised in North London, I am in my second year at Imperial College London, pursuing an MEng in Design Engineering. My primary interests lie in the field of human-centred and UX design. In these areas, I can use the wide-ranging skillset (engineering, computing, aesthetic design etc.) that I am accumulating, to create products or services that works to solve a problem being faced by a certain user.',
     buttonLabel: 'Get Started',
     imgStart: false,
     img: require('../../Images/1.svg').default,
