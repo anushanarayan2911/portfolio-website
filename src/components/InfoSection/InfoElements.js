@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-    color: #fff;
     background: #f0f0f0;
     
     @media screen and (max-width: 768px) {
@@ -51,25 +50,12 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-    color: #01bf71;
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 30px;
+    font-weight: 200;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
-`
-
-export const Heading = styled.h1`
-    margin-bottom: 24px;
-    font-size: 48px;
-    line-height: 1.1;
-    font-weight: 600;
-    color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
-
-    @media screen and (max-width: 480px) {
-        font-size: 32px;
-    }
+    margin-bottom: 30px;
 `
 
 export const Subtitle = styled.p`
@@ -78,6 +64,7 @@ export const Subtitle = styled.p`
     font-size: 18px;
     line-height: 24px;
     color: #4b4b4b;
+    text-align: justify;
 `
 
 export const BtnWrap = styled.div`
