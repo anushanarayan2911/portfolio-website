@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 export const InfoContainer = styled.div`
     background: #f0f0f0;
@@ -32,7 +33,7 @@ export const InfoRow = styled.div`
 `
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
+    margin-bottom: 0    px;
     padding: 0 15px;
     grid-area: col1;
 `
@@ -82,5 +83,19 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
 `
+
+export const YoutubeEmbed = ({ embedId }) => (
+    <div className='video-responsive'>
+        <iframe>
+            width = '853'
+            height = '480'
+            src = {`https://www.youtube.com/embed/ag9uYc9hJRk`}
+            frameBorder = '0'
+            allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowFullScreen
+            title = 'EmbeddedYoutube'
+        </iframe>
+    </div>
+)
 
 

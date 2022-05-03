@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import {Button} from '../ButtonElements'
+import React from 'react'
+
 import {
     InfoContainer,
     InfoWrapper,
@@ -12,8 +12,9 @@ import {
     Subtitle,
     BtnWrap,
     ImgWrap,
-    Img
-} from './InfoElements'
+    Img,
+    YoutubeEmbed
+} from './AboutElements'
 
 const InfoSection = ({
     lightBg,
@@ -42,9 +43,7 @@ const InfoSection = ({
             </TextWrapper>
           </Column1>
           <Column2>
-            <ImgWrap>
-                <Img src={img} alt={alt}/>
-            </ImgWrap>
+            <YoutubeEmbed/>
           </Column2>
         </InfoRow>
       </InfoWrapper>
