@@ -43,6 +43,11 @@ const InfoSection = ({
             </TextWrapper>
           </Column1>
           <Column2>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <YoutubeEmbed/>
           </Column2>
         </InfoRow>

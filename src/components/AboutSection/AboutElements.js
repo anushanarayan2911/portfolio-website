@@ -91,6 +91,9 @@ export const YoutubeEmbed = ({ embedId }) => (
         allow="autoplay; encrypted-media; fullscreen"
         allowFullScreen
         title="video"
+        width="auto"
+        height="100%"
+        position="absolute"
       />{" "}
     </div>
 )
