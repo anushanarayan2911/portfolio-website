@@ -1,10 +1,17 @@
 import React from 'react'
+import { InfoContainer, InfoWrapper, InfoRow, TopLine } from './portfolioElements'
 
-const PortfolioSection = () => {
+const PortfolioSection = (id) => {
   return (
-    <div>
-      PORTFOLIO
-    </div>
+    <InfoContainer id={id}>
+      <InfoWrapper>
+        <br/>
+        <br/>
+        <InfoRow>
+          <TopLine>P O R T F O L I O</TopLine>
+        </InfoRow>
+      </InfoWrapper>
+    </InfoContainer>
   )
 }
 

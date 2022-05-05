@@ -3,8 +3,9 @@ import Sidebar from '../components/SideBar'
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
-import { homeObjOne, homeObjTwo, homeObjThree } from '../components/AboutSection/data';
+import { homeObjOne } from '../components/AboutSection/data';
 import PortfolioSection from '../components/PortfolioSection';
+import { homeObjTwo } from '../components/PortfolioSection/data';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,7 @@ const Home = () => {
       <Navbar toggle={toggle}/>
       <HeroSection/>
       <AboutSection {...homeObjOne}/>
-      <PortfolioSection/>
+      <PortfolioSection {...homeObjTwo}/>
     </>
   )
 }
