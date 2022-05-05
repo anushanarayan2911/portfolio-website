@@ -24,7 +24,8 @@ const InfoSection = ({
     lightText,
     headline,
     darkText,
-    description,
+    textbox1,
+    textbox2,
     buttonLabel,
     img,
     alt,
@@ -35,21 +36,13 @@ const InfoSection = ({
   return (
     <InfoContainer id={id}>
       <InfoWrapper>
-        <InfoRow imgStart={imgStart}>
-          <Column1>
-            <TextWrapper>
-              <TopLine>A B O U T</TopLine>
-              <Subtitle darkText={darkText}>{description}</Subtitle>
-            </TextWrapper>
-          </Column1>
-          <Column2>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <YoutubeEmbed/>
-          </Column2>
+        <InfoRow><TopLine>A B O U T</TopLine></InfoRow>
+        <InfoRow>
+          <Column1><Subtitle>{textbox1}</Subtitle></Column1>
+          <Column2><YoutubeEmbed/></Column2>
+        </InfoRow>
+        <InfoRow>
+          Bye
         </InfoRow>
       </InfoWrapper>
     </InfoContainer>
