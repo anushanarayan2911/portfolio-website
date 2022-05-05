@@ -36,13 +36,20 @@ const InfoSection = ({
   return (
     <InfoContainer id={id}>
       <InfoWrapper>
-        <InfoRow><TopLine>A B O U T</TopLine></InfoRow>
+        <br/>
+        <br/>
+        <br/>
+        <InfoRow>
+          <TopLine>A B O U T</TopLine>
+        </InfoRow>
         <InfoRow>
           <Column1><Subtitle>{textbox1}</Subtitle></Column1>
           <Column2><YoutubeEmbed/></Column2>
         </InfoRow>
         <InfoRow>
-          Bye
+          <Subtitle>
+            {textbox2}
+          </Subtitle>
         </InfoRow>
       </InfoWrapper>
     </InfoContainer>
