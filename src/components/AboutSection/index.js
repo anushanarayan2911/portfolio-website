@@ -39,6 +39,8 @@ const InfoSection = ({
         <br/>
         <br/>
         <br/>
+        <br/>
+        <br/>
         <InfoRow>
           <TopLine>A B O U T</TopLine>
         </InfoRow>

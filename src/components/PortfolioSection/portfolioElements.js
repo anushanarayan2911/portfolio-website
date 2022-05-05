@@ -42,12 +42,5 @@ export const TopLine = styled.p`
     margin-bottom: 30px;
 `
 
-export const Subtitle = styled.p`
-    max-width: max-content;
-    font-size: 18px;
-    line-height: 24px;
-    color: #4b4b4b;
-    text-align: justify;
-`
 
 
