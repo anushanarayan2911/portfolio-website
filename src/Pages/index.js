@@ -7,6 +7,7 @@ import { homeObjOne } from '../components/AboutSection/data';
 import PortfolioSection from '../components/PortfolioSection';
 import { homeObjTwo } from '../components/PortfolioSection/data';
 import GallerySection from '../components/GallerySection';
+import ContactSection from '../components/ContactSection';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +24,7 @@ const Home = () => {
       <AboutSection {...homeObjOne}/>
       <PortfolioSection {...homeObjTwo}/>
       <GallerySection/>
+      <ContactSection/>
     </>
   )
 }
