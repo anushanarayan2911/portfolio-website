@@ -11,7 +11,7 @@ import { InfoContainer,
 
 const PortfolioSection = (id) => {
   return (
-    <InfoContainer id={id}>
+    <InfoContainer id="portfolio">
       <InfoWrapper>
         <br/>
         <br/>
@@ -34,6 +34,14 @@ const PortfolioSection = (id) => {
             <Column><Image src={require('../../Visuals/Portfolio/Bouncer Challenge/Anusha Narayan_Bouncer Challenge-01.png')}/></Column>
             <Column><Image src={require('../../Visuals/Portfolio/The Ambio Brace/Group 17_Documentation-01.png')}/></Column>
             <Column><Image src={require('../../Visuals/Portfolio/Standardising Camping Furniture/Group 2D_Poster-1.png')}/></Column>
+          </PortfolioRow>
+          <PortfolioRow>
+            <Column><Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-01.png')}/></Column>
+            <Column><Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-01.png')}/></Column>
+          </PortfolioRow>
+          <PortfolioRow>
+            <Column><Image src={require('../../Visuals/Portfolio/Health Tracker App/Health Tracker App - 1.png')}/></Column>
+            <Column><Image src={require('../../Visuals/Portfolio/Carbon Neutral Housing/Anusha Narayan Carbon Neutral Housing-01.png')}/></Column>
           </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>
