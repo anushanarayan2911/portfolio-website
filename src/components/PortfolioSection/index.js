@@ -43,6 +43,14 @@ const PortfolioSection = (id) => {
             <Column><Image src={require('../../Visuals/Portfolio/Health Tracker App/Health Tracker App - 1.png')}/></Column>
             <Column><Image src={require('../../Visuals/Portfolio/Carbon Neutral Housing/Anusha Narayan Carbon Neutral Housing-01.png')}/></Column>
           </PortfolioRow>
+          <PortfolioRow>
+            <Column><Image src={require('../../Visuals/Portfolio/Drawbacks of Technological Development/Drawbacks of Technological Development-01.png')}/></Column>
+            <Column><Image src={require('../../Visuals/Portfolio/Social Responsibility of Design Engineers/NARAYAN_anusha-1.png')}/></Column>
+            <Column><Image src={require('../../Visuals/Portfolio/Materialise/Materialise -01.png')}/></Column>
+          </PortfolioRow>
+          <PortfolioRow>
+            <Column><Image src={require('../../Visuals/Portfolio/Fear of Falling/NARAYAN_anusha-01.png')}/></Column>
+          </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>
     </InfoContainer>
