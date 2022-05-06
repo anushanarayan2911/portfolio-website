@@ -1,5 +1,12 @@
 import React from 'react'
-import { InfoContainer, InfoWrapper, InfoRow, TopLine } from './portfolioElements'
+import { InfoContainer, 
+  InfoWrapper, 
+  InfoRow, 
+  TopLine, 
+  PortfolioGrid, 
+  PortfolioRow,
+  Column
+} from './portfolioElements'
 
 const PortfolioSection = (id) => {
   return (
@@ -13,6 +20,12 @@ const PortfolioSection = (id) => {
         <InfoRow>
           <TopLine>P O R T F O L I O</TopLine>
         </InfoRow>
+        <PortfolioGrid>
+          <PortfolioRow>
+            <Column>Jo</Column>
+            <Column>Hi</Column>
+          </PortfolioRow>
+        </PortfolioGrid>
       </InfoWrapper>
     </InfoContainer>
   )

@@ -42,5 +42,22 @@ export const TopLine = styled.p`
     margin-bottom: 30px;
 `
 
+export const PortfolioGrid = styled.div`
+    width: 100%;
+`
+export const PortfolioRow = styled.div`
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
 
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+`
+
+export const Column = styled.div`
+    width: 50%;
+    border: 3px solid black;
+`
 
