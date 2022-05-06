@@ -57,10 +57,10 @@ export const PortfolioRow = styled.div`
 `
 
 export const Column = styled.div`
-    width: 50%;
+    width: max-content;
     border: 5px solid #f0f0f0;
 `
 
 export const Image = styled.img`
-    width: 100%;
+    height: 60vh;
 `
