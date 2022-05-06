@@ -1,10 +1,24 @@
 import React from 'react'
+import { InfoContainer, 
+    InfoWrapper,
+    InfoRow,
+    TopLine
+} from './ContactElements'
 
 const ContactSection = () => {
   return (
-    <div>
-      CONTACT
-    </div>
+    <InfoContainer id="contact">
+        <InfoWrapper>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <InfoRow>
+                <TopLine>C O N T A C T</TopLine>
+            </InfoRow>
+        </InfoWrapper>
+    </InfoContainer>
   )
 }
 
