@@ -48,7 +48,7 @@ export const PortfolioGrid = styled.div`
 export const PortfolioRow = styled.div`
     display: flex;
     width: 100%;
-    align-items: center;
+    justify-content: space-between;
     flex-direction: row;
 
     @media screen and (max-width: 768px) {
@@ -58,7 +58,7 @@ export const PortfolioRow = styled.div`
 
 export const Column = styled.div`
     width: max-content;
-    border: 5px solid #f0f0f0;
+    padding: 4px 0 4px 0;
 `
 
 export const Image = styled.img`

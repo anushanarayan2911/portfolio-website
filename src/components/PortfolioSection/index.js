@@ -30,6 +30,11 @@ const PortfolioSection = (id) => {
             <Column><Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/></Column>
             <Column><Image src={require('../../Visuals/Portfolio/Ageist Nature of Technology/Ageist Nature of Technology-01.png')}/></Column>
           </PortfolioRow>
+          <PortfolioRow>
+            <Column><Image src={require('../../Visuals/Portfolio/Bouncer Challenge/Anusha Narayan_Bouncer Challenge-01.png')}/></Column>
+            <Column><Image src={require('../../Visuals/Portfolio/The Ambio Brace/Group 17_Documentation-01.png')}/></Column>
+            <Column><Image src={require('../../Visuals/Portfolio/Standardising Camping Furniture/Group 2D_Poster-1.png')}/></Column>
+          </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>
     </InfoContainer>
