@@ -5,7 +5,8 @@ import { InfoContainer,
   TopLine, 
   PortfolioGrid, 
   PortfolioRow,
-  Column
+  Column,
+  Image
 } from './portfolioElements'
 
 const PortfolioSection = (id) => {
@@ -22,8 +23,8 @@ const PortfolioSection = (id) => {
         </InfoRow>
         <PortfolioGrid>
           <PortfolioRow>
-            <Column>Jo</Column>
-            <Column>Hi</Column>
+            <Column><Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/></Column>
+            <Column><Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png')}/></Column>
           </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>
