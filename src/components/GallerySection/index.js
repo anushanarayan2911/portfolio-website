@@ -23,7 +23,9 @@ const GallerySection = () => {
             </InfoRow>
             <GalleryGrid>
                 <GalleryRow>
-                    <Column><Image src={require('../../Visuals/Gallery/1.png')}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/1.png')}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/2.png')}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/3.png')}/></Column>
                 </GalleryRow>
             </GalleryGrid>
         </InfoWrapper>
