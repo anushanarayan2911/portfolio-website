@@ -61,5 +61,5 @@ export const Column = styled.div`
 `
 
 export const Image = styled.img`
-    height: 45vh;
+    height: 40vh;
 `
