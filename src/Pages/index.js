@@ -23,6 +23,7 @@ const Home = () => {
       <HeroSection/>
       <AboutSection {...homeObjOne}/>
       <PortfolioSection/>
+      <GallerySection/>
     </>
   )
 }
