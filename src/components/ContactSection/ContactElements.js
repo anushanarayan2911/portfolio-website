@@ -49,7 +49,7 @@ export const TopLine = styled.p`
 
 export const Subtitle = styled.p`
     color: #4b4b4b;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 200;
     letter-spacing: 1.4px;
     margin-bottom: 30px;
@@ -63,7 +63,7 @@ export const ContactGrid = styled.div`
 
 export const ContactRow = styled.div`
     display: flex;
-    width: 100%;
+    width: 50%;
     flex-direction: row
 
     @media screen and (max-width: 768px) {
@@ -72,10 +72,11 @@ export const ContactRow = styled.div`
 `
 
 export const Column = styled.div`
-    max-width: max-content;
-    padding: 5px 0px 5px 20px;
+    max-width: fit-content;
+    padding: 0;
+    border: 1px solid black;
 `
 
 export const Image = styled.img`
-    width: 30%;
+    width: 60%;
 `

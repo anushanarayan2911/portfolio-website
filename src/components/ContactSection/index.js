@@ -32,6 +32,16 @@ const ContactSection = () => {
                 <Column><Subtitle>https://www.linkedin.com/in/a-k-narayan/</Subtitle></Column>
               </ContactRow>
             </ContactGrid>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </InfoWrapper>
     </InfoContainer>
   )
