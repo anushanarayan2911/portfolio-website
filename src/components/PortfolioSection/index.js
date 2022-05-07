@@ -48,6 +48,7 @@ const PortfolioSection = (id) => {
           </PortfolioRow>
           <PortfolioRow>
             <Column><Image src={require('../../Visuals/Portfolio/Health Tracker App/Health Tracker App - 1.png')}/></Column>
+            <Column><Image src={require('../../Visuals/Portfolio/Fear of Falling/Fear of Falling Title.png')}/></Column>
           </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>
