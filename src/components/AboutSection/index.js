@@ -36,11 +36,6 @@ const InfoSection = ({
   return (
     <InfoContainer id={id}>
       <InfoWrapper>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
         <InfoRow>
           <TopLine>A B O U T</TopLine>
         </InfoRow>

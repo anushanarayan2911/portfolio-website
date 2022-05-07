@@ -22,9 +22,7 @@ const Home = () => {
       <Navbar toggle={toggle}/>
       <HeroSection/>
       <AboutSection {...homeObjOne}/>
-      <PortfolioSection {...homeObjTwo}/>
-      <GallerySection/>
-      <ContactSection/>
+      <PortfolioSection/>
     </>
   )
 }

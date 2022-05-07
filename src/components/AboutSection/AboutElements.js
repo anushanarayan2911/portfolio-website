@@ -15,10 +15,22 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
+    background-color: #f0f0f0;
     height: 100%;
     width: auto;
     margin-right: 10%;
     margin-left: 10%;
+    overflow: hidden;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    @media screen and (max-width: 400px) {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
 `
 
 export const InfoRow = styled.div`
@@ -83,7 +95,6 @@ export const YoutubeEmbed = ({ embedId }) => (
         title="video"
         width="auto"
         height="100%"
-        position="absolute"
       />{" "}
     </div>
 )
