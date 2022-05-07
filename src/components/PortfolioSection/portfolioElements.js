@@ -38,12 +38,7 @@ export const InfoRow = styled.div`
     margin-top: 0px;
     grid-auto-columns: minmax(auto, 1fr)
     align-items: left;
-    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
     overflow: hidden;
-
-    @media screen and (max-width: 768px) {
-        grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
-    }
 `
 
 export const TopLine = styled.p`
@@ -58,13 +53,13 @@ export const TopLine = styled.p`
 export const PortfolioGrid = styled.div`
     width: 100%;
     overflow: hidden;
+    align-items: center;
 `
 export const PortfolioRow = styled.div`
     display: flex;
     width: 100%;
     justify-content: space-between;
     flex-direction: row;
-    overflow: hidden;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -72,10 +67,10 @@ export const PortfolioRow = styled.div`
 `
 
 export const Column = styled.div`
-    width: max-content;
-    padding: 4px 0 4px 0;
+    max-width: max-content;
+    padding: 10px 10px 10px 10px;
 `
 
 export const Image = styled.img`
-    max-width: 5%;
+    width: 100%;
 `

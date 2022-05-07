@@ -58,12 +58,6 @@ export const Column2 = styled.div`
     align-items: center;
 `
 
-export const TextWrapper = styled.div`
-    max-width: 100vw;
-    padding-top: 0;
-    padding-bottom: 60px
-`
-
 export const TopLine = styled.p`
     color: #4b4b4b;
     font-size: 30px;
@@ -75,15 +69,10 @@ export const TopLine = styled.p`
 
 export const Subtitle = styled.p`
     max-width: max-content;
-    font-size: 18px;
+    font-size: 0.8em;
     line-height: 24px;
     color: #4b4b4b;
     text-align: justify;
-`
-
-export const BtnWrap = styled.div`
-    display: flex;
-    justify-content: flex-start;
 `
 
 export const YoutubeEmbed = ({ embedId }) => (
