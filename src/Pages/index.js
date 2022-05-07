@@ -24,6 +24,7 @@ const Home = () => {
       <AboutSection {...homeObjOne}/>
       <PortfolioSection/>
       <GallerySection/>
+      <ContactSection/>
     </>
   )
 }

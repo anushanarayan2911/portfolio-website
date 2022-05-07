@@ -34,7 +34,7 @@ export const InfoRow = styled.div`
     display: grid;
     margin-top: 0px;
     grid-auto-columns: minmax(auto, 1fr);
-    align-items:left;
+    align-items: left;
     overflow: hidden;
 `
 

@@ -18,6 +18,16 @@ export const InfoWrapper = styled.div`
     width: auto;
     margin-right: 10%;
     margin-left: 10%;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    @media screen and (max-width: 400px) {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
 `
 
 export const InfoRow = styled.div`
@@ -25,11 +35,7 @@ export const InfoRow = styled.div`
     margin-top: 0px;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: left;
-    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
-
-    @media screen and (max-width: 768px) {
-        grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
-    }
+    overflow: hidden;
 `
 
 export const TopLine = styled.p`
