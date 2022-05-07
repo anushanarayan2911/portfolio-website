@@ -2,7 +2,12 @@ import React from 'react'
 import { InfoContainer, 
     InfoWrapper,
     InfoRow,
-    TopLine
+    TopLine,
+    ContactGrid, 
+    ContactRow,
+    Column,
+    Image,
+    Subtitle
 } from './ContactElements'
 
 const ContactSection = () => {
@@ -17,6 +22,16 @@ const ContactSection = () => {
             <InfoRow>
                 <TopLine>C O N T A C T</TopLine>
             </InfoRow>
+            <ContactGrid>
+              <ContactRow>
+                <Column><Image src={require('../../Visuals/Contact/Images/1.png')}/></Column>
+                <Column><Subtitle>anusha.narayan2002@outlook.com</Subtitle></Column>
+              </ContactRow>
+              <ContactRow>
+                <Column><Image src={require('../../Visuals/Contact/Images/2.png')}/></Column>
+                <Column><Subtitle>https://www.linkedin.com/in/a-k-narayan/</Subtitle></Column>
+              </ContactRow>
+            </ContactGrid>
         </InfoWrapper>
     </InfoContainer>
   )

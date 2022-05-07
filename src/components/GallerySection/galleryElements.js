@@ -46,6 +46,15 @@ export const TopLine = styled.p`
     text-transform: uppercase;
     margin-bottom: 30px
 `
+
+export const Subtitle = styled.p`
+    max-width: max-content;
+    font-size: 1em;
+    line-height: 24px;
+    color: #4b4b4b;
+    text-align: justify;
+`
+
 export const GalleryGrid = styled.div`
     width: 100%;
     overflow: hidden;
