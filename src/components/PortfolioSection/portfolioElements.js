@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import {Link as LinkR} from 'react-router-dom';
+import {Link as LinkS} from 'react-scroll';
 
 export const InfoContainer = styled.div`
     background-color: #f0f0f0;
@@ -73,4 +75,14 @@ export const Column = styled.div`
 
 export const Image = styled.img`
     width: 100%;
+`
+
+export const ItemLink = styled(LinkR)`
+    border: 5px solid red;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #010606;
+    }
 `

@@ -6,8 +6,10 @@ import { InfoContainer,
   PortfolioGrid, 
   PortfolioRow,
   Column,
-  Image
+  Image,
+  ItemLink
 } from './portfolioElements'
+import {Link as LinkR} from 'react-router-dom'
 
 const PortfolioSection = (id) => {
   return (
@@ -22,7 +24,11 @@ const PortfolioSection = (id) => {
         </InfoRow>
         <PortfolioGrid>
           <PortfolioRow>
-            <Column><Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/></Column>
+            <Column>
+              <a href="http://localhost:3000/ThePeriodSteriliser">
+                <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
+              </a>
+            </Column>
             <Column><Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png')}/></Column>
           </PortfolioRow>
           <PortfolioRow>
