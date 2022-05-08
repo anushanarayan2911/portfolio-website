@@ -1,10 +1,19 @@
 import React from 'react'
+import { InfoContainer, InfoWrapper, InfoRow, TopLine, Image } from './ThePeriodSteriliserElements'
 
 const ThePeriodSteriliser = () => {
   return (
-    <div>
-      Period Steriliser
-    </div>
+    <InfoContainer>
+        <InfoWrapper>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <InfoRow>
+                <TopLine>The Period Steriliser</TopLine>
+            </InfoRow>
+        </InfoWrapper>
+    </InfoContainer>
   )
 }
 
