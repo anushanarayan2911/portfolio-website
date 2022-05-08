@@ -49,3 +49,32 @@ export const TopLine = styled.p`
     text-transform: uppercase;
     margin-bottom: 30px;
 `
+
+export const Grid = styled.div`
+    width: 70%;
+    overflow: hidden;
+    margin: 0 15% 0 15%;
+    align-items: center;
+`
+
+export const Row = styled.div`
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+`
+
+export const Column = styled.div`
+    max-width: max-content;
+    padding: 2px 10px 2px 10px;
+    align-items: center;
+`
+
+export const Image = styled.img`
+    width: 100%;
+`
