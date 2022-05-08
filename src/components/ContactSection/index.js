@@ -27,6 +27,9 @@ const ContactSection = () => {
                 <Column><Image src={require('../../Visuals/Contact/Images/1.png')}/></Column>
                 <Column><Subtitle>anusha.narayan2002@outlook.com</Subtitle></Column>
               </ContactRow>
+              <br/>
+              <br/>
+              <br/>
               <ContactRow>
                 <Column><Image src={require('../../Visuals/Contact/Images/2.png')}/></Column>
                 <Column><Subtitle>https://www.linkedin.com/in/a-k-narayan/</Subtitle></Column>

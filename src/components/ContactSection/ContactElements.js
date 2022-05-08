@@ -18,6 +18,7 @@ export const InfoWrapper = styled.div`
     width: auto;
     margin-right: 10%;
     margin-left: 10%;
+    overflow: hidden;
 
     @media screen and (max-width: 768px) {
         margin-right: 5%;
@@ -63,8 +64,8 @@ export const ContactGrid = styled.div`
 
 export const ContactRow = styled.div`
     display: flex;
-    width: 50%;
-    flex-direction: row
+    width: 100%;
+    flex-direction: row;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -72,11 +73,11 @@ export const ContactRow = styled.div`
 `
 
 export const Column = styled.div`
-    max-width: fit-content;
+    max-width: max-content;
     padding: 0;
-    border: 1px solid black;
+    vertical-align: vertical;
 `
 
 export const Image = styled.img`
-    width: 60%;
+    width: 50%;
 `
