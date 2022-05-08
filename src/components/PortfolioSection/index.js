@@ -77,7 +77,11 @@ const PortfolioSection = (id) => {
             </Column>
           </PortfolioRow>
           <PortfolioRow>
-            <Column><Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-01.png')}/></Column>
+            <Column>
+              <a href="/AramaPage">
+                <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-01.png')}/>
+              </a>
+            </Column>
             <Column><Image src={require('../../Visuals/Portfolio/Carbon Neutral Housing/Anusha Narayan Carbon Neutral Housing-01.png')}/></Column>
           </PortfolioRow>
           <PortfolioRow>

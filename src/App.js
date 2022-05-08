@@ -8,6 +8,7 @@ import TeddyBotPage from './Pages/TeddyBotPage';
 import BouncerExperimentPage from './Pages/BouncerExperimentPage';
 import TheAmbioBracePage from './Pages/TheAmbioBracePage'
 import SocialResponsibilityPage from './Pages/SocialResponsibilityPage';
+import AramaPage from './Pages/AramaPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/BouncerExperimentPage" component={BouncerExperimentPage} exact/>
         <Route path="/TheAmbioBracePage" component={TheAmbioBracePage} exact/>
         <Route path="/SocialResponsibilityPage" component={SocialResponsibilityPage} exact/>
+        <Route path="/AramaPage" component={AramaPage} exact/>
       </Switch>
     </Router>
   );
