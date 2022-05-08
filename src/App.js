@@ -10,6 +10,7 @@ import TheAmbioBracePage from './Pages/TheAmbioBracePage'
 import SocialResponsibilityPage from './Pages/SocialResponsibilityPage';
 import AramaPage from './Pages/AramaPage';
 import CarbonNeutralHousingPage from './Pages/CarbonNeutralHousingPage';
+import TravelToothpastePage from './Pages/TravelToothpastePage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/SocialResponsibilityPage" component={SocialResponsibilityPage} exact/>
         <Route path="/AramaPage" component={AramaPage} exact/>
         <Route path="/CarbonNeutralHousingPage" component={CarbonNeutralHousingPage} exact/>
+        <Route path="/TravelToothpastePage" component={TravelToothpastePage} exact/>
       </Switch>
     </Router>
   );
