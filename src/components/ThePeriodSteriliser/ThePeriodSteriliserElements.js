@@ -5,6 +5,7 @@ export const InfoContainer = styled.div`
     width: 100%;
     height: 100%
     overflow: hidden;
+    align-items: center;
 
     @media screen and (max-width: 768px) {
         padding: 0px
@@ -19,6 +20,7 @@ export const InfoWrapper = styled.div`
     margin-right: 10%;
     margin-left: 10%;
     overflow: hidden;
+    align-items: center;
 
     @media screen and (max-width: 768px) {
         margin-right: 5%;
@@ -35,7 +37,7 @@ export const InfoRow = styled.div`
     display: grid;
     margin-top: 0px;
     grid-auto-columns: minmax(auto, 1fr);
-    align-items: left;
+    align-items: center;
     overflow: hidden;
 `
 
@@ -49,8 +51,9 @@ export const TopLine = styled.p`
 `
 
 export const Grid = styled.div`
-    width: 100%;
+    width: 70%;
     overflow: hidden;
+    margin: 0 15% 0 15%;
     align-items: center;
 `
 
@@ -59,7 +62,8 @@ export const Row = styled.div`
     width: 100%;
     justify-content: space-between;
     flex-direction: row;
-
+    align-items: center;
+    
     @media screen and (max-width: 768px) {
         flex-direction: column;
     }
@@ -67,7 +71,8 @@ export const Row = styled.div`
 
 export const Column = styled.div`
     max-width: max-content;
-    padding: 10px 10px 10px 10px;
+    padding: 2px 10px 2px 10px;
+    align-items: center;
 `
 
 export const Image = styled.img`
