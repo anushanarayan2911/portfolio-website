@@ -48,6 +48,28 @@ export const TopLine = styled.p`
     margin-bottom: 30px;
 `
 
+export const Grid = styled.div`
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+`
+
+export const Row = styled.div`
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+`
+
+export const Column = styled.div`
+    max-width: max-content;
+    padding: 10px 10px 10px 10px;
+`
+
 export const Image = styled.img`
     width: 100%;
 `
