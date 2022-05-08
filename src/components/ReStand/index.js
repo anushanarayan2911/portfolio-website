@@ -6,7 +6,8 @@ import { InfoContainer,
     Grid,
     Row,
     Column,
-    Image
+    Image,
+    YoutubeEmbed
 } from './ReStandElements'
 
 const ReStand = () => {
@@ -24,6 +25,56 @@ const ReStand = () => {
               <Row>
                 <Column>
                   <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png')}/>
+                </Column>
+              </Row>
+              <Row>
+                <Column>
+                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-02.png')}/>
+                </Column>
+              </Row>
+              <Row>
+                <Column>
+                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-03.png')}/>
+                </Column>
+              </Row>
+              <Row>
+                <Column>
+                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-04.png')}/>
+                </Column>
+              </Row>
+              <Row>
+                <Column>
+                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-05.png')}/>
+                </Column>
+              </Row>
+              <Row>
+                <Column>
+                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-06.png')}/>
+                </Column>
+              </Row>
+              <Row>
+                <Column>
+                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-07.png')}/>
+                </Column>
+              </Row>
+              <Row>
+                <Column>
+                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-08.png')}/>
+                </Column>
+              </Row>
+              <Row>
+                <Column>
+                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-09.png')}/>
+                </Column>
+              </Row>
+              <Row>
+                <Column>
+                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-10.png')}/>
+                </Column>
+              </Row>
+              <Row>
+                <Column>
+                  <YoutubeEmbed/>
                 </Column>
               </Row>
             </Grid>
