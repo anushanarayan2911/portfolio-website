@@ -2,7 +2,11 @@ import React from 'react'
 import { InfoContainer, 
     InfoWrapper, 
     InfoRow,
-    TopLine 
+    TopLine,
+    Grid,
+    Row,
+    Column,
+    Image
 } from './BouncerExperimentElements'
 
 const BouncerExperiment = () => {
@@ -16,6 +20,11 @@ const BouncerExperiment = () => {
             <InfoRow>
                 <TopLine>Bouncer Experiment</TopLine>
             </InfoRow>
+            <Grid>
+                <Row>
+                    <Column><Image src={require('../../Visuals/Portfolio/Bouncer Challenge/Anusha Narayan_Bouncer Challenge-01.png')}/></Column>
+                </Row>
+            </Grid>
         </InfoWrapper>
     </InfoContainer>
   )
