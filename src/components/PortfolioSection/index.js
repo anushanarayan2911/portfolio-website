@@ -37,7 +37,7 @@ const PortfolioSection = (id) => {
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <a href="/ThePeriodSteriliserPage">
+              <a href="/TeddyBotPage">
                 <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
               </a>
             </Column>
