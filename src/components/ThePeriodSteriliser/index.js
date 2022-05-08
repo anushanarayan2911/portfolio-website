@@ -3,7 +3,7 @@ import React from 'react'
 const ThePeriodSteriliser = () => {
   return (
     <div>
-      Hi
+      Period Steriliser
     </div>
   )
 }

@@ -25,7 +25,7 @@ const PortfolioSection = (id) => {
         <PortfolioGrid>
           <PortfolioRow>
             <Column>
-              <a href="http://localhost:3000/ThePeriodSteriliser">
+              <a href="http://localhost:3000/ThePeriodSteriliserPage">
                 <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
               </a>
             </Column>
