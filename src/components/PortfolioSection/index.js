@@ -25,14 +25,22 @@ const PortfolioSection = (id) => {
         <PortfolioGrid>
           <PortfolioRow>
             <Column>
-              <a href="http://localhost:3000/ThePeriodSteriliserPage">
+              <a href="/ThePeriodSteriliserPage">
                 <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
               </a>
             </Column>
-            <Column><Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png')}/></Column>
+            <Column>
+              <a href="/ReStandPage">
+                <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png')}/>
+              </a>
+            </Column>
           </PortfolioRow>
           <PortfolioRow>
-            <Column><Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/></Column>
+            <Column>
+              <a href="/ThePeriodSteriliserPage">
+                <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
+              </a>
+            </Column>
           </PortfolioRow>
           <PortfolioRow>
             <Column><Image src={require('../../Visuals/Portfolio/Bouncer Challenge/Anusha Narayan_Bouncer Challenge-01.png')}/></Column>
