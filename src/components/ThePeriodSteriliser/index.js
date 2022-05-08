@@ -18,7 +18,7 @@ const ThePeriodSteriliser = () => {
             <br/>
             <br/>
             <InfoRow>
-                <TopLine>The Period Steriliser</TopLine>
+                <TopLine>The  Steriliser</TopLine>
             </InfoRow>
             <Grid>
                 <Row>
