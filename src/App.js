@@ -11,6 +11,7 @@ import SocialResponsibilityPage from './Pages/SocialResponsibilityPage';
 import AramaPage from './Pages/AramaPage';
 import CarbonNeutralHousingPage from './Pages/CarbonNeutralHousingPage';
 import TravelToothpastePage from './Pages/TravelToothpastePage';
+import MaterialisePage from './Pages/MaterialisePage';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/AramaPage" component={AramaPage} exact/>
         <Route path="/CarbonNeutralHousingPage" component={CarbonNeutralHousingPage} exact/>
         <Route path="/TravelToothpastePage" component={TravelToothpastePage} exact/>
+        <Route path="/MaterialisePage" component={MaterialisePage} exact/>
       </Switch>
     </Router>
   );
