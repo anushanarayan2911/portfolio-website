@@ -74,7 +74,11 @@ export const Column = styled.div`
     padding: 2px 10px 2px 10px;
     align-items: center;
 `
-
+export const VideoColumn = styled.div`
+    max-width: max-content;
+    align-items: center;
+    padding: 2px 30% 2px 30%;
+`
 export const Image = styled.img`
     width: 100%;
 `
@@ -83,7 +87,7 @@ export const YoutubeEmbed = ({ embedId }) => (
     <div className='video-responsive'>
         <iframe
         width="100%"
-        height="100%"
+        height="auto"
         src="https://www.youtube.com/embed/2GImMQlsOPo"
         allow="autoplay; encrypted-media; fullscreen"
         allowFullScreen

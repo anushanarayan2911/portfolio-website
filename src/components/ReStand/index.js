@@ -7,7 +7,8 @@ import { InfoContainer,
     Row,
     Column,
     Image,
-    YoutubeEmbed
+    YoutubeEmbed,
+    VideoColumn
 } from './ReStandElements'
 
 const ReStand = () => {
@@ -73,9 +74,9 @@ const ReStand = () => {
                 </Column>
               </Row>
               <Row>
-                <Column>
+                <VideoColumn>
                   <YoutubeEmbed/>
-                </Column>
+                </VideoColumn>
               </Row>
             </Grid>
         </InfoWrapper>
