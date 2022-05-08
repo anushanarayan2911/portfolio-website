@@ -14,6 +14,7 @@ import TravelToothpastePage from './Pages/TravelToothpastePage';
 import MaterialisePage from './Pages/MaterialisePage';
 import HealthTrackerAppPage from './Pages/HealthTrackerAppPage';
 import FearOfFallingPage from './Pages/FearOfFallingPage';
+import StandardisingCampingFurniturePage from './Pages/StandardisingCampingFurniturePage';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/MaterialisePage" component={MaterialisePage} exact/>
         <Route path="/HealthTrackerAppPage" component={HealthTrackerAppPage} exact/>
         <Route path="/FearOfFallingPage" component={FearOfFallingPage} exact/>
+        <Route path="/StandardisingCampingFurniturePage" component={StandardisingCampingFurniturePage} exact/>
       </Switch>
     </Router>
   );

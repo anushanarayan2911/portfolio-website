@@ -111,7 +111,11 @@ const PortfolioSection = (id) => {
                 <Image src={require('../../Visuals/Portfolio/Fear of Falling/Fear of Falling Title.png')}/>
               </a>
             </Column>
-            <Column><Image src={require('../../Visuals/Portfolio/Standardising Camping Furniture/Standardising Camping Furniture Title.png')}/></Column>
+            <Column>
+              <a href="/StandardisingCampingFurniturePage">
+                <Image src={require('../../Visuals/Portfolio/Standardising Camping Furniture/Standardising Camping Furniture Title.png')}/>
+              </a>
+            </Column>
           </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>
