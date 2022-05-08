@@ -82,7 +82,11 @@ const PortfolioSection = (id) => {
                 <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-01.png')}/>
               </a>
             </Column>
-            <Column><Image src={require('../../Visuals/Portfolio/Carbon Neutral Housing/Anusha Narayan Carbon Neutral Housing-01.png')}/></Column>
+            <Column>
+              <a href="/CarbonNeutralHousingPage">
+                <Image src={require('../../Visuals/Portfolio/Carbon Neutral Housing/Anusha Narayan Carbon Neutral Housing-01.png')}/>
+              </a>
+            </Column>
           </PortfolioRow>
           <PortfolioRow>
             <Column><Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-01.png')}/></Column>

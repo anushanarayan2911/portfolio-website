@@ -9,6 +9,7 @@ import BouncerExperimentPage from './Pages/BouncerExperimentPage';
 import TheAmbioBracePage from './Pages/TheAmbioBracePage'
 import SocialResponsibilityPage from './Pages/SocialResponsibilityPage';
 import AramaPage from './Pages/AramaPage';
+import CarbonNeutralHousingPage from './Pages/CarbonNeutralHousingPage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/TheAmbioBracePage" component={TheAmbioBracePage} exact/>
         <Route path="/SocialResponsibilityPage" component={SocialResponsibilityPage} exact/>
         <Route path="/AramaPage" component={AramaPage} exact/>
+        <Route path="/CarbonNeutralHousingPage" component={CarbonNeutralHousingPage} exact/>
       </Switch>
     </Router>
   );
