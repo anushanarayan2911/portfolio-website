@@ -60,9 +60,21 @@ const PortfolioSection = (id) => {
               </Column>
           </PortfolioRow>
           <PortfolioRow>
-            <Column><Image src={require('../../Visuals/Portfolio/Drawbacks of Technological Development/Drawbacks of Technological Development-01.png')}/></Column>
-            <Column><Image src={require('../../Visuals/Portfolio/Ageist Nature of Technology/Ageist Nature of Technology-01.png')}/></Column>
-            <Column><Image src={require('../../Visuals/Portfolio/Importance of Human Centred Design/Importance of Human Centred Design-01.png')}/></Column>
+            <Column>
+              <a href="https://medium.com/@anusha.narayan2002/the-drawbacks-of-technological-development-c069c4b65421">
+                <Image src={require('../../Visuals/Portfolio/Drawbacks of Technological Development/Drawbacks of Technological Development-01.png')}/>
+              </a>
+            </Column>
+            <Column>
+              <a href="https://medium.com/@anusha.narayan2002/the-ageist-nature-of-technology-6b016143c88b">
+                <Image src={require('../../Visuals/Portfolio/Ageist Nature of Technology/Ageist Nature of Technology-01.png')}/>
+              </a>
+            </Column>
+            <Column>
+              <a href="https://medium.com/@anusha.narayan2002/the-importance-of-human-centred-design-3c788997c14f">
+                <Image src={require('../../Visuals/Portfolio/Importance of Human Centred Design/Importance of Human Centred Design-01.png')}/>
+              </a>
+            </Column>
           </PortfolioRow>
           <PortfolioRow>
             <Column><Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-01.png')}/></Column>
