@@ -54,6 +54,7 @@ export const Subtitle = styled.p`
     font-weight: 200;
     letter-spacing: 1.4px;
     margin-bottom: 30px;
+    text-align: center;
 `
 
 export const ContactGrid = styled.div`

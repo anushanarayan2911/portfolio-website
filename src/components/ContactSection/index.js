@@ -34,6 +34,12 @@ const ContactSection = () => {
                 <Column><Image src={require('../../Visuals/Contact/Images/2.png')}/></Column>
                 <Column><Subtitle>https://www.linkedin.com/in/a-k-narayan/</Subtitle></Column>
               </ContactRow>
+              <br/>
+              <br/>
+              <br/>
+              <ContactRow>
+                <Subtitle>Please feel free to get in touch, by sending a message or an email! I will respond within 24 hours.</Subtitle>
+              </ContactRow>
             </ContactGrid>
             <br/>
             <br/>
