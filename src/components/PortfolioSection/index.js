@@ -53,7 +53,11 @@ const PortfolioSection = (id) => {
                 <Image src={require('../../Visuals/Portfolio/The Ambio Brace/Group 17_Documentation-01.png')}/>
               </a>
             </Column>
-            <Column><Image src={require('../../Visuals/Portfolio/Social Responsibility of Design Engineers/NARAYAN_anusha-1.png')}/></Column>
+            <Column>
+              <a href="/SocialResponsibilityPage">
+                <Image src={require('../../Visuals/Portfolio/Social Responsibility of Design Engineers/NARAYAN_anusha-1.png')}/>
+              </a>
+              </Column>
           </PortfolioRow>
           <PortfolioRow>
             <Column><Image src={require('../../Visuals/Portfolio/Drawbacks of Technological Development/Drawbacks of Technological Development-01.png')}/></Column>
