@@ -6,6 +6,7 @@ import ThePeriodSteriliserPage from './Pages/ThePeriodSteriliserPage';
 import ReStandPage from './Pages/ReStandPage';
 import TeddyBotPage from './Pages/TeddyBotPage';
 import BouncerExperimentPage from './Pages/BouncerExperimentPage';
+import TheAmbioBracePage from './Pages/TheAmbioBracePage'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/ReStandPage" component={ReStandPage} exact/>
         <Route path="/TeddyBotPage" component={TeddyBotPage} exact/>
         <Route path="/BouncerExperimentPage" component={BouncerExperimentPage} exact/>
+        <Route path="/TheAmbioBracePage" component={TheAmbioBracePage} exact/>
       </Switch>
     </Router>
   );
