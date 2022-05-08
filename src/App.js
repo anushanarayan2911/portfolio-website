@@ -13,6 +13,7 @@ import CarbonNeutralHousingPage from './Pages/CarbonNeutralHousingPage';
 import TravelToothpastePage from './Pages/TravelToothpastePage';
 import MaterialisePage from './Pages/MaterialisePage';
 import HealthTrackerAppPage from './Pages/HealthTrackerAppPage';
+import FearOfFallingPage from './Pages/FearOfFallingPage';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/TravelToothpastePage" component={TravelToothpastePage} exact/>
         <Route path="/MaterialisePage" component={MaterialisePage} exact/>
         <Route path="/HealthTrackerAppPage" component={HealthTrackerAppPage} exact/>
+        <Route path="/FearOfFallingPage" component={FearOfFallingPage} exact/>
       </Switch>
     </Router>
   );
