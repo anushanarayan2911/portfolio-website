@@ -7,7 +7,9 @@ import {
     Grid,
     Row,
     Column,
-    Image
+    Image,
+    VideoColumn,
+    YoutubeEmbed
 } from './TeddyBotElements'
 
 const TeddyBot = () => {
@@ -26,6 +28,11 @@ const TeddyBot = () => {
                 <Column>
                   <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
                 </Column>
+              </Row>
+              <Row>
+                  <VideoColumn>
+                      <YoutubeEmbed/>
+                  </VideoColumn>
               </Row>
             </Grid>
         </InfoWrapper>

@@ -88,7 +88,7 @@ export const YoutubeEmbed = ({ embedId }) => (
         <iframe
         width="100%"
         height="auto"
-        src="https://www.youtube.com/embed/2GImMQlsOPo"
+        src="https://www.youtube.com/embed/jOqSIPo2E-w"
         allow="autoplay; encrypted-media; fullscreen"
         allowFullScreen
         title="video"
