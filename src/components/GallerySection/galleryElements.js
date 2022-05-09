@@ -88,12 +88,12 @@ export const Image = styled.img`
 `
 
 export const ImageOverlay = styled.img`
-    width: 55%;
+    width: 50%;
     z-index: 2;
     padding: 15px 5px 15px 5px;
     position: fixed;
-    top: 20%;
-    left: 22.5%;
+    top: 5%;
+    left: 25%;
     
     ${({ visible }) => {
         return css`
