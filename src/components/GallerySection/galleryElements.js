@@ -80,3 +80,8 @@ export const Column = styled.div`
 export const Image = styled.img`
     width: 100%;
 `
+
+export const ImageOverlay = styled.img`
+    width: 100%;
+    z-index: 10;
+`

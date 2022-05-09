@@ -6,7 +6,8 @@ import { InfoContainer,
     GalleryGrid,
     GalleryRow,
     Column,
-    Image
+    Image,
+    ImageOverlay
 } from './galleryElements'
 
 
@@ -28,6 +29,7 @@ const GallerySection = () => {
             <InfoRow>
                 <TopLine>G A L L E R Y</TopLine>
             </InfoRow>
+            <ImageOverlay src={require('../../Visuals/Gallery/Images/1.png')}/>
             <GalleryGrid>
                 <GalleryRow>
                     <Column><Image src={require('../../Visuals/Gallery/Images/1.png')} onClick={displayOverlay}/></Column>
