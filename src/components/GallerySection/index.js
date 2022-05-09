@@ -8,7 +8,7 @@ import { InfoContainer,
     GalleryRow,
     Column,
     Image,
-    ImageOverlay
+    ImageOverlay,
 } from './galleryElements'
 
 

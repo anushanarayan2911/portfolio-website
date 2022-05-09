@@ -5,8 +5,8 @@ export const InfoContainer = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-    align-content: center;
     justify-content: center;
+    align-items: center;
 
     @media screen and (max-width: 768px) {
         padding: 0px;
@@ -84,16 +84,16 @@ export const Column = styled.div`
 
 export const Image = styled.img`
     width: 100%;
-    opacity: ${({ opacity }) => (opacity ? '0.3' : '1')};
+    opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
 `
 
 export const ImageOverlay = styled.img`
-    height: 90%;
+    width: 55%;
     z-index: 2;
     padding: 15px 5px 15px 5px;
     position: fixed;
     top: 20%;
-    border: 1px solid red;
+    left: 22.5%;
     
     ${({ visible }) => {
         return css`
