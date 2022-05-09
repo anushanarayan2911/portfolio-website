@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useRef, useState} from 'react'
+import * as ReactDOM from 'react-dom';
 import { InfoContainer,
     InfoWrapper,
     InfoRow,
@@ -13,10 +14,13 @@ import { InfoContainer,
 
 
 const GallerySection = () => {
+    const [isOverlay, setIsOverlay] = useState(false);
 
-    const displayOverlay = () => {
-        console.log("hi")
+    const showOverlay = () => {
+        setIsOverlay(!isOverlay);
+        console.log(isOverlay);
     }
+    
 
   return (
     <InfoContainer id="gallery">
@@ -29,10 +33,10 @@ const GallerySection = () => {
             <InfoRow>
                 <TopLine>G A L L E R Y</TopLine>
             </InfoRow>
-            <ImageOverlay src={require('../../Visuals/Gallery/Images/1.png')}/>
+            <ImageOverlay src={require('../../Visuals/Gallery/Images/1.png')} className="overlay"/>
             <GalleryGrid>
                 <GalleryRow>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/1.png')} onClick={displayOverlay}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/1.png')} onClick={showOverlay}/></Column>
                     <Column><Image src={require('../../Visuals/Gallery/Images/2.png')}/></Column>
                 </GalleryRow>
                 <GalleryRow>

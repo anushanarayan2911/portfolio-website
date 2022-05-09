@@ -84,4 +84,5 @@ export const Image = styled.img`
 export const ImageOverlay = styled.img`
     width: 100%;
     z-index: 10;
+    display: none;
 `
