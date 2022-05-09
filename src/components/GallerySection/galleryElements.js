@@ -92,7 +92,7 @@ export const ImageOverlay = styled.img`
     z-index: 2;
     padding: 15px 5px 15px 5px;
     position: fixed;
-    top: 5%;
+    top: 10%;
     left: 25%;
     
     ${({ visible }) => {
