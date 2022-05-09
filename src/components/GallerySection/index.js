@@ -9,7 +9,14 @@ import { InfoContainer,
     Image
 } from './galleryElements'
 
+
+
 const GallerySection = () => {
+
+    const displayOverlay = () => {
+        console.log("hi")
+    }
+
   return (
     <InfoContainer id="gallery">
         <InfoWrapper>
@@ -23,7 +30,7 @@ const GallerySection = () => {
             </InfoRow>
             <GalleryGrid>
                 <GalleryRow>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/1.png')}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/1.png')} onClick={displayOverlay}/></Column>
                     <Column><Image src={require('../../Visuals/Gallery/Images/2.png')}/></Column>
                 </GalleryRow>
                 <GalleryRow>
