@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const InfoContainer = styled.div`
     background: #f0f0f0;
@@ -84,5 +84,9 @@ export const Image = styled.img`
 export const ImageOverlay = styled.img`
     width: 100%;
     z-index: 10;
-    display: none;
+    ${({ visible }) => {
+        return css`
+            visibility: ${visible ? 'visible' : 'hidden'};
+        `;
+    }}
 `

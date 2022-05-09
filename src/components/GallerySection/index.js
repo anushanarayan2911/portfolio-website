@@ -18,7 +18,7 @@ const GallerySection = () => {
 
     const showOverlay = () => {
         setIsOverlay(!isOverlay);
-        console.log(isOverlay);
+
     }
     
 
@@ -33,7 +33,7 @@ const GallerySection = () => {
             <InfoRow>
                 <TopLine>G A L L E R Y</TopLine>
             </InfoRow>
-            <ImageOverlay src={require('../../Visuals/Gallery/Images/1.png')} className="overlay"/>
+            <ImageOverlay src={require('../../Visuals/Gallery/Images/1.png')} visible={isOverlay}/>
             <GalleryGrid>
                 <GalleryRow>
                     <Column><Image src={require('../../Visuals/Gallery/Images/1.png')} onClick={showOverlay}/></Column>
