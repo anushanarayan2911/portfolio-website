@@ -83,7 +83,8 @@ export const Image = styled.img`
 
 export const ImageOverlay = styled.img`
     width: 100%;
-    z-index: 10;
+    z-index: 2;
+    
     ${({ visible }) => {
         return css`
             visibility: ${visible ? 'visible' : 'hidden'};
