@@ -35,30 +35,30 @@ const GallerySection = () => {
             <ImageOverlay src={require('../../Visuals/Gallery/Images/1.png')} onClick={showOverlay} visible={isOverlay}/>
             <GalleryGrid>
                 <GalleryRow>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/1.png')} onClick={showOverlay}/></Column>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/2.png')}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/1.png')} onClick={showOverlay} opacity={isOverlay}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/2.png')} opacity={isOverlay}/></Column>
                 </GalleryRow>
                 <GalleryRow>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/3.png')}/></Column>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/4.png')}/></Column>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/5.png')}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/3.png')} opacity={isOverlay}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/4.png')} opacity={isOverlay}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/5.png')} opacity={isOverlay}/></Column>
                 </GalleryRow>
                 <GalleryRow>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/6.png')}/></Column>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/7.png')}/></Column>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/8.png')}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/6.png')} opacity={isOverlay}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/7.png')} opacity={isOverlay}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/8.png')} opacity={isOverlay}/></Column>
                 </GalleryRow>
                 <GalleryRow>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/9.png')}/></Column>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/10.png')}/></Column>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/11.png')}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/9.png')} opacity={isOverlay}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/10.png')} opacity={isOverlay}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/11.png')} opacity={isOverlay}/></Column>
                 </GalleryRow>
                 <GalleryRow>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/12.png')}/></Column>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/13.png')}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/12.png')} opacity={isOverlay}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/13.png')} opacity={isOverlay}/></Column>
                 </GalleryRow>
                 <GalleryRow>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/14.png')}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/14.png')} opacity={isOverlay}/></Column>
                 </GalleryRow>
             </GalleryGrid>
         </InfoWrapper>

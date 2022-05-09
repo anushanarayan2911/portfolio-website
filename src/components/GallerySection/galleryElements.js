@@ -5,6 +5,8 @@ export const InfoContainer = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+    align-content: center;
+    justify-content: center;
 
     @media screen and (max-width: 768px) {
         padding: 0px;
@@ -18,6 +20,8 @@ export const InfoWrapper = styled.div`
     width: auto;
     margin-right: 10%;
     margin-left: 10%;
+    align-items: center;
+    justify-content: center;
 
     @media screen and (max-width: 768px) {
         margin-right: 5%;
@@ -44,7 +48,7 @@ export const TopLine = styled.p`
     font-weight: 200;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 `
 
 export const Subtitle = styled.p`
@@ -59,6 +63,7 @@ export const GalleryGrid = styled.div`
     width: 100%;
     overflow: hidden;
     align-items: center;
+    justify-content: center;
 `
 
 export const GalleryRow = styled.div`
@@ -79,15 +84,16 @@ export const Column = styled.div`
 
 export const Image = styled.img`
     width: 100%;
+    opacity: ${({ opacity }) => (opacity ? '0.3' : '1')};
 `
 
 export const ImageOverlay = styled.img`
-    width: 80%;
+    height: 90%;
     z-index: 2;
+    padding: 15px 5px 15px 5px;
     position: fixed;
     top: 20%;
-    left: 10%;
-
+    border: 1px solid red;
     
     ${({ visible }) => {
         return css`
