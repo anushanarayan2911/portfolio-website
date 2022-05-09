@@ -35,7 +35,7 @@ const GallerySection = () => {
             <ImageOverlay src={require('../../Visuals/Gallery/Images/1.png')} onClick={showOverlay} visible={isOverlay}/>
             <GalleryGrid>
                 <GalleryRow>
-                    <Column><Image src={require('../../Visuals/Gallery/Images/1.png')} onClick={showOverlay} visible={isOverlay}/></Column>
+                    <Column><Image src={require('../../Visuals/Gallery/Images/1.png')} onClick={showOverlay}/></Column>
                     <Column><Image src={require('../../Visuals/Gallery/Images/2.png')}/></Column>
                 </GalleryRow>
                 <GalleryRow>
