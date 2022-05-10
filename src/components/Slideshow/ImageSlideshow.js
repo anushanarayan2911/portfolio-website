@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { SliderData } from './SliderData'
-import {AiOutlineArrowLeft, AiOutlineArrowRight} from 'react-icons/ai'
+import {AiFillCaretLeft, AiFillCaretRight} from 'react-icons/ai'
 import './slideshow.css'
 
 const ImageSlideshow = ({ slides }) => {
@@ -21,8 +21,8 @@ const ImageSlideshow = ({ slides }) => {
 
   return (
     <section className='slider'>
-        <AiOutlineArrowLeft className='leftArrow' onClick={prevSlide}/>
-        <AiOutlineArrowRight className='rightArrow' onClick={nextSlide}/>
+        <AiFillCaretLeft className='leftArrow' onClick={prevSlide}/>
+        <AiFillCaretRight className='rightArrow' onClick={nextSlide}/>
         {SliderData.map((slide, index) => {
             return (
                 (
