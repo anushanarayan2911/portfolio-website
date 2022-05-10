@@ -12,6 +12,11 @@ import { InfoContainer,
 import {Link as LinkR} from 'react-router-dom'
 
 const PortfolioSection = (id) => {
+
+  const displayText = () => {
+    console.log("hi");
+  }
+
   return (
     <InfoContainer id="portfolio">
       <InfoWrapper>
@@ -26,7 +31,7 @@ const PortfolioSection = (id) => {
           <PortfolioRow>
             <Column>
               <a href="/ThePeriodSteriliserPage">
-                <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
+                <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')} onMouseOver={displayText}/>
               </a>
             </Column>
             <Column>
