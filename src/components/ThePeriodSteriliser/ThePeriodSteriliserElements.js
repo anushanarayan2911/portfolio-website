@@ -85,4 +85,20 @@ export const Column = styled.div`
 
 export const Image = styled.img`
     width: 100%;
+    opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
+`
+
+export const ImageOverlay = styled.img`
+    width: 50%;
+    z-index: 2;
+    padding: 15px 5px 15px 5px;
+    position: fixed;
+    top: 2.5%;
+    left: 25%;
+    
+    ${({ visible }) => {
+        return css`
+            visibility: ${visible ? 'visible' : 'hidden'};
+        `;
+    }}
 `
