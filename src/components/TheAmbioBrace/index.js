@@ -3,6 +3,7 @@ import { InfoContainer,
     InfoWrapper,
     InfoRow,
     TopLine,
+    Subtitle,
     Grid,
     Row,
     Column,
@@ -20,6 +21,12 @@ const TheAmbioBrace = () => {
             <InfoRow>
                 <TopLine>The Ambio Brace</TopLine>
             </InfoRow>
+            <Subtitle>Duration: 6 weeks</Subtitle>
+            <br/>
+            <Subtitle>Date: May - June 2021</Subtitle>
+            <br/>
+            <Subtitle>Nature: a group project working to design a product that improved phyiscal wellbeing, specifically in elderly people, as part of a Human-Centred Design module in 1st year</Subtitle>
+            <br/>
             <Grid>
                 <Row>
                     <Column><Image src={require('../../Visuals/Portfolio/The Ambio Brace/Group 17_Documentation-01.png')}/></Column>
