@@ -25,9 +25,9 @@ const ReStand = () => {
             </InfoRow>
             <Subtitle>Duration: 5 weeks</Subtitle>
             <br/>
-            <Subtitle>Date: October - November 2021</Subtitle>
+            <Subtitle>Date: November - December 2021</Subtitle>
             <br/>
-            <Subtitle>Nature: an individual research document, detailing the environmental impact of travel toothpastes, for a Sustainable Design Engineering module during 2nd year</Subtitle>
+            <Subtitle>Nature: a group project, designing a system for reusing camping chairs after festivals to prevent them from being sent to a landfill site, as part of a Sustainable Design Engineering module in 2nd year</Subtitle>
             <br/>
             <Grid>
               <Row>
