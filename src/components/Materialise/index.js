@@ -3,6 +3,7 @@ import { InfoContainer,
     InfoWrapper,
     InfoRow, 
     TopLine,
+    Subtitle,
     Grid,
     Row,
     Column,
@@ -20,6 +21,12 @@ const Materialise = () => {
             <InfoRow>
                 <TopLine>Materialise</TopLine>
             </InfoRow>
+            <Subtitle>Duration: 6 weeks</Subtitle>
+            <br/>
+            <Subtitle>Date: November - December 2020</Subtitle>
+            <br/>
+            <Subtitle>Nature: a technical report, focussing on the material selection for the design of a futuristic ladder</Subtitle>
+            <br/>
             <Grid>
                 <Row>
                     <Column><Image src={require('../../Visuals/Portfolio/Materialise/Materialise -01.png')}/></Column>
