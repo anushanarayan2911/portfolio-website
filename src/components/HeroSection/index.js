@@ -6,7 +6,7 @@ import { SliderData } from '../Slideshow/SliderData'
 const HeroSection = () => {
 
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       <HeroBg>
         <ImageSlideshow slides={SliderData}/>
       </HeroBg>

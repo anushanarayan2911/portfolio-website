@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
@@ -25,20 +24,19 @@ export const NavbarContainer = styled.div`
     height: 80px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
+    padding: 0;
     max-width: 1100px;
 `
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkS)`
     color: white;
+    max-width: max-content;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     margin-left: 24px;
-    font-weight: bold;
-    text-decoration: none;
 `
 
 export const MobileIcon = styled.div`
@@ -89,5 +87,6 @@ export const NavLinks = styled(LinkS)`
 export const Img = styled.img`
     width: 5%;
     margin: 0 0 10px 0;
-    padding-right: 0;   
+    padding-right: 0;  
+    
 `
