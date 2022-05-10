@@ -3,13 +3,13 @@ import { InfoContainer,
   InfoWrapper, 
   InfoRow, 
   TopLine, 
+  Subtitle,
   PortfolioGrid, 
   PortfolioRow,
   Column,
   Image,
-  ItemLink
+  ItemContainer
 } from './portfolioElements'
-import {Link as LinkR} from 'react-router-dom'
 
 const PortfolioSection = (id) => {
 
@@ -31,7 +31,10 @@ const PortfolioSection = (id) => {
           <PortfolioRow>
             <Column>
               <a href="/ThePeriodSteriliserPage">
-                <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')} onMouseOver={displayText}/>
+                <ItemContainer>
+                  <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')} onMouseOver={displayText}></Image>
+                  <Subtitle>Period Poverty</Subtitle>
+                </ItemContainer> 
               </a>
             </Column>
             <Column>

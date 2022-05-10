@@ -52,6 +52,15 @@ export const TopLine = styled.p`
     margin-bottom: 30px;
 `
 
+export const Subtitle = styled.p`
+    max-width: 100%;
+    font-size: 2em;
+    color: red;
+    z-index: 3;    
+    position: absolute;
+    left: 10%;
+`
+
 export const PortfolioGrid = styled.div`
     width: 100%;
     overflow: hidden;
@@ -71,6 +80,16 @@ export const PortfolioRow = styled.div`
 export const Column = styled.div`
     max-width: max-content;
     padding: 10px 10px 10px 10px;
+`
+
+export const ItemContainer = styled.div`
+    max-width: max-content;
+    max-height: max-content;
+    border: 1px solid red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 export const Image = styled.img`
