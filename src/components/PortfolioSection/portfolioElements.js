@@ -50,22 +50,6 @@ export const TopLine = styled.p`
     margin-bottom: 30px;
 `
 
-export const Subtitle = styled.p`
-    max-width: 100%;
-    font-size: 2em;
-    font-weight: 200;
-    color: #000;
-    z-index: 3;    
-    position: absolute;
-    left: 10%;
-
-    ${({ visible }) => {
-        return css`
-            visibility: ${visible ? 'visible' : 'hidden'};
-        `;
-    }}
-`
-
 export const PortfolioGrid = styled.div`
     width: 100%;
     overflow: hidden;
@@ -87,19 +71,6 @@ export const Column = styled.div`
     padding: 10px 10px 10px 10px;
 `
 
-export const ItemContainer = styled.div`
-    max-width: max-content;
-    max-height: max-content;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`
-
 export const Image = styled.img`
     width: 100%;
-
-    &:hover {
-        opacity: 0.05;
-    }
 `

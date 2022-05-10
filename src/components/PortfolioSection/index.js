@@ -1,34 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { InfoContainer, 
   InfoWrapper, 
   InfoRow, 
   TopLine, 
-  Subtitle,
   PortfolioGrid, 
   PortfolioRow,
   Column,
   Image,
-  ItemContainer
+  ItemLink
 } from './portfolioElements'
+import {Link as LinkR} from 'react-router-dom'
 
 const PortfolioSection = (id) => {
-  const [isTextVisible, setIsTextVisible] = useState(false);
-  const [isText, setIsText] = useState('');
-
-  const displayText = () => {
-    setIsTextVisible(!isTextVisible);
-    console.log(isTextVisible);
-    
-  }
-
-  const showText = (text) => {
-    setIsText(text);
-  }
-
-  const hideText = () => {
-    setIsTextVisible(false);
-  }
-
   return (
     <InfoContainer id="portfolio">
       <InfoWrapper>
@@ -43,10 +26,7 @@ const PortfolioSection = (id) => {
           <PortfolioRow>
             <Column>
               <a href="/ThePeriodSteriliserPage">
-                <ItemContainer>
-                  <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')} onMouseOver={() => {showText("The Period Steriliser"); displayText()}} onMouseOut={hideText}/>
-                  <Subtitle visible={isTextVisible}>{isText}</Subtitle>
-                </ItemContainer> 
+                <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
               </a>
             </Column>
             <Column>
