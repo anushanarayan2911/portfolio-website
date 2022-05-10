@@ -5,7 +5,6 @@ import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
 import { homeObjOne } from '../components/AboutSection/data';
 import PortfolioSection from '../components/PortfolioSection';
-import { homeObjTwo } from '../components/PortfolioSection/data';
 import GallerySection from '../components/GallerySection';
 import ContactSection from '../components/ContactSection';
 

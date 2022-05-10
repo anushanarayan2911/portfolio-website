@@ -6,12 +6,10 @@ import { InfoContainer,
   PortfolioGrid, 
   PortfolioRow,
   Column,
-  Image,
-  ItemLink
+  Image
 } from './portfolioElements'
-import {Link as LinkR} from 'react-router-dom'
 
-const PortfolioSection = (id) => {
+const PortfolioSection = () => {
   return (
     <InfoContainer id="portfolio">
       <InfoWrapper>

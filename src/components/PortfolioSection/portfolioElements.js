@@ -1,4 +1,4 @@
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     background-color: #f0f0f0;
