@@ -4,9 +4,7 @@ import { SidebarContainer,
   CloseIcon, 
   SidebarWrapper, 
   SidebarMenu, 
-  SidebarLink, 
-  SideBtnWrap, 
-  SidebarRoute 
+  SidebarLink
 } from './sidebarElements'
 
 
