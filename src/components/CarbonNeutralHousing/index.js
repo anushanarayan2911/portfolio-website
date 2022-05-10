@@ -3,6 +3,7 @@ import { InfoContainer,
     InfoWrapper,
     InfoRow, 
     TopLine,
+    Subtitle,
     Grid,
     Row,
     Column,
@@ -20,6 +21,12 @@ const CarbonNeutralHousing = () => {
             <InfoRow>
                 <TopLine>Carbon Neutral Housing</TopLine>
             </InfoRow>
+            <Subtitle>Duration: 6 weeks</Subtitle>
+            <br/>
+            <Subtitle>Date: November - December 2021</Subtitle>
+            <br/>
+            <Subtitle>Nature: a technical report detailing 4 interventions that could be impemented into a 3 storey house in order to make it carbon neutral</Subtitle>
+            <br/>
             <Grid>
                 <Row>
                     <Column><Image src={require('../../Visuals/Portfolio/Carbon Neutral Housing/Anusha Narayan Carbon Neutral Housing-01.png')}/></Column>
