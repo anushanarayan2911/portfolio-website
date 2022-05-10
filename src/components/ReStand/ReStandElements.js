@@ -50,6 +50,14 @@ export const TopLine = styled.p`
     margin-bottom: 30px;
 `
 
+export const Subtitle = styled.p`
+    max-width: max-content;
+    font-size: 1em;
+    line-height: 24px;
+    color: #4b4b4b;
+    text-align: justify;
+`
+
 export const Grid = styled.div`
     width: 70%;
     overflow: hidden;
@@ -74,6 +82,7 @@ export const Column = styled.div`
     padding: 2px 10px 2px 10px;
     align-items: center;
 `
+
 export const VideoColumn = styled.div`
     max-width: max-content;
     align-items: center;
