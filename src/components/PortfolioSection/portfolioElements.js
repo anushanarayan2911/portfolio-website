@@ -1,6 +1,4 @@
-import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom';
-import {Link as LinkS} from 'react-scroll';
+import styled, {css} from 'styled-components';
 
 export const InfoContainer = styled.div`
     background-color: #f0f0f0;
@@ -59,6 +57,12 @@ export const Subtitle = styled.p`
     z-index: 3;    
     position: absolute;
     left: 10%;
+
+    ${({ visible }) => {
+        return css`
+            visibility: ${visible ? 'visible' : 'hidden'};
+        `;
+    }}
 `
 
 export const PortfolioGrid = styled.div`

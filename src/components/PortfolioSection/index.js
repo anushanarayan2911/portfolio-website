@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { InfoContainer, 
   InfoWrapper, 
   InfoRow, 
@@ -12,9 +12,21 @@ import { InfoContainer,
 } from './portfolioElements'
 
 const PortfolioSection = (id) => {
+  const [isTextVisible, setIsTextVisible] = useState(false);
+  const [isText, setIsText] = useState('');
 
   const displayText = () => {
-    console.log("hi");
+    setIsTextVisible(!isTextVisible);
+    console.log(isTextVisible);
+    
+  }
+
+  const showText = (text) => {
+    setIsText(text);
+  }
+
+  const hideText = () => {
+    setIsTextVisible(false);
   }
 
   return (
@@ -32,8 +44,8 @@ const PortfolioSection = (id) => {
             <Column>
               <a href="/ThePeriodSteriliserPage">
                 <ItemContainer>
-                  <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')} onMouseOver={displayText}></Image>
-                  <Subtitle>Period Poverty</Subtitle>
+                  <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')} onMouseOver={() => {showText("The Period Steriliser"); displayText()}} onMouseOut={hideText}/>
+                  <Subtitle visible={isTextVisible}>{isText}</Subtitle>
                 </ItemContainer> 
               </a>
             </Column>
