@@ -93,7 +93,7 @@ export const Image = styled.img`
     opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
 `
 
-export const YoutubeEmbed = ({ embedId }) => (
+export const YoutubeEmbed = ({}) => (
     <div className='video-responsive'>
         <iframe
         width="100%"
