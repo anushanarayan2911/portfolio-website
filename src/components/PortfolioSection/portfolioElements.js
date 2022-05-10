@@ -53,7 +53,8 @@ export const TopLine = styled.p`
 export const Subtitle = styled.p`
     max-width: 100%;
     font-size: 2em;
-    color: red;
+    font-weight: 200;
+    color: #000;
     z-index: 3;    
     position: absolute;
     left: 10%;
@@ -89,7 +90,6 @@ export const Column = styled.div`
 export const ItemContainer = styled.div`
     max-width: max-content;
     max-height: max-content;
-    border: 1px solid red;
     position: relative;
     display: flex;
     justify-content: center;
@@ -100,6 +100,6 @@ export const Image = styled.img`
     width: 100%;
 
     &:hover {
-        opacity: 0.2;
+        opacity: 0.05;
     }
 `
