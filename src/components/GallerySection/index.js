@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useState } from 'react'
 import { InfoContainer,
     InfoWrapper,
     InfoRow,
@@ -51,7 +51,7 @@ const GallerySection = () => {
             <InfoRow>
                 <TopLine>G A L L E R Y</TopLine>
             </InfoRow>
-            <ImageOverlay src={isImage} visible={isOverlay}/>
+            <ImageOverlay src={isImage} visible={isOverlay} onClick={showOverlay}/>
             <GalleryGrid>
                 <GalleryRow>
                     <Column><Image src={require('../../Visuals/Gallery/Images/1.png')} onClick={() => {showOverlay() ; setImage(0)}} opacity={isOverlay}/></Column>
