@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 export const InfoContainer = styled.div`
     background: #f0f0f0;
@@ -90,6 +90,7 @@ export const VideoColumn = styled.div`
 `
 export const Image = styled.img`
     width: 100%;
+    opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
 `
 
 export const YoutubeEmbed = ({ embedId }) => (
@@ -104,3 +105,18 @@ export const YoutubeEmbed = ({ embedId }) => (
       />{" "}
     </div>
 )
+
+export const ImageOverlay = styled.img`
+    width: 50%;
+    z-index: 2;
+    padding: 15px 5px 15px 5px;
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    
+    ${({ visible }) => {
+        return css`
+            visibility: ${visible ? 'visible' : 'hidden'};
+        `;
+    }}
+`
