@@ -3,6 +3,7 @@ import { InfoContainer,
     InfoWrapper, 
     InfoRow,
     TopLine,
+    Subtitle,
     Grid,
     Row,
     Column,
@@ -20,6 +21,12 @@ const FearOfFalling = () => {
             <InfoRow>
                 <TopLine>Fear of Falling</TopLine>
             </InfoRow>
+            <Subtitle>Duration: 6 weeks</Subtitle>
+            <br/>
+            <Subtitle>Date: February - March 2021</Subtitle>
+            <br/>
+            <Subtitle>Nature: an ideation document detailing the design process conducted to come up with a design to lower the risk of falling</Subtitle>
+            <br/>
             <Grid>
                 <Row>
                     <Column><Image src={require('../../Visuals/Portfolio/Fear of Falling/NARAYAN_anusha-01.png')}/></Column>
