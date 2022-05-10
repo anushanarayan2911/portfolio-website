@@ -80,7 +80,7 @@ export const Image = styled.img`
     opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
 `
 
-export const ImageOverlay = styled.img`
+export const ImageOverlay = styled.div`
     width: 50%;
     z-index: 2;
     padding: 15px 5px 15px 5px;

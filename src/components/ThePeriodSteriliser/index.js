@@ -14,8 +14,6 @@ import { SliderData } from './ThePeriodSteriliserSliderData';
 
 const ThePeriodSteriliser = () => {
     const [isOverlay, setIsOverlay] = useState(false);
-    const [isImage, setIsImage] = useState('');
-
 
     const showOverlay = () => {
         setIsOverlay(!isOverlay);
@@ -30,7 +28,9 @@ const ThePeriodSteriliser = () => {
             <InfoRow>
                 <TopLine>The Period Steriliser</TopLine>
             </InfoRow>
-            <ThePeriodSteriliserSlideshow slides={SliderData}/>
+            <ImageOverlay visible={isOverlay}>
+                <ThePeriodSteriliserSlideshow slides={SliderData}/>
+            </ImageOverlay>
             <Grid>
                 <Row>
                     <Column>
