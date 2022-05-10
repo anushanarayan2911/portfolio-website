@@ -3,6 +3,7 @@ import { InfoContainer,
     InfoWrapper, 
     InfoRow,
     TopLine, 
+    Subtitle,
     Grid,
     Row,
     Column,
@@ -20,6 +21,12 @@ const StandardisingCampingFurniture = () => {
             <InfoRow>
                 <TopLine>Standardising Camping Furniture</TopLine>
             </InfoRow>
+            <Subtitle>Duration: 1 week</Subtitle>
+            <br/>
+            <Subtitle>Date: November 2021</Subtitle>
+            <br/>
+            <Subtitle>Nature: a group project outlining the development of the system for camping chair reuse as part of a Sustainable Design Engineering module in 2nd year</Subtitle>
+            <br/>
             <Grid>
                 <Row>
                     <Column><Image src={require('../../Visuals/Portfolio/Standardising Camping Furniture/Group 2D_Poster-1.png')}/></Column>
