@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import {Link as LinkR} from 'react-router-dom';
 
 export const InfoContainer = styled.div`
     background: #f0f0f0;
@@ -31,6 +32,17 @@ export const InfoWrapper = styled.div`
         margin-right: 0%;
         margin-left: 0%;
     }
+`
+export const NavLogo = styled(LinkR)`
+    color: white;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    font-weight: bold;
+    text-decoration: none;
 `
 
 export const InfoRow = styled.div`
