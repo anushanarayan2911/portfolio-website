@@ -3,6 +3,7 @@ import { InfoContainer,
     InfoWrapper, 
     InfoRow,
     TopLine,
+    Subtitle,
     Grid,
     Row,
     Column,
@@ -20,6 +21,12 @@ const BouncerExperiment = () => {
             <InfoRow>
                 <TopLine>Bouncer Experiment</TopLine>
             </InfoRow>
+            <Subtitle>Duration: 2 weeks</Subtitle>
+            <br/>
+            <Subtitle>Date: February 2021</Subtitle>
+            <br/>
+            <Subtitle>Nature: a technical report, detailing the process and mechanics of the Bouncer experiment, wherein a steel ball was released from the top of an inclined, PVC tube</Subtitle>
+            <br/>
             <Grid>
                 <Row>
                     <Column><Image src={require('../../Visuals/Portfolio/Bouncer Challenge/Anusha Narayan_Bouncer Challenge-01.png')}/></Column>

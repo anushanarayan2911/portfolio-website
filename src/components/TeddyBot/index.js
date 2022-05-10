@@ -4,6 +4,7 @@ import {
     InfoWrapper,
     InfoRow,
     TopLine,
+    Subtitle,
     Grid,
     Row,
     Column,
@@ -23,6 +24,12 @@ const TeddyBot = () => {
             <InfoRow>
                 <TopLine>TeddyBot</TopLine>
             </InfoRow>
+            <Subtitle>Duration: 3 weeks</Subtitle>
+            <br/>
+            <Subtitle>November - December 2021</Subtitle>
+            <br/>
+            <Subtitle>Nature: an individual project in response to a brief to create a plywood machine which uses embedded computing, as well as having strong user interaction and a sense of iteration throughout the process</Subtitle>
+            <br/>
             <Grid>
               <Row>
                 <Column>

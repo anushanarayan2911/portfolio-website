@@ -6,6 +6,7 @@ export const InfoContainer = styled.div`
     height: 100%
     overflow: hidden;
     align-items: center;
+    border: 1px solid red;
 
     @media screen and (max-width: 768px) {
         padding: 0px
@@ -50,8 +51,17 @@ export const TopLine = styled.p`
     margin-bottom: 30px;
 `
 
+export const Subtitle = styled.p`
+    max-width: max-content;
+    font-size: 1em;
+    line-height: 24px;
+    color: #4b4b4b;
+    text-align: justify;
+`
+
 export const Grid = styled.div`
     width: 70%;
+    height: 100vh;
     overflow: hidden;
     margin: 0 15% 0 15%;
     align-items: center;
