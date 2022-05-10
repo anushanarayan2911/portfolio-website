@@ -73,4 +73,8 @@ export const Column = styled.div`
 
 export const Image = styled.img`
     width: 100%;
+
+    &:hover{
+        opacity: 0.5;
+    }
 `
