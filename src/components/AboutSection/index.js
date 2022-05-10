@@ -6,32 +6,15 @@ import {
     InfoRow,
     Column1,
     Column2,
-    TextWrapper,
     TopLine,
-    Heading,
     Subtitle,
-    BtnWrap,
-    ImgWrap,
-    Img,
     YoutubeEmbed
 } from './AboutElements'
 
 const InfoSection = ({
-    lightBg,
     id,
-    imgStart,
-    topLine,
-    lightText,
-    headline,
-    darkText,
     textbox1,
     textbox2,
-    buttonLabel,
-    img,
-    alt,
-    primary,
-    dark, 
-    dark2
 }) => {
   return (
     <InfoContainer id={id}>
