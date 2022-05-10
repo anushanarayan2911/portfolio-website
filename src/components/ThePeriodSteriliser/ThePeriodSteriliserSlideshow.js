@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import { SliderData } from './SliderData'
+import { SliderData } from './ThePeriodSteriliserSliderData'
 import {AiOutlineArrowLeft, AiOutlineArrowRight} from 'react-icons/ai'
-import './slideshow.css'
+import './ThePeriodSteriliserSlideshow.css'
 
-const ImageSlideshow = ({ slides }) => {
+const ThePeriodSteriliserSlideshow = ({ slides }) => {
     const [current, setCurrent] = useState(0)
     const length = slides.length
 
@@ -36,4 +36,4 @@ const ImageSlideshow = ({ slides }) => {
   )
 }
 
-export default ImageSlideshow
+export default ThePeriodSteriliserSlideshow

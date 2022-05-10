@@ -9,6 +9,8 @@ import { InfoContainer,
     Column,
     ImageOverlay 
 } from './ThePeriodSteriliserElements'
+import ThePeriodSteriliserSlideshow from './ThePeriodSteriliserSlideshow'
+import { SliderData } from './ThePeriodSteriliserSliderData';
 
 const ThePeriodSteriliser = () => {
     const [isOverlay, setIsOverlay] = useState(false);
@@ -28,7 +30,7 @@ const ThePeriodSteriliser = () => {
             <InfoRow>
                 <TopLine>The Period Steriliser</TopLine>
             </InfoRow>
-            <ImageOverlay src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')} visible={isOverlay}/>
+            <ThePeriodSteriliserSlideshow slides={SliderData}/>
             <Grid>
                 <Row>
                     <Column>
