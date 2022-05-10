@@ -78,24 +78,13 @@ export const Row = styled.div`
     }
 `
 
-export const Column = styled.div`
-    max-width: max-content;
-    padding: 2px 10px 2px 10px;
-    align-items: center;
-    
-`
-
 export const VideoColumn = styled.div`
     max-width: max-content;
     align-items: center;
     padding: 2px 0% 2px 0%;
 `
 
-export const Image = styled.img`
-    width: 100%;
-`
-
-export const YoutubeEmbed = ({ embedId }) => (
+export const YoutubeEmbed = ({}) => (
     <div className='video-responsive'>
         <iframe
         width="720"
