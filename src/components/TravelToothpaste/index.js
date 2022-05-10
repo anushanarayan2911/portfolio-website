@@ -3,6 +3,7 @@ import { InfoContainer,
     InfoWrapper, 
     InfoRow,
     TopLine,
+    Subtitle,
     Grid,
     Row,
     Column,
@@ -20,6 +21,12 @@ const TravelToothpaste = () => {
             <InfoRow>
                 <TopLine>Travel Toothpaste</TopLine>
             </InfoRow>
+            <Subtitle>Duration: 5 weeks</Subtitle>
+            <br/>
+            <Subtitle>Date: October - November 2021</Subtitle>
+            <br/>
+            <Subtitle>Nature: an individual research document, detailing the environmental impact of travel toothpastes, for a Sustainable Design Engineering module in 2nd year</Subtitle>
+            <br/>
             <Grid>
                 <Row>
                     <Column><Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-01.png')}/></Column>
