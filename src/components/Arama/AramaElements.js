@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 export const InfoContainer = styled.div`
     background: #f0f0f0;
@@ -83,25 +83,22 @@ export const Column = styled.div`
     align-items: center;
 `
 
-export const VideoColumn = styled.div`
-    max-width: max-content;
-    align-items: center;
-    padding: 2px 30% 2px 30%;
-`
-
 export const Image = styled.img`
     width: 100%;
+    opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
 `
 
-export const YoutubeEmbed = ({ embedId }) => (
-    <div className='video-responsive'>
-        <iframe
-        width="100%"
-        height="auto"
-        src="https://www.youtube.com/embed/jOqSIPo2E-w"
-        allow="autoplay; encrypted-media; fullscreen"
-        allowFullScreen
-        title="video"
-      />{" "}
-    </div>
-)
+export const ImageOverlay = styled.img`
+    height: 100%;
+    z-index: 2;
+    padding: 15px 5px 15px 5px;
+    position: fixed;
+    top: 0%;
+    left: 18%;
+    
+    ${({ visible }) => {
+        return css`
+            visibility: ${visible ? 'visible' : 'hidden'};
+        `;
+    }}
+`

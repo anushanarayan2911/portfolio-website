@@ -75,7 +75,7 @@ export const Subtitle = styled.p`
     text-align: justify;
 `
 
-export const YoutubeEmbed = ({ embedId }) => (
+export const YoutubeEmbed = ({ }) => (
     <div className='video-responsive'>
         <iframe
         src="https://www.youtube.com/embed/ag9uYc9hJRk"
