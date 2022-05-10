@@ -33,7 +33,7 @@ export const Icon = styled.div`
 `
 
 export const SidebarWrapper = styled.div`
-    color: #fff;
+    color: #f0f0f0;
 `
 export const SidebarMenu = styled.ul`
     display: grid;
@@ -55,7 +55,7 @@ export const SidebarLink = styled(LinkS)`
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: #fff;
+    color: #f0f0f0;
     cursor: pointer;
 
     &:hover: {
