@@ -94,19 +94,6 @@ export const Image = styled.img`
     opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
 `
 
-export const YoutubeEmbed = ({ embedId }) => (
-    <div className='video-responsive'>
-        <iframe
-        width="100%"
-        height="auto"
-        src="https://www.youtube.com/embed/jOqSIPo2E-w"
-        allow="autoplay; encrypted-media; fullscreen"
-        allowFullScreen
-        title="video"
-      />{" "}
-    </div>
-)
-
 export const ImageOverlay = styled.img`
     height: 100%;
     z-index: 2;
