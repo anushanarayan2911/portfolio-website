@@ -13,7 +13,6 @@ import { InfoContainer,
 const GallerySection = () => {
     const [isOverlay, setIsOverlay] = useState(false);
     const [isImage, setIsImage] = useState('');
-    var imageName;
 
     var imagesPath = [
         require('../../Visuals/Gallery/Images/1.png'),
@@ -38,11 +37,6 @@ const GallerySection = () => {
 
     const showOverlay = () => {
         setIsOverlay(!isOverlay);
-    }
-
-
-    const hideOverlay = () => {
-        setIsOverlay("false");
     }
 
   return (

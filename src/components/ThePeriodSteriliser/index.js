@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { InfoContainer, 
     InfoWrapper, 
     InfoRow, 
@@ -6,10 +6,18 @@ import { InfoContainer,
     Image,
     Grid,
     Row,
-    Column 
+    Column,
+    ImageOverlay 
 } from './ThePeriodSteriliserElements'
 
 const ThePeriodSteriliser = () => {
+    const [isOverlay, setIsOverlay] = useState(false);
+    const [isImage, setIsImage] = useState('');
+
+
+    const showOverlay = () => {
+        setIsOverlay(!isOverlay);
+    }
   return (
     <InfoContainer>
         <InfoWrapper>
@@ -20,10 +28,11 @@ const ThePeriodSteriliser = () => {
             <InfoRow>
                 <TopLine>The Period Steriliser</TopLine>
             </InfoRow>
+            <ImageOverlay src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')} visible={isOverlay}/>
             <Grid>
                 <Row>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')} onClick={showOverlay} opacity={isOverlay}/>
                     </Column>
                 </Row>
                 <Row>
