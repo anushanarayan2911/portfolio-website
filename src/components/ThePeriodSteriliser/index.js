@@ -63,7 +63,7 @@ const ThePeriodSteriliser = () => {
             <br/>
             <Subtitle>Nature: an individual, personal project carried out in Summer 2021, looking to design a solution to the problem of period poverty in developing countries</Subtitle>
             <br/>
-            <ImageOverlay src={isImage} visible={isOverlay}/>
+            <ImageOverlay onClick={showOverlay} src={isImage} visible={isOverlay}/>
             <Grid>
                 <Row>
                     <Column>
