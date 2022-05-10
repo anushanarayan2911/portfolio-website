@@ -3,6 +3,7 @@ import { InfoContainer,
     InfoWrapper, 
     InfoRow, 
     TopLine, 
+    Subtitle,
     Image,
     Grid,
     Row,
@@ -21,6 +22,12 @@ const ThePeriodSteriliser = () => {
             <InfoRow>
                 <TopLine>The Period Steriliser</TopLine>
             </InfoRow>
+            <Subtitle>Duration: 10 weeks</Subtitle>
+            <br/>
+            <Subtitle>Date: July - September 2021</Subtitle>
+            <br/>
+            <Subtitle>Nature: an individual, personal project carried out in Summer 2021, looking to design a solution to the problem of period poverty in developing countries</Subtitle>
+            <br/>
             <Grid>
                 <Row>
                     <Column>
