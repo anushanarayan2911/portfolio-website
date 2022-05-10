@@ -54,7 +54,7 @@ const ReStand = () => {
             <br/>
             <Subtitle>Nature: a group project, designing a system for reusing camping chairs after festivals to prevent them from being sent to a landfill site, as part of a Sustainable Design Engineering module in 2nd year</Subtitle>
             <br/>
-            <ImageOverlay src={isImage} visible={isOverlay}/>
+            <ImageOverlay onClick={showOverlay} src={isImage} visible={isOverlay}/>
             <Grid>
               <Row>
                 <Column>
