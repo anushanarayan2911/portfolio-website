@@ -51,7 +51,7 @@ const Arama = () => {
             <br/>
             <Subtitle>Date: February - March 2022</Subtitle>
             <br/>
-            <Subtitle>Nature: an individual ideation document, detailing the design process carried out to come up with a device to aid communication for severely autistic, non-verbal children, done as part of an Industrial Design Engineering module in 2nd year</Subtitle>
+            <Subtitle>Nature: an individual ideation document, detailing the design process carried out to come up with a device to aid communication for severely autistic, non-verbal children done as part of an Industrial Design Engineering module in 2nd year</Subtitle>
             <br/>
             <ImageOverlay onClick={showOverlay} src={isImage} visible={isOverlay}/>
             <Grid>
