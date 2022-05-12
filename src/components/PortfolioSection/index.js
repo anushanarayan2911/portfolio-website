@@ -8,6 +8,8 @@ import { InfoContainer,
   Column,
   Image
 } from './portfolioElements'
+import {Link as LinkR} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const PortfolioSection = () => {
   return (

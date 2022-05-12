@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, withRouter} from 'react-router-dom';
 import Home from './Pages/index'
 import React from 'react'
 import ThePeriodSteriliserPage from './Pages/ThePeriodSteriliserPage';
@@ -20,8 +20,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={Home} exact/>
-        <Route path="/ThePeriodSteriliserPage" component={ThePeriodSteriliserPage} exact/>
+        <Route path="/ThePeriodSteriliserPage" component={withRouter(ThePeriodSteriliserPage)} exact/>
         <Route path="/ReStandPage" component={ReStandPage} exact/>
         <Route path="/TeddyBotPage" component={TeddyBotPage} exact/>
         <Route path="/BouncerExperimentPage" component={BouncerExperimentPage} exact/>
@@ -34,6 +33,7 @@ function App() {
         <Route path="/HealthTrackerAppPage" component={HealthTrackerAppPage} exact/>
         <Route path="/FearOfFallingPage" component={FearOfFallingPage} exact/>
         <Route path="/StandardisingCampingFurniturePage" component={StandardisingCampingFurniturePage} exact/>
+        <Route path="/" component={Home} exact/>
       </Switch>
     </Router>
   );
