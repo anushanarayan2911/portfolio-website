@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.a9a4736b.css",
-    "main.js": "/portfolio-website/static/js/main.109212cf.js",
+    "main.js": "/portfolio-website/static/js/main.e20924df.js",
     "static/media/8.png": "/portfolio-website/static/media/8.e7f9c45edb2fdc80289a.png",
     "static/media/Anusha Narayan Gizmo Poster-1.png": "/portfolio-website/static/media/Anusha Narayan Gizmo Poster-1.57a5ce57541ce74b19e0.png",
     "static/media/Group 17_Documentation-01.png": "/portfolio-website/static/media/Group 17_Documentation-01.344a3a6f9429f2ba397b.png",
@@ -159,10 +159,10 @@
     "static/media/logoLight.png": "/portfolio-website/static/media/logoLight.5ba816f7e42eaa98f673.png",
     "index.html": "/portfolio-website/index.html",
     "main.a9a4736b.css.map": "/portfolio-website/static/css/main.a9a4736b.css.map",
-    "main.109212cf.js.map": "/portfolio-website/static/js/main.109212cf.js.map"
+    "main.e20924df.js.map": "/portfolio-website/static/js/main.e20924df.js.map"
   },
   "entrypoints": [
     "static/css/main.a9a4736b.css",
-    "static/js/main.109212cf.js"
+    "static/js/main.e20924df.js"
   ]
 }
