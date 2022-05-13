@@ -90,9 +90,11 @@ const PortfolioSection = () => {
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <a href="/AramaPage">
-                <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-01.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/AramaPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-01.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
             <Column>
               <a href="/CarbonNeutralHousingPage">
