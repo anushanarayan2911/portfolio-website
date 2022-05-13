@@ -8,7 +8,10 @@ import { InfoContainer,
     Row,
     Column,
     Image, 
-    ImageOverlay
+    ImageOverlay,
+    LinkWrap,
+    ImageLink,
+    LogoImage
 } from './CarbonNeutralHousingElements'
 
 const CarbonNeutralHousing = () => {
@@ -43,6 +46,11 @@ const CarbonNeutralHousing = () => {
         <InfoWrapper>
             <br/>
             <br/>
+            <LinkWrap>
+                <ImageLink to={"/"}>
+                    <LogoImage src={require('../../Visuals/Home/Images/logoLight.png')}/>
+                </ImageLink>
+            </LinkWrap>
             <br/>
             <br/>
             <InfoRow>

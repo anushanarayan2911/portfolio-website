@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'react-scroll/modules/components/Link'
 import { InfoContainer, 
   InfoWrapper, 
   InfoRow, 
@@ -97,9 +98,11 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
             <Column>
-              <a href="/CarbonNeutralHousingPage">
-                <Image src={require('../../Visuals/Portfolio/Carbon Neutral Housing/Anusha Narayan Carbon Neutral Housing-01.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/CarbonNeutralHousingPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Carbon Neutral Housing/Anusha Narayan Carbon Neutral Housing-01.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
           </PortfolioRow>
           <PortfolioRow>
