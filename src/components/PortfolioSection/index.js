@@ -50,9 +50,11 @@ const PortfolioSection = () => {
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <a href="/BouncerExperimentPage">
-                <Image src={require('../../Visuals/Portfolio/Bouncer Challenge/Anusha Narayan_Bouncer Challenge-01.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/BouncerExperimentPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Bouncer Challenge/Anusha Narayan_Bouncer Challenge-01.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
             <Column>
               <a href="/TheAmbioBracePage">
