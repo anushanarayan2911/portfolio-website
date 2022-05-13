@@ -7,7 +7,10 @@ import { InfoContainer,
     Grid,
     Row,
     Column,
-    Image 
+    Image,
+    LinkWrap,
+    ImageLink,
+    LogoImage 
 } from './MaterialiseElements'
 
 const Materialise = () => {
@@ -16,6 +19,11 @@ const Materialise = () => {
         <InfoWrapper>
             <br/>
             <br/>
+            <LinkWrap>
+                <ImageLink to={"/"}>
+                    <LogoImage src={require('../../Visuals/Home/Images/logoLight.png')}/>
+                </ImageLink>
+            </LinkWrap>
             <br/>
             <br/>
             <InfoRow>

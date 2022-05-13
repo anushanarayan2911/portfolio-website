@@ -114,9 +114,11 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
             <Column>
-              <a href="/MaterialisePage">
-                <Image src={require('../../Visuals/Portfolio/Materialise/Materialise -01.png')}/>
-              </a>            
+              <LinkWrap>
+                <ImageLink to="/MaterialisePage">
+                  <Image src={require('../../Visuals/Portfolio/Materialise/Materialise -01.png')}/>
+                </ImageLink>   
+              </LinkWrap>         
             </Column>
           </PortfolioRow>
           <PortfolioRow>
