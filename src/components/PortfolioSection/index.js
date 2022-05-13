@@ -74,11 +74,9 @@ const PortfolioSection = () => {
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <LinkWrap>
-                <ImageLink href="https://medium.com/@anusha.narayan2002/the-drawbacks-of-technological-development-c069c4b65421">
-                  <Image src={require('../../Visuals/Portfolio/Drawbacks of Technological Development/Drawbacks of Technological Development-01.png')}/>
-                </ImageLink>
-              </LinkWrap>
+              <a href="https://medium.com/@anusha.narayan2002/the-drawbacks-of-technological-development-c069c4b65421">
+                <Image src={require('../../Visuals/Portfolio/Drawbacks of Technological Development/Drawbacks of Technological Development-01.png')}/>
+              </a>
             </Column>
             <Column>
               <a href="https://medium.com/@anusha.narayan2002/the-ageist-nature-of-technology-6b016143c88b">
@@ -117,7 +115,7 @@ const PortfolioSection = () => {
             </Column>
             <Column>
               <LinkWrap>
-                <ImageLink to="/MaterialisePage">
+                <ImageLink to={"/MaterialisePage"}>
                   <Image src={require('../../Visuals/Portfolio/Materialise/Materialise -01.png')}/>
                 </ImageLink>   
               </LinkWrap>         
@@ -125,14 +123,18 @@ const PortfolioSection = () => {
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <a href="/HealthTrackerAppPage">
-                <Image src={require('../../Visuals/Portfolio/Health Tracker App/Health Tracker App - 1.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/HealthTrackerAppPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Health Tracker App/Health Tracker App - 1.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
             <Column>
-              <a href="/FearOfFallingPage">
-                <Image src={require('../../Visuals/Portfolio/Fear of Falling/Fear of Falling Title.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/FearOfFallingPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Fear of Falling/Fear of Falling Title.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
             <Column>
               <a href="/StandardisingCampingFurniturePage">
