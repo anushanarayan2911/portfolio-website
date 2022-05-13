@@ -64,9 +64,11 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
             <Column>
-              <a href="/SocialResponsibilityPage">
-                <Image src={require('../../Visuals/Portfolio/Social Responsibility of Design Engineers/NARAYAN_anusha-1.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/SocialResponsibilityPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Social Responsibility of Design Engineers/NARAYAN_anusha-1.png')}/>
+                </ImageLink>
+              </LinkWrap>
               </Column>
           </PortfolioRow>
           <PortfolioRow>
