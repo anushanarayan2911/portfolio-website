@@ -10,7 +10,10 @@ import { InfoContainer,
     Image,
     YoutubeEmbed,
     VideoColumn,
-    ImageOverlay
+    ImageOverlay,
+    LinkWrap,
+    ImageLink,
+    LogoImage
 } from './ReStandElements'
 
 const ReStand = () => {
@@ -43,6 +46,11 @@ const ReStand = () => {
         <InfoWrapper>
             <br/>
             <br/>
+            <LinkWrap>
+                <ImageLink to={"/"}>
+                    <LogoImage src={require('../../Visuals/Home/Images/logoLight.png')}/>
+                </ImageLink>
+            </LinkWrap>
             <br/>
             <br/>
             <InfoRow>

@@ -8,7 +8,10 @@ import { InfoContainer,
     Grid,
     Row,
     Column,
-    ImageOverlay
+    ImageOverlay,
+    LinkWrap,
+    ImageLink,
+    LogoImage
 } from './ThePeriodSteriliserElements'
 
 const ThePeriodSteriliser = () => {
@@ -52,6 +55,11 @@ const ThePeriodSteriliser = () => {
         <InfoWrapper>
             <br/>
             <br/>
+            <LinkWrap>
+                <ImageLink to={"/"}>
+                    <LogoImage src={require('../../Visuals/Home/Images/logoLight.png')}/>
+                </ImageLink>
+            </LinkWrap>
             <br/>
             <br/>
             <InfoRow>

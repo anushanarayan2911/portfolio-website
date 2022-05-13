@@ -1,4 +1,5 @@
 import styled, {css} from 'styled-components';
+import {Link as LinkR} from 'react-router-dom'
 
 export const InfoContainer = styled.div`
     background: #f0f0f0;
@@ -88,6 +89,16 @@ export const VideoColumn = styled.div`
     align-items: center;
     padding: 2px 30% 2px 30%;
 `
+
+export const LinkWrap = styled.nav`
+    display: flex;
+    align-items: center
+`
+
+export const ImageLink = styled(LinkR)`
+    background: #f0f0f0;
+`
+
 export const Image = styled.img`
     width: 100%;
     opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
@@ -119,4 +130,7 @@ export const ImageOverlay = styled.img`
             visibility: ${visible ? 'visible' : 'hidden'};
         `;
     }}
+`
+export const LogoImage = styled.img`
+    width: 5%;
 `

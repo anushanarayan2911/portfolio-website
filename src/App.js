@@ -20,7 +20,7 @@ import { HashRouter } from 'react-router-dom';
 function App() {
   return (
     <Switch>
-      <Route exact path="/" component={Home}/>
+      <Route exact path="/" component={withRouter(Home)}/>
       <Route exact path="/ThePeriodSteriliserPage" component={withRouter(ThePeriodSteriliserPage)}/>
       <Route path="/ReStandPage" component={ReStandPage} exact/>
       <Route path="/TeddyBotPage" component={TeddyBotPage} exact/>

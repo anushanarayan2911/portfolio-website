@@ -32,9 +32,11 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
             <Column>
-              <a href="/ReStandPage">
-                <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/ReStandPage"}>
+                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
           </PortfolioRow>
           <PortfolioRow>
