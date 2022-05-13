@@ -87,3 +87,16 @@ export const Column = styled.div`
 export const Image = styled.img`
     width: 100%;
 `
+
+export const LinkWrap = styled.nav`
+    display: flex;
+    align-items: center
+`
+
+export const ImageLink = styled(LinkR)`
+    background: #f0f0f0;
+`
+
+export const LogoImage = styled.img`
+    width: 5%;
+`
