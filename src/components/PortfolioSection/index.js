@@ -137,9 +137,11 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
             <Column>
-              <a href="/StandardisingCampingFurniturePage">
-                <Image src={require('../../Visuals/Portfolio/Standardising Camping Furniture/Standardising Camping Furniture Title.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/StandardisingCampingFurniturePage"}>
+                  <Image src={require('../../Visuals/Portfolio/Standardising Camping Furniture/Standardising Camping Furniture Title.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
           </PortfolioRow>
         </PortfolioGrid>
