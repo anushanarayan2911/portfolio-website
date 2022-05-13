@@ -57,9 +57,11 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
             <Column>
-              <a href="/TheAmbioBracePage">
-                <Image src={require('../../Visuals/Portfolio/The Ambio Brace/Group 17_Documentation-01.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/TheAmbioBracePage"}>
+                  <Image src={require('../../Visuals/Portfolio/The Ambio Brace/Group 17_Documentation-01.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
             <Column>
               <a href="/SocialResponsibilityPage">
