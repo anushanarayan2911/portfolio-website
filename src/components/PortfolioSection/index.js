@@ -6,10 +6,10 @@ import { InfoContainer,
   PortfolioGrid, 
   PortfolioRow,
   Column,
+  LinkWrap,
+  ImageLink,
   Image
 } from './portfolioElements'
-import {Link as LinkR} from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
 
 const PortfolioSection = () => {
   return (
@@ -25,9 +25,11 @@ const PortfolioSection = () => {
         <PortfolioGrid>
           <PortfolioRow>
             <Column>
-              <a href="/ThePeriodSteriliserPage">
-                <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/ThePeriodSteriliserPage"}>
+                  <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
             <Column>
               <a href="/ReStandPage">

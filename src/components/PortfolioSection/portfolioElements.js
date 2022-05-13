@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link as LinkR} from 'react-router-dom'
 
 export const InfoContainer = styled.div`
     background-color: #f0f0f0;
@@ -69,6 +70,15 @@ export const PortfolioRow = styled.div`
 export const Column = styled.div`
     max-width: max-content;
     padding: 10px 10px 10px 10px;
+`
+
+export const LinkWrap = styled.nav`
+    display: flex;
+    align-items: center
+`
+
+export const ImageLink = styled(LinkR)`
+    background: #f0f0f0;
 `
 
 export const Image = styled.img`
