@@ -74,9 +74,11 @@ const PortfolioSection = () => {
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <a href="https://medium.com/@anusha.narayan2002/the-drawbacks-of-technological-development-c069c4b65421">
-                <Image src={require('../../Visuals/Portfolio/Drawbacks of Technological Development/Drawbacks of Technological Development-01.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink href="https://medium.com/@anusha.narayan2002/the-drawbacks-of-technological-development-c069c4b65421">
+                  <Image src={require('../../Visuals/Portfolio/Drawbacks of Technological Development/Drawbacks of Technological Development-01.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
             <Column>
               <a href="https://medium.com/@anusha.narayan2002/the-ageist-nature-of-technology-6b016143c88b">

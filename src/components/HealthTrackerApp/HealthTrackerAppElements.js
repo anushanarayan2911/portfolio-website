@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link as LinkR} from 'react-router-dom'
 
 export const InfoContainer = styled.div`
     background: #f0f0f0;
@@ -97,3 +98,16 @@ export const YoutubeEmbed = ({}) => (
       />{" "}
     </div>
 )
+
+export const LinkWrap = styled.nav`
+    display: flex;
+    align-items: center
+`
+
+export const ImageLink = styled(LinkR)`
+    background: #f0f0f0;
+`
+
+export const LogoImage = styled.img`
+    width: 5%;
+`

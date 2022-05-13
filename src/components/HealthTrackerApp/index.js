@@ -7,7 +7,10 @@ import { InfoContainer,
     Grid,
     Row,
     VideoColumn, 
-    YoutubeEmbed
+    YoutubeEmbed,
+    LinkWrap,
+    ImageLink,
+    LogoImage
 } from './HealthTrackerAppElements'
 
 const HealthTrackerApp = () => {
@@ -16,6 +19,11 @@ const HealthTrackerApp = () => {
         <InfoWrapper>
             <br/>
             <br/>
+            <LinkWrap>
+                <ImageLink to={"/"}>
+                    <LogoImage src={require('../../Visuals/Home/Images/logoLight.png')}/>
+                </ImageLink>
+            </LinkWrap>
             <br/>
             <br/>
             <InfoRow>
