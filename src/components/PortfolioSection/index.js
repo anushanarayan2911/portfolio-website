@@ -41,9 +41,11 @@ const PortfolioSection = () => {
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <a href="/TeddyBotPage">
-                <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to={"/TeddyBotPage"}>
+                  <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
           </PortfolioRow>
           <PortfolioRow>

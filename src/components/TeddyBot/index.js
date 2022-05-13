@@ -11,7 +11,10 @@ import {
     Image,
     VideoColumn,
     YoutubeEmbed,
-    ImageOverlay
+    ImageOverlay,
+    LinkWrap,
+    ImageLink,
+    LogoImage
 } from './TeddyBotElements'
 
 const TeddyBot = () => {
@@ -35,6 +38,11 @@ const TeddyBot = () => {
         <InfoWrapper>
             <br/>
             <br/>
+            <LinkWrap>
+                <ImageLink to={"/"}>
+                    <LogoImage src={require('../../Visuals/Home/Images/logoLight.png')}/>
+                </ImageLink>
+            </LinkWrap>
             <br/>
             <br/>
             <InfoRow>
