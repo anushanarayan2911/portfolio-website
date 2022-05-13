@@ -107,9 +107,11 @@ const PortfolioSection = () => {
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <a href="/TravelToothpastePage">
-                <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-01.png')}/>
-              </a>
+              <LinkWrap>
+                <ImageLink to="/TravelToothpastePage">
+                  <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-01.png')}/>
+                </ImageLink>
+              </LinkWrap>
             </Column>
             <Column>
               <a href="/MaterialisePage">
