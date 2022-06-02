@@ -34,7 +34,7 @@ const Navbar = ({toggle}) => {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/home" onClick={toggleHome}>
+          <NavLogo to="/" onClick={toggleHome}>
             <Img src={require("../../Visuals/Home/Images/logoLight.png")}/>
           </NavLogo>
           <MobileIcon onClick={toggle}>

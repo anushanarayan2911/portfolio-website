@@ -6,7 +6,6 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0px;
     height: 100vh;
     position: relative;
     z-index: 1;
@@ -31,7 +30,7 @@ export const HeroBg = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden
+    overflow: hidden;
 `
 
 export const ArrowForward = styled(MdArrowForward)`
@@ -40,4 +39,9 @@ export const ArrowForward = styled(MdArrowForward)`
 
 export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
+`
+
+export const Image = styled.img`
+    width: 50%;
+    
 `

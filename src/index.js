@@ -8,10 +8,9 @@ import { BrowserRouter, HashRouter } from 'react-router-dom/cjs/react-router-dom
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter forceRefresh={true}>
+    <HashRouter forceRefresh={true} basename="/directory-name">
       <App />
-    </BrowserRouter>
-    
+    </HashRouter>
   </React.StrictMode>
 );
 
