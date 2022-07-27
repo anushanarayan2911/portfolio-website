@@ -18,7 +18,7 @@ function App() {
       <Route path="/TeddyBotPage" component={TeddyBotPage} exact/>
       <Route path="/AramaPage" component={AramaPage} exact/>
       <Route path="/TravelToothpastePage" component={TravelToothpastePage} exact/>
-      <Route path="/HealthTrackerAppPage" component={HealthTrackerAppPage} exact/> 
+      <Route path="/HealthTrackerAppPage" component={HealthTrackerAppPage} exact/>
     </Switch>
   );
 }

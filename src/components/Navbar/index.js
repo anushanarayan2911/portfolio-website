@@ -10,6 +10,7 @@ import {Nav,
   Img 
 } from './navbarElements'
 import {FaBars} from 'react-icons/fa'
+import svg from "../../Visuals/Home/Images/Logo.svg"
 
 const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -33,9 +34,8 @@ const Navbar = ({toggle}) => {
   return (
     <>
       <Nav scrollNav={scrollNav}>
-        <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            <Img src={require("../../Visuals/Home/Images/logoLight.png")}/>
+            <Img src={require("../../Visuals/Home/Images/logo.png")}/>
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars/>
@@ -75,7 +75,6 @@ const Navbar = ({toggle}) => {
               offset={-80}>CONTACT</NavLinks>
             </NavItem>
           </NavMenu>
-        </NavbarContainer>
       </Nav>
     </>
   )
