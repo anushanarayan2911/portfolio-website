@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-    background: #f0f0f0;
+    background: #ffffff;
 
     width: 100%;
     height: 100%;
@@ -15,11 +15,12 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    background-color: #f0f0f0;
-    height: 100%;
+    background-color: #ffffff;
+    height: 80%;
     width: auto;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
     overflow: hidden;
 
     @media screen and (max-width: 768px) {
@@ -35,9 +36,8 @@ export const InfoWrapper = styled.div`
 
 export const InfoRow = styled.div`
     display: grid;
-    margin-top: 0px;
     grid-auto-columns: minmax(auto, 1fr)
-    align-items: left;
+    align-items: left;   border-color: black;
     grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
     @media screen and (max-width: 768px) {
@@ -48,31 +48,23 @@ export const InfoRow = styled.div`
 export const Column1 = styled.div`
     margin-bottom: 0px;
     padding: 0 10% 0 0;
-    grid-area: col1;
+    grid-area: col1;    
 `
 
 export const Column2 = styled.div`
     margin-bottom: 15px;
-    padding: 0;
+    padding: 0 0 0 0;
     grid-area: col2;
     align-items: center;
-`
-
-export const TopLine = styled.p`
-    color: #4b4b4b;
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
 `
 
 export const Subtitle = styled.p`
     max-width: max-content;
     font-size: 0.8em;
     line-height: 24px;
-    color: #4b4b4b;
+    color: #787878;
     text-align: justify;
+    
 `
 
 export const YoutubeEmbed = ({ }) => (
