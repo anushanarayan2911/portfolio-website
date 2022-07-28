@@ -11,7 +11,7 @@ import {
     YoutubeEmbed
 } from './AboutElements'
 
-const InfoSection = ({
+const About = ({
     id,
     textbox1,
     textbox2,
@@ -36,4 +36,4 @@ const InfoSection = ({
   )
 }
 
-export default InfoSection
+export default About

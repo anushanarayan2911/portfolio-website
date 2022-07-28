@@ -10,7 +10,7 @@ import {Nav,
   Img 
 } from './navbarElements'
 import {FaBars} from 'react-icons/fa'
-import svg from "../../Visuals/Home/Images/Logo.svg"
+import AboutPage from '../../Pages/AboutPage'
 
 const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -42,7 +42,7 @@ const Navbar = ({toggle}) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about" 
+              <NavLinks to={"/AboutPage"} 
                 smooth={true} 
                 duration={500}
                 spy={true}
