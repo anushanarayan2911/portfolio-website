@@ -61,7 +61,7 @@ export const Column2 = styled.div`
 export const Subtitle = styled.p`
     max-width: max-content;
     font-size: 0.8em;
-    line-height: 24px;
+    line-height: 22px;
     color: #787878;
     text-align: justify;
     

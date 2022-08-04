@@ -3,7 +3,7 @@ import About from '../components/About'
 import { homeObjOne } from '../components/About/data'
 import Navbar from '../components/Navbar'
 
-const AboutPage = () => {
+const AboutPage = (id="about") => {
   return (
     <>
       <Navbar/>

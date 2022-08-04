@@ -12,7 +12,7 @@ import {Nav,
 import {FaBars} from 'react-icons/fa'
 import AboutPage from '../../Pages/AboutPage'
 
-const Navbar = ({toggle}) => {
+const Navbar = ({toggle, id}) => {
   const [scrollNav, setScrollNav] = useState(false);
   
   const changeNav = () => {
@@ -33,7 +33,7 @@ const Navbar = ({toggle}) => {
 
   return (
     <>
-      <Nav scrollNav={scrollNav}>
+      <Nav scrollNav={scrollNav} id={id}>
           <NavLogo to="/" onClick={toggleHome}>
             <Img src={require("../../Visuals/Home/Images/logo.png")}/>
           </NavLogo>
