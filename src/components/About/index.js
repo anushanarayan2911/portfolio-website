@@ -30,12 +30,12 @@ const About = ({}) => {
       <InfoRow>
         <Column1>
           <br></br>
-          <CVBtn>
+          <CVBtn to={"/CVPage"}>
             <BtnLink>CV</BtnLink>
           </CVBtn>
         </Column1>
         <Column2>
-          <br></br>
+            <br></br>
           <PortfolioBtn>
             <BtnLink>Portfolio</BtnLink>
           </PortfolioBtn>

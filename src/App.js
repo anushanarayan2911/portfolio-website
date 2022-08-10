@@ -9,6 +9,7 @@ import TeddyBotPage from './Pages/TeddyBotPage';
 import AramaPage from './Pages/AramaPage';
 import TravelToothpastePage from './Pages/TravelToothpastePage';
 import HealthTrackerAppPage from './Pages/HealthTrackerAppPage';
+import CVPage from './Pages/CVPage'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/AramaPage" component={AramaPage} exact/>
       <Route path="/TravelToothpastePage" component={TravelToothpastePage} exact/>
       <Route path="/HealthTrackerAppPage" component={HealthTrackerAppPage} exact/>
+      <Route path="/CVPage" component={CVPage} exact/>
     </Switch>
   );
 }
