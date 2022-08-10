@@ -2,7 +2,7 @@ import React from 'react'
 import CV from '../components/CV'
 import Navbar from '../components/Navbar'
 
-const CVPage = (id="about") => {
+const CVPage = (id="CVPage") => {
   return (
     <>
       <Navbar/>
