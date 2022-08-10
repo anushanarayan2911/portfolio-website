@@ -10,7 +10,9 @@ const HeroSection = () => {
     require('../../Visuals/Home/Images/2.png'),
     require('../../Visuals/Home/Images/3.png'),
     require('../../Visuals/Home/Images/4.png'),
-    require('../../Visuals/Home/Images/5.png')
+    require('../../Visuals/Home/Images/5.png'),
+    require('../../Visuals/Home/Images/6.png'),
+    require('../../Visuals/Home/Images/7.png')
   ]
 
   const [counter, setCounter] = useState(0);

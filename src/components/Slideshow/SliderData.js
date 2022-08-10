@@ -14,4 +14,10 @@ export const SliderData = [
     {
         image: require('../../Visuals/Home/Images/5.png')
     },
+    {
+        image: require('../../Visuals/Home/Images/6.png')
+    },
+    {
+        image: require('../../Visuals/Home/Images/7.png')
+    }
 ]
