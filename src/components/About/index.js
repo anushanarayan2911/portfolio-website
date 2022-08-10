@@ -7,7 +7,10 @@ import {
     Column1,
     Column2,
     Subtitle,
-    YoutubeEmbed
+    YoutubeEmbed,
+    CVBtn,
+    BtnLink,
+    PortfolioBtn
 } from './AboutElements'
 
 const About = ({}) => {
@@ -24,6 +27,23 @@ const About = ({}) => {
           </Subtitle>
         </InfoRow>
       </InfoWrapper>
+      <InfoRow>
+        <Column1>
+          <br></br>
+          <CVBtn>
+            <BtnLink>CV</BtnLink>
+          </CVBtn>
+        </Column1>
+        <Column2>
+          <br></br>
+          <PortfolioBtn>
+            <BtnLink>Portfolio</BtnLink>
+          </PortfolioBtn>
+        </Column2>
+      </InfoRow>
+      
+
+      
     </InfoContainer>
   )
 }

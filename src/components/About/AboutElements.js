@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link as LinkR} from 'react-router-dom'
 
 export const InfoContainer = styled.div`
     background: #ffffff;
@@ -80,4 +81,36 @@ export const YoutubeEmbed = ({ }) => (
     </div>
 )
 
+export const CVBtn = styled.nav`
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 30%;
+`
 
+export const BtnLink = styled(LinkR)`
+    border-radius: 50px;
+    background: #e4e4e4;
+    whitespace: nowrap;
+    padding: 10px 22px;
+    color: #787878;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #ffffff;
+        color: #787878
+    }
+`
+
+export const PortfolioBtn = styled.nav`
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+`
