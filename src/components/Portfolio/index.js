@@ -37,7 +37,23 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
           </PortfolioRow>
-          
+          <PortfolioRow>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/ThePeriodSteriliserPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Landing Page/TeddyBot Title Card.png')}/>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/RestandPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Landing Page/Travel Toothpaste Title Card.png')}/>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+          </PortfolioRow>
+
         </PortfolioGrid>
       </InfoWrapper>
     </InfoContainer>

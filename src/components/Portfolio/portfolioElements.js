@@ -52,15 +52,15 @@ export const TopLine = styled.p`
 `
 
 export const PortfolioGrid = styled.div`
-    width: 70%;
+    width: 100%;
     overflow: hidden;
     align-items: center;
-    margin-left: 15%;
-    margin-rightL 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 `
 export const PortfolioRow = styled.div`
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
     flex-direction: row;
 
