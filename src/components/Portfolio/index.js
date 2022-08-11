@@ -53,7 +53,38 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
           </PortfolioRow>
-
+          <PortfolioRow>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/ThePeriodSteriliserPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Landing Page/Tandem Bike Title Card.png')}/>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/RestandPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Landing Page/Arama Title Card.png')}/>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+          </PortfolioRow>
+          <PortfolioRow>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/ThePeriodSteriliserPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Landing Page/U Me Title Card.png')}/>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/RestandPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Landing Page/Health Tracker App Title Card.png')}/>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+          </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>
     </InfoContainer>

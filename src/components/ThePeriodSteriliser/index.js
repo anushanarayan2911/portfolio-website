@@ -11,7 +11,8 @@ import { InfoContainer,
     ImageOverlay,
     LinkWrap,
     ImageLink,
-    LogoImage
+    LogoImage,
+    SubHeading
 } from './ThePeriodSteriliserElements'
 
 const ThePeriodSteriliser = () => {
@@ -55,15 +56,11 @@ const ThePeriodSteriliser = () => {
         <InfoWrapper>
             <br/>
             <br/>
-            <LinkWrap>
-                <ImageLink to={"/"}>
-                    <LogoImage src={require('../../Visuals/Home/Images/logoLight.png')}/>
-                </ImageLink>
-            </LinkWrap>
-            <br/>
-            <br/>
             <InfoRow>
-                <TopLine>The Period Steriliser</TopLine>
+                <TopLine>The Period Product Steriliser</TopLine>
+            </InfoRow>
+            <InfoRow>
+                <SubHeading>user-centred design | sketching | CAD | lo-fi prototyping</SubHeading>
             </InfoRow>
             <Subtitle>Duration: 10 weeks</Subtitle>
             <br/>

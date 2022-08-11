@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
 export const InfoContainer = styled.div`
-    background: #f0f0f0;
+    background: #ffffff;
     width: 100%;
     height: 100%
     overflow: hidden;
@@ -50,16 +50,24 @@ export const InfoRow = styled.div`
     margin-top: 0px;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
+    justify-items: center;
     overflow: hidden;
 `
 
 export const TopLine = styled.p`
-    color: #4b4b4b;
+    color: #787878;
     font-size: 30px;
     font-weight: 200;
     letter-spacing: 5px;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+`
+
+export const SubHeading = styled.p`
+    color: #e8a1bf;
+    font-size: 15px;
+    font-weight: 500;
 `
 
 export const Subtitle = styled.p`
