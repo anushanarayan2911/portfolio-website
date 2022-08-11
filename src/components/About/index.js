@@ -37,7 +37,7 @@ const About = ({}) => {
         <Column2>
             <br></br>
           <PortfolioBtn>
-            <BtnLink>Portfolio</BtnLink>
+            <BtnLink to={"/PDFPortfolioPage"}>PDF Portfolio</BtnLink>
           </PortfolioBtn>
         </Column2>
       </InfoRow>

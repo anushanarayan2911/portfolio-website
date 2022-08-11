@@ -10,6 +10,7 @@ import AramaPage from './Pages/AramaPage';
 import TravelToothpastePage from './Pages/TravelToothpastePage';
 import HealthTrackerAppPage from './Pages/HealthTrackerAppPage';
 import CVPage from './Pages/CVPage'
+import PDFPortfolioPage from './Pages/PDFPortfolioPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path="/TravelToothpastePage" component={TravelToothpastePage} exact/>
       <Route path="/HealthTrackerAppPage" component={HealthTrackerAppPage} exact/>
       <Route path="/CVPage" component={CVPage} exact/>
+      <Route path="/PDFPortfolioPage" component={PDFPortfolioPage} exact/>
     </Switch>
   );
 }
