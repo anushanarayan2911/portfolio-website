@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route, withRouter} from 'react-router-d
 import Home from './Pages'
 import React from 'react'
 import AboutPage from './Pages/AboutPage';
+import PortfolioPage from './Pages/PortfolioPage';
 import ThePeriodSteriliserPage from './Pages/ThePeriodSteriliserPage';
 import ReStandPage from './Pages/ReStandPage';
 import TeddyBotPage from './Pages/TeddyBotPage';
@@ -12,11 +13,13 @@ import HealthTrackerAppPage from './Pages/HealthTrackerAppPage';
 import CVPage from './Pages/CVPage'
 import PDFPortfolioPage from './Pages/PDFPortfolioPage';
 
+
 function App() {
   return (
     <Switch>
       <Route exact path="/" component={withRouter(Home)}/>
       <Route exact path="/AboutPage" component={withRouter(AboutPage) }/>
+      <Route path="/PortfolioPage" component={PortfolioPage} exact/>
       <Route exact path="/ThePeriodSteriliserPage" component={withRouter(ThePeriodSteriliserPage)}/>
       <Route path="/ReStandPage" component={ReStandPage} exact/>
       <Route path="/TeddyBotPage" component={TeddyBotPage} exact/>

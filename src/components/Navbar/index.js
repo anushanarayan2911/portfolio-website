@@ -51,7 +51,7 @@ const Navbar = ({toggle, id}) => {
               >ABOUT</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="portfolio"
+              <NavLinks to={"/PortfolioPage"}
               smooth={true} 
               duration={500}
               spy={true}

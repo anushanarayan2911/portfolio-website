@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
 
 export const InfoContainer = styled.div`
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     width: 100%;
     height: 100%;
     overflow: hidden
@@ -15,7 +15,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     height: 100%;
     width: auto;
     margin-right: 10%;
@@ -52,9 +52,11 @@ export const TopLine = styled.p`
 `
 
 export const PortfolioGrid = styled.div`
-    width: 100%;
+    width: 70%;
     overflow: hidden;
     align-items: center;
+    margin-left: 15%;
+    margin-rightL 15%;
 `
 export const PortfolioRow = styled.div`
     display: flex;
@@ -78,7 +80,7 @@ export const LinkWrap = styled.nav`
 `
 
 export const ImageLink = styled(LinkR)`
-    background: #f0f0f0;
+    background: #ffffff;
 `
 
 export const Image = styled.img`
