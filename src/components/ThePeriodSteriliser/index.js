@@ -12,7 +12,9 @@ import { InfoContainer,
     LinkWrap,
     ImageLink,
     LogoImage,
-    SubHeading
+    SubHeading,
+    PortfolioGrid,
+    PortfolioRow
 } from './ThePeriodSteriliserElements'
 
 const ThePeriodSteriliser = () => {
@@ -62,120 +64,42 @@ const ThePeriodSteriliser = () => {
             <InfoRow>
                 <SubHeading>user-centred design | sketching | CAD | lo-fi prototyping</SubHeading>
             </InfoRow>
-            <Subtitle>Duration: 10 weeks</Subtitle>
             <br/>
-            <Subtitle>Date: July - September 2021</Subtitle>
             <br/>
-            <Subtitle>Nature: an individual, personal project carried out in Summer 2021, looking to design a solution to the problem of period poverty in developing countries</Subtitle>
             <br/>
-            <ImageOverlay onClick={showOverlay} src={isImage} visible={isOverlay}/>
-            <Grid>
-                <Row>
+            <br/>
+            <PortfolioGrid>
+                <PortfolioRow>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')} onClick={() => {showOverlay() ; setImage(0)}} opacity={isOverlay}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/Period Product Steriliser.png')}/>
                     </Column>
-                </Row>
-                <Row>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-02.png')} onClick={() => {showOverlay() ; setImage(1)}} opacity={isOverlay}/>
+                        <Subtitle>Duration: 10 weeks</Subtitle>
+                        <br/>
+                        <br/>
+                        <Subtitle>Date: July - September 2021</Subtitle>
+                        <br/>
+                        <br/>
+                        <Subtitle>Nature: an individual personal project carried out in Summer 2021, looking to design a solution to the problem of period poverty in developing countries</Subtitle>
                     </Column>
-                </Row>
-                <Row>
+                </PortfolioRow>
+                <PortfolioRow>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-03.png')} onClick={() => {showOverlay() ; setImage(2)}} opacity={isOverlay}/>
+                    <LinkWrap>
+                        <ImageLink to={"/ThePeriodSteriliserPage"}>
+                        <Image src={require('../../Visuals/Portfolio/Landing Page/TeddyBot Title Card.png')}/>
+                        </ImageLink>
+                    </LinkWrap>
                     </Column>
-                </Row>
-                <Row>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-04.png')} onClick={() => {showOverlay() ; setImage(3)}} opacity={isOverlay}/>
+                    <LinkWrap>
+                        <ImageLink to={"/RestandPage"}>
+                        <Image src={require('../../Visuals/Portfolio/Landing Page/Travel Toothpaste Title Card.png')}/>
+                        </ImageLink>
+                    </LinkWrap>
                     </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-05.png')} onClick={() => {showOverlay() ; setImage(4)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-06.png')} onClick={() => {showOverlay() ; setImage(5)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-07.png')} onClick={() => {showOverlay() ; setImage(6)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-08.png')} onClick={() => {showOverlay() ; setImage(7)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-09.png')} onClick={() => {showOverlay() ; setImage(8)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-10.png')} onClick={() => {showOverlay() ; setImage(9)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-11.png')} onClick={() => {showOverlay() ; setImage(10)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-12.png')} onClick={() => {showOverlay() ; setImage(11)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-13.png')} onClick={() => {showOverlay() ; setImage(12)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-14.png')} onClick={() => {showOverlay() ; setImage(13)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-15.png')} onClick={() => {showOverlay() ; setImage(14)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-16.png')} onClick={() => {showOverlay() ; setImage(15)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-17.png')} onClick={() => {showOverlay() ; setImage(16)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-18.png')} onClick={() => {showOverlay() ; setImage(17)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-19.png')} onClick={() => {showOverlay() ; setImage(18)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-20.png')} onClick={() => {showOverlay() ; setImage(19)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-                <Row>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-21.png')} onClick={() => {showOverlay() ; setImage(20)}} opacity={isOverlay}/>
-                    </Column>
-                </Row>
-            </Grid>
+                </PortfolioRow>
+            </PortfolioGrid>
         </InfoWrapper>
     </InfoContainer>
   )

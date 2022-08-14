@@ -78,14 +78,14 @@ export const Subtitle = styled.p`
     text-align: justify;
 `
 
-export const Grid = styled.div`
+export const PortfolioGrid = styled.div`
     width: 70%;
     overflow: hidden;
     margin: 0 15% 0 15%;
     align-items: center;
 `
 
-export const Row = styled.div`
+export const PortfolioRow = styled.div`
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -98,9 +98,10 @@ export const Row = styled.div`
 `
 
 export const Column = styled.div`
-    max-width: max-content;
-    padding: 2px 10px 2px 10px;
-    align-items: center;
+    max-width: 70%;
+    padding: 0px 0px 10px 0px;
+    align-items: left;
+    justify-items: left;
 `
 
 export const Image = styled.img`
