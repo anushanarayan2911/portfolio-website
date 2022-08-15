@@ -74,7 +74,7 @@ export const Subtitle = styled.p`
     max-width: max-content;
     font-size: 1em;
     line-height: 24px;
-    color: #4b4b4b;
+    color: #787878;
     text-align: justify;
 `
 
@@ -98,10 +98,7 @@ export const PortfolioRow = styled.div`
 `
 
 export const Column = styled.div`
-    max-width: 70%;
-    padding: 0px 0px 10px 0px;
-    align-items: left;
-    justify-items: left;
+    max-width: 100%;
 `
 
 export const Image = styled.img`
@@ -109,30 +106,15 @@ export const Image = styled.img`
     opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
 `
 
-export const ImageOverlay = styled.img`
-    height: 100%;
-    z-index: 2;
-    padding: 15px 5px 15px 5px;
-    position: fixed;
-    top: 0%;
-    left: 18%;
-    
-    ${({ visible }) => {
-        return css`
-            visibility: ${visible ? 'visible' : 'hidden'};
-        `;
-    }}
+export const SectionHeading1 = styled.p`
+    color: #e8a1bf;
+    font-size: 25px;
+    font-weight: 500;
 `
 
-export const LinkWrap = styled.nav`
-    display: flex;
-    align-items: center
-`
-
-export const ImageLink = styled(LinkR)`
-    background: #f0f0f0;
-`
-
-export const LogoImage = styled.img`
-    width: 5%;
+export const SectionHeading2 = styled.p`
+    color: #e8a1bf;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: -100%;
 `

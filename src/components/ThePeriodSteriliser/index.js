@@ -8,13 +8,11 @@ import { InfoContainer,
     Grid,
     Row,
     Column,
-    ImageOverlay,
-    LinkWrap,
-    ImageLink,
-    LogoImage,
     SubHeading,
     PortfolioGrid,
-    PortfolioRow
+    PortfolioRow,
+    SectionHeading1,
+    SectionHeading2
 } from './ThePeriodSteriliserElements'
 
 const ThePeriodSteriliser = () => {
@@ -85,20 +83,13 @@ const ThePeriodSteriliser = () => {
                 </PortfolioRow>
                 <PortfolioRow>
                     <Column>
-                    <LinkWrap>
-                        <ImageLink to={"/ThePeriodSteriliserPage"}>
-                        <Image src={require('../../Visuals/Portfolio/Landing Page/TeddyBot Title Card.png')}/>
-                        </ImageLink>
-                    </LinkWrap>
+                        <SectionHeading1>the problem</SectionHeading1>
                     </Column>
                     <Column>
-                    <LinkWrap>
-                        <ImageLink to={"/RestandPage"}>
-                        <Image src={require('../../Visuals/Portfolio/Landing Page/Travel Toothpaste Title Card.png')}/>
-                        </ImageLink>
-                    </LinkWrap>
+                        <SectionHeading2>the solution</SectionHeading2>
                     </Column>
                 </PortfolioRow>
+                
             </PortfolioGrid>
         </InfoWrapper>
     </InfoContainer>
