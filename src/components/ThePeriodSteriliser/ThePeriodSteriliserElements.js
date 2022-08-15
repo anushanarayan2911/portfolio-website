@@ -98,7 +98,8 @@ export const PortfolioRow = styled.div`
 `
 
 export const Column = styled.div`
-    max-width: 100%;
+    max-width: 50%;
+    padding: 0px 5% 0px 0px;
 `
 
 export const Image = styled.img`
@@ -116,5 +117,4 @@ export const SectionHeading2 = styled.p`
     color: #e8a1bf;
     font-size: 25px;
     font-weight: 500;
-    margin-left: -100%;
 `

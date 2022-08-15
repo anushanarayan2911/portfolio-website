@@ -84,9 +84,15 @@ const ThePeriodSteriliser = () => {
                 <PortfolioRow>
                     <Column>
                         <SectionHeading1>the problem</SectionHeading1>
+                        <Subtitle>There are 500 million girls and women around the world who live in period poverty - they do not have sufficient access to menstrual hygiene and education. They are therefore forced to resort to unhealthy alternatives that can have severe consequences on their physical and mental health.</Subtitle>
                     </Column>
                     <Column>
                         <SectionHeading2>the solution</SectionHeading2>
+                        <Subtitle>I designed a steriliser into which girls and women could put their period products. They would then be thoroughly cleaned and disinfected, meaning that they could be reused without causing infection.</Subtitle>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
                     </Column>
                 </PortfolioRow>
                 
