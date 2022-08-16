@@ -35,7 +35,7 @@ const ReStand = () => {
             <PortfolioGrid>
                 <PortfolioRow>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/Period Product Steriliser.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/ReStand.png')}/>
                     </Column>
                     <Column>
                         <Subtitle>Duration: 5 weeks</Subtitle>
