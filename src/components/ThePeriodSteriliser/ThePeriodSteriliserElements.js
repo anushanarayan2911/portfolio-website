@@ -122,4 +122,6 @@ export const PDFDiv = styled.div`
     background-color: #787878;
     overflow: scroll;
     max-height: 50%;
+    border-color: #787878;
+    border-radius: 2px;
 `

@@ -68,7 +68,25 @@ const ThePeriodSteriliser = () => {
                     <PDFDiv>
                         <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
                         <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-02.png')}/>
-                        
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-03.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-04.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-05.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-06.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-07.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-08.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-09.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-10.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-11.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-12.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-13.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-14.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-15.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-16.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-17.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-18.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-19.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-20.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-21.png')}/>
                     </PDFDiv>
                 </InfoRow>      
             </PortfolioGrid>
