@@ -38,13 +38,13 @@ const ReStand = () => {
                         <Image src={require('../../Visuals/Portfolio/The Period Steriliser/Period Product Steriliser.png')}/>
                     </Column>
                     <Column>
-                        <Subtitle>Duration: 10 weeks</Subtitle>
+                        <Subtitle>Duration: 5 weeks</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Date: July - September 2021</Subtitle>
+                        <Subtitle>Date: November - December 2021</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Nature: an individual personal project carried out in Summer 2021, looking to design a solution to the problem of period poverty in developing countries</Subtitle>
+                        <Subtitle>Nature: a group project, designing a system for reusing camping chairs after festivals to prevent them from being sent to a landfill site, as part of a Sustainable Design Engineering module </Subtitle>
                     </Column>
                 </PortfolioRow>
                 <PortfolioRow>
