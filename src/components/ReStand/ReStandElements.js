@@ -121,6 +121,19 @@ export const Row = styled.div`
     max-height: 50%;
 `
 
+export const YoutubeEmbed = ({ }) => (
+    <div className='video-responsive'>
+        <iframe
+        src="https://www.youtube.com/watch?v=2GImMQlsOPo"
+        allow="autoplay; encrypted-media; fullscreen"
+        allowFullScreen
+        title="video"
+        width="auto"
+        height="100%"
+      />{" "}
+    </div>
+)
+
 export const PDFDiv = styled.div`
     background-color: #787878;
     overflow-y: scroll;
