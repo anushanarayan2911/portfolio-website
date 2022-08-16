@@ -63,7 +63,7 @@ export const TopLine = styled.p`
 `
 
 export const SubHeading = styled.p`
-    color: #e8a1bf;
+    color: #b0c69a;
     font-size: 15px;
     font-weight: 500;
 `

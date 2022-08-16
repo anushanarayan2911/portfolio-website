@@ -23,10 +23,10 @@ const ReStand = () => {
             <br/>
             <br/>
             <InfoRow>
-                <TopLine>The Period Product Steriliser</TopLine>
+                <TopLine>ReStand</TopLine>
             </InfoRow>
             <InfoRow>
-                <SubHeading>user-centred design | sketching | CAD | lo-fi prototyping</SubHeading>
+                <SubHeading>sustainable design | system design | video-editing</SubHeading>
             </InfoRow>
             <br/>
             <br/>
