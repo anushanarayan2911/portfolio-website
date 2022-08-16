@@ -49,7 +49,6 @@ export const InfoRow = styled.div`
     display: grid;
     align-items: center;
     justify-items: center;
-    background-color:red;
     max-height: max-content;
 `
 
@@ -124,8 +123,8 @@ export const Row = styled.div`
 
 export const PDFDiv = styled.div`
     background-color: #787878;
-    overflow: scroll;
-    height: 500px;
+    overflow-y: scroll;
+    height: 60vh;
     border-color: #787878;
     border-radius: 2px;
 `

@@ -86,7 +86,10 @@ const ThePeriodSteriliser = () => {
                         <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-20.png')}/>
                         <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-21.png')}/>
                     </PDFDiv>
-                </Row>      
+                </Row>
+                <br/>  
+                <br/>  
+                <br/>      
             </PortfolioGrid>
             
         </InfoWrapper>
