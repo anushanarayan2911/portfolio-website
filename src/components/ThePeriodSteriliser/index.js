@@ -7,15 +7,13 @@ import { InfoContainer,
     TopLine, 
     Subtitle,
     Image,
-    Grid,
-    Row,
     Column,
     SubHeading,
     PortfolioGrid,
     PortfolioRow,
     SectionHeading1,
     SectionHeading2,
-    PDFRow,
+    Row,
     PDFDiv
 } from './ThePeriodSteriliserElements'
 
@@ -64,7 +62,7 @@ const ThePeriodSteriliser = () => {
                     </Column>
                 </PortfolioRow>
                 <br/>
-                <InfoRow>
+                <Row>
                     <PDFDiv>
                         <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
                         <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-02.png')}/>
@@ -88,7 +86,7 @@ const ThePeriodSteriliser = () => {
                         <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-20.png')}/>
                         <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-21.png')}/>
                     </PDFDiv>
-                </InfoRow>      
+                </Row>      
             </PortfolioGrid>
             
         </InfoWrapper>

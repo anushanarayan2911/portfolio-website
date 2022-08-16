@@ -47,11 +47,10 @@ export const NavLogo = styled(LinkR)`
 
 export const InfoRow = styled.div`
     display: grid;
-    margin-top: 0px;
-    grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     justify-items: center;
-    overflow: hidden;
+    background-color:red;
+    max-height: max-content;
 `
 
 export const TopLine = styled.p`
@@ -118,10 +117,15 @@ export const SectionHeading2 = styled.p`
     font-weight: 500;
 `
 
+export const Row = styled.div`
+    display: grid;
+    max-height: 50%;
+`
+
 export const PDFDiv = styled.div`
     background-color: #787878;
     overflow: scroll;
-    max-height: 50%;
+    height: 500px;
     border-color: #787878;
     border-radius: 2px;
 `
