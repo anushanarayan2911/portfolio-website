@@ -1,13 +1,12 @@
-import styled, {css} from 'styled-components';
-import {Link as LinkR} from 'react-router-dom'
+import styled, { css } from 'styled-components';
+import {Link as LinkR} from 'react-router-dom';
 
 export const InfoContainer = styled.div`
-    background: #f0f0f0;
+    background: #ffffff;
     width: 100%;
     height: 100%
     overflow: hidden;
     align-items: center;
-    border: 1px solid red;
 
     @media screen and (max-width: 768px) {
         padding: 0px
@@ -34,41 +33,57 @@ export const InfoWrapper = styled.div`
         margin-left: 0%;
     }
 `
+export const NavLogo = styled(LinkR)`
+    color: white;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    font-weight: bold;
+    text-decoration: none;
+`
 
 export const InfoRow = styled.div`
     display: grid;
-    margin-top: 0px;
-    grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
-    overflow: hidden;
+    justify-items: center;
+    max-height: max-content;
 `
 
 export const TopLine = styled.p`
-    color: #4b4b4b;
+    color: #787878;
     font-size: 30px;
     font-weight: 200;
     letter-spacing: 5px;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+`
+
+export const SubHeading = styled.p`
+    color: #b0c69a;
+    font-size: 15px;
+    font-weight: 500;
 `
 
 export const Subtitle = styled.p`
     max-width: max-content;
     font-size: 1em;
     line-height: 24px;
-    color: #4b4b4b;
+    color: #787878;
     text-align: justify;
 `
 
-export const Grid = styled.div`
+export const PortfolioGrid = styled.div`
     width: 70%;
-    height:
     overflow: hidden;
     margin: 0 15% 0 15%;
     align-items: center;
 `
 
-export const Row = styled.div`
+export const PortfolioRow = styled.div`
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -81,57 +96,48 @@ export const Row = styled.div`
 `
 
 export const Column = styled.div`
-    max-width: max-content;
-    padding: 2px 10px 2px 10px;
-    align-items: center;
-`
-export const VideoColumn = styled.div`
-    max-width: max-content;
-    align-items: center;
-    padding: 2px 30% 2px 30%;
-`
-export const Image = styled.img`
-    width: 100%;
-    opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
+    max-width: 50%;
+    padding: 0px 5% 0px 0px;
 `
 
-export const YoutubeEmbed = ({ embedId }) => (
+export const Image = styled.img`
+    width: 100%;
+`
+
+export const SectionHeading1 = styled.p`
+    color: #b0c69a;
+    font-size: 25px;
+    font-weight: 500;
+`
+
+export const SectionHeading2 = styled.p`
+    color: #b0c69a;
+    font-size: 25px;
+    font-weight: 500;
+`
+
+export const Row = styled.div`
+    display: grid;
+    max-height: 50%;
+`
+
+export const YoutubeEmbed = ({ }) => (
     <div className='video-responsive'>
         <iframe
-        width="100%"
-        height="auto"
-        src="https://www.youtube.com/embed/jOqSIPo2E-w"
+        src="https://www.youtube.com/watch?v=2GImMQlsOPo"
         allow="autoplay; encrypted-media; fullscreen"
         allowFullScreen
         title="video"
+        width="auto"
+        height="100%"
       />{" "}
     </div>
 )
 
-export const ImageOverlay = styled.img`
-    width: 65%;
-    z-index: 2;
-    padding: 15px 5px 15px 5px;
-    position: fixed;
-    top: 0%;
-    left: 17.5%;
-    
-    ${({ visible }) => {
-        return css`
-            visibility: ${visible ? 'visible' : 'hidden'};
-        `;
-    }}
-`
-
-export const LinkWrap = styled.nav`
-    display: flex;
-    align-items: center
-`
-
-export const ImageLink = styled(LinkR)`
-    background: #f0f0f0;
-`
-
-export const LogoImage = styled.img`
-    width: 5%;
+export const PDFDiv = styled.div`
+    background-color: #787878;
+    overflow-y: scroll;
+    height: 60vh;
+    border-color: #787878;
+    border-radius: 2px;
 `

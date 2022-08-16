@@ -1,75 +1,91 @@
-import React, { useState } from 'react'
-import {
-    InfoContainer,
-    InfoWrapper,
-    InfoRow,
-    TopLine,
+import React from 'react'
+import { InfoContainer, 
+    InfoWrapper, 
+    InfoRow, 
+    TopLine, 
     Subtitle,
-    Grid,
-    Row,
-    Column,
     Image,
-    VideoColumn,
-    YoutubeEmbed,
-    ImageOverlay,
-    LinkWrap,
-    ImageLink,
-    LogoImage
+    Column,
+    SubHeading,
+    PortfolioGrid,
+    PortfolioRow,
+    SectionHeading1,
+    SectionHeading2,
+    Row,
+    PDFDiv,
+    YoutubeEmbed
 } from './TeddyBotElements'
 
-const TeddyBot = () => {
-  const [isOverlay, setIsOverlay] = useState(false);
-  const [isImage, setIsImage] = useState('');
-
-  var imagesPath = [
-    require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')
-  ]
-
-  const setImage = (sourceLink) => {
-    setIsImage(imagesPath[sourceLink])
-  }
-
-  const showOverlay = () => {
-    setIsOverlay(!isOverlay);
-  }
+const ReStand = () => {
 
   return (
     <InfoContainer>
         <InfoWrapper>
             <br/>
             <br/>
-            <LinkWrap>
-                <ImageLink to={"/"}>
-                    <LogoImage src={require('../../Visuals/Home/Images/logoLight.png')}/>
-                </ImageLink>
-            </LinkWrap>
-            <br/>
-            <br/>
             <InfoRow>
-                <TopLine>TeddyBot</TopLine>
+                <TopLine>ReStand</TopLine>
             </InfoRow>
-            <Subtitle>Duration: 3 weeks</Subtitle>
+            <InfoRow>
+                <SubHeading>sustainable design | system design | video-editing</SubHeading>
+            </InfoRow>
             <br/>
-            <Subtitle>November - December 2021</Subtitle>
             <br/>
-            <Subtitle>Nature: an individual project in response to a brief to create a plywood machine which uses embedded computing, as well as having strong user interaction and a sense of iteration throughout the process</Subtitle>
             <br/>
-            <ImageOverlay onClick={showOverlay} src={isImage} visible={isOverlay}/>
-            <Grid>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')} onClick={() => {showOverlay() ; setImage(0)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                  <VideoColumn>
-                      <YoutubeEmbed/>
-                  </VideoColumn>
-              </Row>
-            </Grid>
+            <br/>
+            <PortfolioGrid>
+                <PortfolioRow>
+                    <Column>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/ReStand.png')}/>
+                    </Column>
+                    <Column>
+                        <Subtitle>Duration: 5 weeks</Subtitle>
+                        <br/>
+                        <br/>
+                        <Subtitle>Date: November - December 2021</Subtitle>
+                        <br/>
+                        <br/>
+                        <Subtitle>Nature: a group project, designing a system for reusing camping chairs after festivals to prevent them from being sent to a landfill site, as part of a Sustainable Design Engineering module </Subtitle>
+                    </Column>
+                </PortfolioRow>
+                <br/>
+                <br/>
+                <PortfolioRow>
+                    <Column>
+                      <SectionHeading1>the problem</SectionHeading1>
+                      <Subtitle>In 2015, there were 2200 camping chairs left at the Glastonbury festival. There are few product service systems in place to remove the waste left behind and the materials used add to energy wasteage and carbon footprint.</Subtitle>
+                      <br/>
+                    </Column>
+                    <Column>
+                      <SectionHeading2>the solution</SectionHeading2>
+                      <Subtitle>We designed a system in which festival goers can rent their chairs and return them for small rewards. The chairs themselves have been designed in a manner which means that they can easily be disassembled, so that they can be recycled, reducing the problem of wastage.</Subtitle>
+                    </Column>
+                </PortfolioRow>
+                <br/>
+                <InfoRow><YoutubeEmbed/></InfoRow>
+                <br/>
+                <Row>
+                    <PDFDiv>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-02.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-03.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-04.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-05.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-06.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-07.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-08.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-09.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-10.png')}/>
+                    </PDFDiv>
+                </Row>
+                <br/>  
+                <br/>  
+                <br/>      
+            </PortfolioGrid>
+            
         </InfoWrapper>
     </InfoContainer>
   )
 }
 
-export default TeddyBot
+export default ReStand
