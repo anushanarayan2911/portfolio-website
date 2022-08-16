@@ -28,6 +28,7 @@ function App() {
       <Route path="/HealthTrackerAppPage" component={HealthTrackerAppPage} exact/>
       <Route path="/CVPage" component={CVPage} exact/>
       <Route path="/PDFPortfolioPage" component={PDFPortfolioPage} exact/>
+      <Route path="/ReStandPage" component={ReStandPage} exact/>
     </Switch>
   );
 }

@@ -1,125 +1,95 @@
-import React, {useState} from 'react'
-import { InfoContainer,
-    InfoWrapper,
-    InfoRow,
-    TopLine,
+import React from 'react'
+import { InfoContainer, 
+    InfoWrapper, 
+    InfoRow, 
+    TopLine, 
     Subtitle,
-    Grid,
-    Row,
-    Column,
     Image,
-    YoutubeEmbed,
-    VideoColumn,
-    ImageOverlay,
-    LinkWrap,
-    ImageLink,
-    LogoImage
+    Column,
+    SubHeading,
+    PortfolioGrid,
+    PortfolioRow,
+    SectionHeading1,
+    SectionHeading2,
+    Row,
+    PDFDiv
 } from './ReStandElements'
 
 const ReStand = () => {
-  const [isOverlay, setIsOverlay] = useState(false);
-  const [isImage, setIsImage] = useState('');
-
-  var imagesPath = [
-    require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png'),
-    require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-02.png'),
-    require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-03.png'),
-    require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-04.png'),
-    require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-05.png'),
-    require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-06.png'),
-    require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-07.png'),
-    require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-08.png'),
-    require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-09.png'),
-    require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-10.png'),
-  ]
-
-  const setImage = (sourceLink) => {
-    setIsImage(imagesPath[sourceLink]);
-  }
-
-  const showOverlay = () => {
-    setIsOverlay(!isOverlay);
-  }
 
   return (
     <InfoContainer>
         <InfoWrapper>
             <br/>
             <br/>
-            <LinkWrap>
-                <ImageLink to={"/"}>
-                    <LogoImage src={require('../../Visuals/Home/Images/logoLight.png')}/>
-                </ImageLink>
-            </LinkWrap>
-            <br/>
-            <br/>
             <InfoRow>
-                <TopLine>ReStand</TopLine>
+                <TopLine>The Period Product Steriliser</TopLine>
             </InfoRow>
-            <Subtitle>Duration: 5 weeks</Subtitle>
+            <InfoRow>
+                <SubHeading>user-centred design | sketching | CAD | lo-fi prototyping</SubHeading>
+            </InfoRow>
             <br/>
-            <Subtitle>Date: November - December 2021</Subtitle>
             <br/>
-            <Subtitle>Nature: a group project, designing a system for reusing camping chairs after festivals to prevent them from being sent to a landfill site, as part of a Sustainable Design Engineering module in 2nd year</Subtitle>
             <br/>
-            <ImageOverlay onClick={showOverlay} src={isImage} visible={isOverlay}/>
-            <Grid>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png')} onClick={() => {showOverlay() ; setImage(0)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-02.png')} onClick={() => {showOverlay() ; setImage(1)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-03.png')} onClick={() => {showOverlay() ; setImage(2)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-04.png')} onClick={() => {showOverlay() ; setImage(3)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-05.png')} onClick={() => {showOverlay() ; setImage(4)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-06.png')} onClick={() => {showOverlay() ; setImage(5)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-07.png')} onClick={() => {showOverlay() ; setImage(6)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-08.png')} onClick={() => {showOverlay() ; setImage(7)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-09.png')} onClick={() => {showOverlay() ; setImage(8)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                <Column>
-                  <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-10.png')} onClick={() => {showOverlay() ; setImage(9)}} opacity={isOverlay}/>
-                </Column>
-              </Row>
-              <Row>
-                <VideoColumn>
-                  <YoutubeEmbed/>
-                </VideoColumn>
-              </Row>
-            </Grid>
+            <br/>
+            <PortfolioGrid>
+                <PortfolioRow>
+                    <Column>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/Period Product Steriliser.png')}/>
+                    </Column>
+                    <Column>
+                        <Subtitle>Duration: 10 weeks</Subtitle>
+                        <br/>
+                        <br/>
+                        <Subtitle>Date: July - September 2021</Subtitle>
+                        <br/>
+                        <br/>
+                        <Subtitle>Nature: an individual personal project carried out in Summer 2021, looking to design a solution to the problem of period poverty in developing countries</Subtitle>
+                    </Column>
+                </PortfolioRow>
+                <PortfolioRow>
+                    <Column>
+                        <SectionHeading1>the problem</SectionHeading1>
+                        <Subtitle>There are 500 million girls and women around the world who live in period poverty - they do not have sufficient access to menstrual hygiene and education. They are therefore forced to resort to unhealthy alternatives that can have severe consequences on their physical and mental health.</Subtitle>
+                    </Column>
+                    <Column>
+                        <SectionHeading2>the solution</SectionHeading2>
+                        <Subtitle>I designed a steriliser into which girls and women could put their period products. They would then be thoroughly cleaned and disinfected, creating a long-lasting supply of period products that can be reused without causing infection.</Subtitle>
+                        <br/>
+                        <br/>
+                    </Column>
+                </PortfolioRow>
+                <br/>
+                <Row>
+                    <PDFDiv>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-02.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-03.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-04.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-05.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-06.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-07.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-08.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-09.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-10.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-11.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-12.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-13.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-14.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-15.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-16.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-17.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-18.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-19.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-20.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-21.png')}/>
+                    </PDFDiv>
+                </Row>
+                <br/>  
+                <br/>  
+                <br/>      
+            </PortfolioGrid>
+            
         </InfoWrapper>
     </InfoContainer>
   )

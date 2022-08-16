@@ -1,6 +1,4 @@
-import React, {useState} from 'react'
-import ImageSlideshow from '../Slideshow/ImageSlideshow';
-import { Data } from './data';
+import React from 'react'
 import { InfoContainer, 
     InfoWrapper, 
     InfoRow, 
