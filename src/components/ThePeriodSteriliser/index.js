@@ -1,4 +1,6 @@
 import React, {useState} from 'react'
+import ImageSlideshow from '../Slideshow/ImageSlideshow';
+import { Data } from './data';
 import { InfoContainer, 
     InfoWrapper, 
     InfoRow, 
@@ -12,44 +14,12 @@ import { InfoContainer,
     PortfolioGrid,
     PortfolioRow,
     SectionHeading1,
-    SectionHeading2
+    SectionHeading2,
+    PDFRow,
+    PDFDiv
 } from './ThePeriodSteriliserElements'
 
 const ThePeriodSteriliser = () => {
-    const [isOverlay, setIsOverlay] = useState(false);
-    const [isImage, setIsImage] = useState('')
-
-    var imagesPath = [
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-02.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-03.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-04.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-05.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-06.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-07.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-08.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-09.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-10.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-11.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-12.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-13.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-14.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-15.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-16.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-17.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-18.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-19.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-20.png'),
-        require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-21.png')
-    ]
-
-    const setImage = (sourceLink) => {
-        setIsImage(imagesPath[sourceLink]);
-    }
-
-    const showOverlay = () => {
-        setIsOverlay(!isOverlay);
-    }
 
   return (
     <InfoContainer>
@@ -88,15 +58,21 @@ const ThePeriodSteriliser = () => {
                     </Column>
                     <Column>
                         <SectionHeading2>the solution</SectionHeading2>
-                        <Subtitle>I designed a steriliser into which girls and women could put their period products. They would then be thoroughly cleaned and disinfected, meaning that they could be reused without causing infection.</Subtitle>
-                        <br/>
-                        <br/>
+                        <Subtitle>I designed a steriliser into which girls and women could put their period products. They would then be thoroughly cleaned and disinfected, creating a long-lasting supply of period products that can be reused without causing infection.</Subtitle>
                         <br/>
                         <br/>
                     </Column>
                 </PortfolioRow>
-                
+                <br/>
+                <InfoRow>
+                    <PDFDiv>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-01.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/The Period Steriliser/The Period Steriliser-02.png')}/>
+                        
+                    </PDFDiv>
+                </InfoRow>      
             </PortfolioGrid>
+            
         </InfoWrapper>
     </InfoContainer>
   )

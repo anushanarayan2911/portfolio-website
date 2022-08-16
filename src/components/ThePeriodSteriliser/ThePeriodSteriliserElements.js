@@ -104,7 +104,6 @@ export const Column = styled.div`
 
 export const Image = styled.img`
     width: 100%;
-    opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
 `
 
 export const SectionHeading1 = styled.p`
@@ -117,4 +116,10 @@ export const SectionHeading2 = styled.p`
     color: #e8a1bf;
     font-size: 25px;
     font-weight: 500;
+`
+
+export const PDFDiv = styled.div`
+    background-color: #787878;
+    overflow: scroll;
+    max-height: 50%;
 `
