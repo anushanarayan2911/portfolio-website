@@ -47,16 +47,17 @@ const ReStand = () => {
                         <Subtitle>Nature: a group project, designing a system for reusing camping chairs after festivals to prevent them from being sent to a landfill site, as part of a Sustainable Design Engineering module </Subtitle>
                     </Column>
                 </PortfolioRow>
+                <br/>
+                <br/>
                 <PortfolioRow>
                     <Column>
-                        <SectionHeading1>the problem</SectionHeading1>
-                        <Subtitle>There are 500 million girls and women around the world who live in period poverty - they do not have sufficient access to menstrual hygiene and education. They are therefore forced to resort to unhealthy alternatives that can have severe consequences on their physical and mental health.</Subtitle>
+                      <SectionHeading1>the problem</SectionHeading1>
+                      <Subtitle>In 2015, there were 2200 camping chairs left at the Glastonbury festival. There are few product service systems in place to remove the waste left behind and the materials used add to energy wasteage and carbon footprint.</Subtitle>
+                      <br/>
                     </Column>
                     <Column>
-                        <SectionHeading2>the solution</SectionHeading2>
-                        <Subtitle>I designed a steriliser into which girls and women could put their period products. They would then be thoroughly cleaned and disinfected, creating a long-lasting supply of period products that can be reused without causing infection.</Subtitle>
-                        <br/>
-                        <br/>
+                      <SectionHeading2>the solution</SectionHeading2>
+                      <Subtitle>We designed a system in which festival goers can rent their chairs and return them for small rewards. The chairs themselves have been designed in a manner which means that they can easily be disassembled, so that they can be recycled, reducing the problem of wastage.</Subtitle>
                     </Column>
                 </PortfolioRow>
                 <br/>

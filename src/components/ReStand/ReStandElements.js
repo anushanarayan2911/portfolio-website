@@ -105,13 +105,13 @@ export const Image = styled.img`
 `
 
 export const SectionHeading1 = styled.p`
-    color: #e8a1bf;
+    color: #b0c69a;
     font-size: 25px;
     font-weight: 500;
 `
 
 export const SectionHeading2 = styled.p`
-    color: #e8a1bf;
+    color: #b0c69a;
     font-size: 25px;
     font-weight: 500;
 `
