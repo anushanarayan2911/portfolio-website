@@ -24,10 +24,10 @@ const ReStand = () => {
             <br/>
             <br/>
             <InfoRow>
-                <TopLine>ReStand</TopLine>
+                <TopLine>TeddyBot</TopLine>
             </InfoRow>
             <InfoRow>
-                <SubHeading>sustainable design | system design | video-editing</SubHeading>
+                <SubHeading>electronics | robotics | C++ | arduino</SubHeading>
             </InfoRow>
             <br/>
             <br/>
