@@ -24,7 +24,7 @@ const Arama = () => {
             <br/>
             <br/>
             <InfoRow>
-                <TopLine>Travel Toothpaste</TopLine>
+                <TopLine>Arama</TopLine>
             </InfoRow>
             <InfoRow>
                 <SubHeading>product teardown | sustainable design | system analysis | material analysis</SubHeading>
