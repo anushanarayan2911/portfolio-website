@@ -27,7 +27,7 @@ const Arama = () => {
                 <TopLine>Arama</TopLine>
             </InfoRow>
             <InfoRow>
-                <SubHeading>product teardown | sustainable design | system analysis | material analysis</SubHeading>
+                <SubHeading>sketching | cad | personas | journey mapping | lo-fi prototyping</SubHeading>
             </InfoRow>
             <br/>
             <br/>
@@ -36,7 +36,7 @@ const Arama = () => {
             <PortfolioGrid>
                 <PortfolioRow>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/Travel Toothpaste.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Arama.png')}/>
                     </Column>
                     <Column>
                         <Subtitle>Duration: 5 weeks</Subtitle>
