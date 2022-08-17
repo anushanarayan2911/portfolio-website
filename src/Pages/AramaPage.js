@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 import Arama from '../components/Arama'
 
 const AramaPage = () => {
   return (
-    <Arama/>
+    <>
+      <Navbar/>
+      <Arama/>
+    </>
+    
   )
 }
 
