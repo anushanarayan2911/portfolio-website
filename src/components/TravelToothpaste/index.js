@@ -24,10 +24,10 @@ const TravelToothpaste = () => {
             <br/>
             <br/>
             <InfoRow>
-                <TopLine>TeddyBot</TopLine>
+                <TopLine>Travel Toothpaste</TopLine>
             </InfoRow>
             <InfoRow>
-                <SubHeading>electronics | robotics | C++ | arduino</SubHeading>
+                <SubHeading>product teardown | sustainable design | system analysis | material analysis</SubHeading>
             </InfoRow>
             <br/>
             <br/>
