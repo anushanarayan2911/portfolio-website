@@ -10,6 +10,7 @@ import TeddyBotPage from './Pages/TeddyBotPage';
 import AramaPage from './Pages/AramaPage';
 import TravelToothpastePage from './Pages/TravelToothpastePage';
 import HealthTrackerAppPage from './Pages/HealthTrackerAppPage';
+import TandemBikePage from './Pages/TandemBikePage';
 import CVPage from './Pages/CVPage'
 import PDFPortfolioPage from './Pages/PDFPortfolioPage';
 
@@ -29,6 +30,7 @@ function App() {
       <Route path="/CVPage" component={CVPage} exact/>
       <Route path="/PDFPortfolioPage" component={PDFPortfolioPage} exact/>
       <Route path="/ReStandPage" component={ReStandPage} exact/>
+      <Route path="/TandemBikePage" component={TandemBikePage} exact/>
     </Switch>
   );
 }

@@ -14,9 +14,9 @@ import { InfoContainer,
     Row,
     PDFDiv,
     YoutubeEmbed
-} from './TeddyBotElements'
+} from './TandemBikeElements'
 
-const TeddyBot = () => {
+const TandemBike = () => {
 
   return (
     <InfoContainer>
@@ -24,10 +24,10 @@ const TeddyBot = () => {
             <br/>
             <br/>
             <InfoRow>
-                <TopLine>TeddyBot</TopLine>
+                <TopLine>Tandem Bike</TopLine>
             </InfoRow>
             <InfoRow>
-                <SubHeading>electronics | robotics | C++ | arduino</SubHeading>
+                <SubHeading>fea | report writing</SubHeading>
             </InfoRow>
             <br/>
             <br/>
@@ -81,4 +81,4 @@ const TeddyBot = () => {
   )
 }
 
-export default TeddyBot
+export default TandemBike

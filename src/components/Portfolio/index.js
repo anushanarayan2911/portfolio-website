@@ -56,7 +56,7 @@ const PortfolioSection = () => {
           <PortfolioRow>
             <Column>
               <LinkWrap>
-                <ImageLink to={"/ThePeriodSteriliserPage"}>
+                <ImageLink to={"/TandemBikePage"}>
                   <Image src={require('../../Visuals/Portfolio/Landing Page/Tandem Bike Title Card.png')}/>
                 </ImageLink>
               </LinkWrap>
