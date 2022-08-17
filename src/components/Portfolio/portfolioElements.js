@@ -87,6 +87,7 @@ export const Image = styled.img`
     width: 100%;
 
     &:hover{
-        opacity: 0.5;
+        width: 104%;
+        opacity: 60%;
     }
 `
