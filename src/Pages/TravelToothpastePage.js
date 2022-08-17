@@ -1,9 +1,14 @@
 import React from 'react'
 import TravelToothpaste from '../components/TravelToothpaste'
+import Navbar from '../components/Navbar'
 
 const TravelToothpastePage = () => {
   return (
-    <TravelToothpaste/>
+    <>
+      <Navbar/>
+      <TravelToothpaste/>
+    </>
+    
   )
 }
 
