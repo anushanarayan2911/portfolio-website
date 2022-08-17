@@ -36,7 +36,7 @@ const TandemBike = () => {
             <PortfolioGrid>
                 <PortfolioRow>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/TeddyBot/TeddyBot.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Tandem Bike.png')}/>
                     </Column>
                     <Column>
                         <Subtitle>Duration: 5 weeks</Subtitle>
