@@ -39,13 +39,13 @@ const ReStand = () => {
                         <Image src={require('../../Visuals/Portfolio/ReStand/ReStand.png')}/>
                     </Column>
                     <Column>
-                        <Subtitle>Duration: 5 weeks</Subtitle>
+                        <Subtitle>Duration: 3 weeks</Subtitle>
                         <br/>
                         <br/>
                         <Subtitle>Date: November - December 2021</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Nature: a group project, designing a system for reusing camping chairs after festivals to prevent them from being sent to a landfill site, as part of a Sustainable Design Engineering module </Subtitle>
+                        <Subtitle>Nature: a project in response to a brief to create a machine which uses embedded computing and has a strong sense of user interaction as part of a Physical Computing module </Subtitle>
                     </Column>
                 </PortfolioRow>
                 <br/>
