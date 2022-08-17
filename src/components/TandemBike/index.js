@@ -39,36 +39,45 @@ const TandemBike = () => {
                         <Image src={require('../../Visuals/Portfolio/TeddyBot/TeddyBot.png')}/>
                     </Column>
                     <Column>
-                        <Subtitle>Duration: 3 weeks</Subtitle>
+                        <Subtitle>Duration: 5 weeks</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Date: November - December 2021</Subtitle>
+                        <Subtitle>Date: April - May 2022</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Nature: a project in response to a brief to create a machine which uses embedded computing and has a strong sense of user interaction as part of a Physical Computing module </Subtitle>
+                        <Subtitle>Nature: a technical report, detailing the modelling, testing and refining process that was undertaken using the finite element method to design a tandem bike </Subtitle>
                     </Column>
                 </PortfolioRow>
                 <br/>
                 <br/>
                 <PortfolioRow>
                     <Column>
-                      <SectionHeading1>the problem</SectionHeading1>
-                      <Subtitle>Mathematics is considered to be the most boring subject for young children. The lack of interactivity means that children are frequently disengaged and do not enjoy this vital subject.</Subtitle>
+                      <SectionHeading1>the brief</SectionHeading1>
+                      <Subtitle>The brief was to design a lightweight, tandem bike frame to be used by two adults. Three essential requirements had to be met: lightweight, natural frequency over 30 Hz and a life span of 10 years (1 million cycles).</Subtitle>
                       <br/>
                     </Column>
                     <Column>
-                      <SectionHeading2>the solution</SectionHeading2>
-                      <Subtitle>In order to make learning maths more interactive  experience, I designed a robotic maths game to teach addition and subtraction to young children (3 - 4).</Subtitle>
+                      <SectionHeading2>the outcomes</SectionHeading2>
+                      <Subtitle>I carried out static, fatigue and frequency studies in order to make sure that the model of a tandem bike that I designed would last the full duration and would be comfortable to use.</Subtitle>
                         <br/>
                         <br/>
                     </Column>
                 </PortfolioRow>
                 <br/>
-                <InfoRow><YoutubeEmbed/></InfoRow>
-                <br/>
                 <Row>
                     <PDFDiv>
-                        <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-1.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-2.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-3.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-4.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-5.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-6.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-7.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-8.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-9.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-10.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Tandem Bike/Anusha Narayan FEA Report-11.png')}/>
+
                     </PDFDiv>
                 </Row>
                 <br/>  
