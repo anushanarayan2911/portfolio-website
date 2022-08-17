@@ -53,12 +53,14 @@ const ReStand = () => {
                 <PortfolioRow>
                     <Column>
                       <SectionHeading1>the problem</SectionHeading1>
-                      <Subtitle>In 2015, there were 2200 camping chairs left at the Glastonbury festival. There are few product service systems in place to remove the waste left behind and the materials used add to energy wasteage and carbon footprint.</Subtitle>
+                      <Subtitle>Mathematics is considered to be the most boring subject for young children. The lack of interactivity means that children are frequently disengaged and do not enjoy this vital subject.</Subtitle>
                       <br/>
                     </Column>
                     <Column>
                       <SectionHeading2>the solution</SectionHeading2>
-                      <Subtitle>We designed a system in which festival goers can rent their chairs and return them for small rewards. The chairs themselves have been designed in a manner which means that they can easily be disassembled, so that they can be recycled, reducing the problem of wastage.</Subtitle>
+                      <Subtitle>In order to make learning maths more interactive  experience, I designed a robotic maths game to teach addition and subtraction to young children (3 - 4).</Subtitle>
+                        <br/>
+                        <br/>
                     </Column>
                 </PortfolioRow>
                 <br/>
@@ -66,16 +68,7 @@ const ReStand = () => {
                 <br/>
                 <Row>
                     <PDFDiv>
-                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-01.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-02.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-03.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-04.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-05.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-06.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-07.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-08.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-09.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/ReStand/Group2D_S4.1-10.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
                     </PDFDiv>
                 </Row>
                 <br/>  
