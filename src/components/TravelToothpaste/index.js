@@ -36,7 +36,7 @@ const TravelToothpaste = () => {
             <PortfolioGrid>
                 <PortfolioRow>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/TeddyBot/TeddyBot.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/Travel Toothpaste.png')}/>
                     </Column>
                     <Column>
                         <Subtitle>Duration: 5 weeks</Subtitle>
