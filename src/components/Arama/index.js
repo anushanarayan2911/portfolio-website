@@ -42,10 +42,10 @@ const Arama = () => {
                         <Subtitle>Duration: 5 weeks</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Date: October - November 2021</Subtitle>
+                        <Subtitle>Date: February - March 2021</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Nature: a research document, detailing the environmental impact of travel toothpastes for a Sustainable Design Engineering module </Subtitle>
+                        <Subtitle>Nature: an individual ideation document, detailing the design process carried out to come up with a device to aid communication for severely autistic, non-verbal children, as part of an Industrial Design Engineering module</Subtitle>
                     </Column>
                 </PortfolioRow>
                 <br/>
@@ -53,12 +53,12 @@ const Arama = () => {
                 <PortfolioRow>
                     <Column>
                       <SectionHeading1>the problem</SectionHeading1>
-                      <Subtitle>Travel toothpaste is often sold as part of travel toiletries, and have a detrimental effect on the environment. Many toothpaste suppliers are attempting to combat the negative environmental impact that their products have.</Subtitle>
+                      <Subtitle>Children with severe autism have trouble communicating, even with those closest to them, such as their parents. They struggle to understand spoken instructions, and often cannot ask for help when they need it, even for simple tasks.</Subtitle>
                       <br/>
                     </Column>
                     <Column>
-                      <SectionHeading2>the solution</SectionHeading2>
-                      <Subtitle>A design specification was developed which could help to develop a new toothpaste dispenser, as well as a system for recycling it. This included a system specification, a social specification and a market specification.</Subtitle>
+                      <SectionHeading2>the outcomes</SectionHeading2>
+                      <Subtitle>Arama is a device that is based in voice to text recognition. It will display a visual prompt for instructions and tasks that the adult gives to the child, as they often find it easier to understand written instruction or tasks than spoken ones.</Subtitle>
                         <br/>
                     </Column>
                 </PortfolioRow>
