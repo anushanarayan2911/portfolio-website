@@ -39,13 +39,13 @@ const TravelToothpaste = () => {
                         <Image src={require('../../Visuals/Portfolio/TeddyBot/TeddyBot.png')}/>
                     </Column>
                     <Column>
-                        <Subtitle>Duration: 3 weeks</Subtitle>
+                        <Subtitle>Duration: 5 weeks</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Date: November - December 2021</Subtitle>
+                        <Subtitle>Date: October - November 2021</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Nature: a project in response to a brief to create a machine which uses embedded computing and has a strong sense of user interaction as part of a Physical Computing module </Subtitle>
+                        <Subtitle>Nature: a research document, detailing the environmental impact of travel toothpastes for a Sustainable Design Engineering module </Subtitle>
                     </Column>
                 </PortfolioRow>
                 <br/>
