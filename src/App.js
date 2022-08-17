@@ -11,6 +11,7 @@ import AramaPage from './Pages/AramaPage';
 import TravelToothpastePage from './Pages/TravelToothpastePage';
 import HealthTrackerAppPage from './Pages/HealthTrackerAppPage';
 import TandemBikePage from './Pages/TandemBikePage';
+import UMePage from './Pages/UMePage';
 import CVPage from './Pages/CVPage'
 import PDFPortfolioPage from './Pages/PDFPortfolioPage';
 
@@ -31,6 +32,7 @@ function App() {
       <Route path="/PDFPortfolioPage" component={PDFPortfolioPage} exact/>
       <Route path="/ReStandPage" component={ReStandPage} exact/>
       <Route path="/TandemBikePage" component={TandemBikePage} exact/>
+      <Route path="/UMePage" component={UMePage} exact />
     </Switch>
   );
 }
