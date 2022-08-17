@@ -53,22 +53,28 @@ const TravelToothpaste = () => {
                 <PortfolioRow>
                     <Column>
                       <SectionHeading1>the problem</SectionHeading1>
-                      <Subtitle>Mathematics is considered to be the most boring subject for young children. The lack of interactivity means that children are frequently disengaged and do not enjoy this vital subject.</Subtitle>
+                      <Subtitle>Travel toothpaste is often sold as part of travel toiletries, and have a detrimental effect on the environment. Many toothpaste suppliers are attempting to combat the negative environmental impact that their products have.</Subtitle>
                       <br/>
                     </Column>
                     <Column>
                       <SectionHeading2>the solution</SectionHeading2>
-                      <Subtitle>In order to make learning maths more interactive  experience, I designed a robotic maths game to teach addition and subtraction to young children (3 - 4).</Subtitle>
-                        <br/>
+                      <Subtitle>A design specification was developed which could help to develop a new toothpaste dispenser, as well as a system for recycling it. This included a system specification, a social specification and a market specification.</Subtitle>
                         <br/>
                     </Column>
                 </PortfolioRow>
                 <br/>
-                <InfoRow><YoutubeEmbed/></InfoRow>
-                <br/>
                 <Row>
                     <PDFDiv>
-                        <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-01.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-02.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-03.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-04.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-05.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-06.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-07.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-08.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-09.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-10.png')}/>
                     </PDFDiv>
                 </Row>
                 <br/>  
