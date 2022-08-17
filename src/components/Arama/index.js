@@ -65,16 +65,17 @@ const Arama = () => {
                 <br/>
                 <Row>
                     <PDFDiv>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-01.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-02.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-03.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-04.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-05.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-06.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-07.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-08.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-09.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Travel Toothpaste/SDE_Anusha Narayan-10.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-01.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-02.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-03.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-04.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-05.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-06.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-07.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-08.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-09.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-10.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-11.png')}/>
                     </PDFDiv>
                 </Row>
                 <br/>  
