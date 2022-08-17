@@ -24,10 +24,10 @@ const UMe = () => {
             <br/>
             <br/>
             <InfoRow>
-                <TopLine>Arama</TopLine>
+                <TopLine>U Me</TopLine>
             </InfoRow>
             <InfoRow>
-                <SubHeading>sketching | cad | personas | journey mapping | lo-fi prototyping</SubHeading>
+                <SubHeading>product research | rendering | branding | app design | project management</SubHeading>
             </InfoRow>
             <br/>
             <br/>
@@ -36,16 +36,16 @@ const UMe = () => {
             <PortfolioGrid>
                 <PortfolioRow>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Arama.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/U Me/U Me.png')}/>
                     </Column>
                     <Column>
-                        <Subtitle>Duration: 5 weeks</Subtitle>
+                        <Subtitle>Duration: 8 weeks</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Date: February - March 2021</Subtitle>
+                        <Subtitle>Date: May - June 2022</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Nature: an individual ideation document, detailing the design process carried out to come up with a device to aid communication for severely autistic, non-verbal children, as part of an Industrial Design Engineering module</Subtitle>
+                        <Subtitle>Nature: a group design project, working to design a communication device so that severely autistic, non-verbal children are able to communicate with their parents and carers</Subtitle>
                     </Column>
                 </PortfolioRow>
                 <br/>
@@ -53,12 +53,14 @@ const UMe = () => {
                 <PortfolioRow>
                     <Column>
                       <SectionHeading1>the problem</SectionHeading1>
-                      <Subtitle>Children with severe autism have trouble communicating, even with those closest to them, such as their parents. They struggle to understand spoken instructions, and often cannot ask for help when they need it, even for simple tasks.</Subtitle>
+                      <Subtitle>Children with severe autism are not able to take part in many activities, as they are not able to communicate with anyone, including parents or carers. They are not able to communicate their needs or wants, and this can create frustration for both the carer and the child.</Subtitle>
                       <br/>
                     </Column>
                     <Column>
                       <SectionHeading2>the outcomes</SectionHeading2>
-                      <Subtitle>Arama is a device that is based in voice to text recognition. It will display a visual prompt for instructions and tasks that the adult gives to the child, as they often find it easier to understand written instruction or tasks than spoken ones.</Subtitle>
+                      <Subtitle>The U Me is a two way communication device with an accompanying app. Parents/carers are able to set tasks using the app, whilst the child can use the device to ask for help</Subtitle>
+                        <br/>
+                        <br/>
                         <br/>
                     </Column>
                 </PortfolioRow>
@@ -66,16 +68,7 @@ const UMe = () => {
                 <Row>
                     <PDFDiv>
                         <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-01.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-02.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-03.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-04.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-05.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-06.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-07.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-08.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-09.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-10.png')}/>
-                        <Image src={require('../../Visuals/Portfolio/Arama/Anusha Concept Booklet-11.png')}/>
+                        
                     </PDFDiv>
                 </Row>
                 <br/>  
