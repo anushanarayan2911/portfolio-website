@@ -89,5 +89,6 @@ export const Image = styled.img`
     &:hover{
         width: 104%;
         opacity: 60%;
+        transition: all 0.3s ease-in-out;
     }
 `
