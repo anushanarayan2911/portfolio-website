@@ -39,13 +39,13 @@ const TeddyBot = () => {
                         <Image src={require('../../Visuals/Portfolio/TeddyBot/TeddyBot.png')}/>
                     </Column>
                     <Column>
-                        <Subtitle>Duration: 3 weeks</Subtitle>
+                        <Subtitle>Duration: 8 weeks</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Date: November - December 2021</Subtitle>
+                        <Subtitle>Date: August - September 2021</Subtitle>
                         <br/>
                         <br/>
-                        <Subtitle>Nature: a project in response to a brief to create a machine which uses embedded computing and has a strong sense of user interaction as part of a Physical Computing module </Subtitle>
+                        <Subtitle>Nature: an individual project to design a desktop application, in order to practise coding in C#.</Subtitle>
                     </Column>
                 </PortfolioRow>
                 <br/>
