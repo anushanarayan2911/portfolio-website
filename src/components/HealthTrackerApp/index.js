@@ -36,7 +36,7 @@ const TeddyBot = () => {
             <PortfolioGrid>
                 <PortfolioRow>
                     <Column>
-                        <Image src={require('../../Visuals/Portfolio/TeddyBot/TeddyBot.png')}/>
+                        <Image src={require('../../Visuals/Portfolio/Health Tracker App/Health Tracker App.png')}/>
                     </Column>
                     <Column>
                         <Subtitle>Duration: 8 weeks</Subtitle>
