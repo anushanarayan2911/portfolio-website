@@ -1,48 +1,84 @@
 import React from 'react'
 import { InfoContainer, 
-    InfoWrapper,
+    InfoWrapper, 
     InfoRow, 
-    TopLine,
+    TopLine, 
     Subtitle,
-    Grid,
+    Image,
+    Column,
+    SubHeading,
+    PortfolioGrid,
+    PortfolioRow,
+    SectionHeading1,
+    SectionHeading2,
     Row,
-    VideoColumn, 
-    YoutubeEmbed,
-    LinkWrap,
-    ImageLink,
-    LogoImage
+    PDFDiv,
+    YoutubeEmbed
 } from './HealthTrackerAppElements'
 
-const HealthTrackerApp = () => {
+const TeddyBot = () => {
+
   return (
     <InfoContainer>
         <InfoWrapper>
             <br/>
             <br/>
-            <LinkWrap>
-                <ImageLink to={"/"}>
-                    <LogoImage src={require('../../Visuals/Home/Images/logoLight.png')}/>
-                </ImageLink>
-            </LinkWrap>
-            <br/>
-            <br/>
             <InfoRow>
                 <TopLine>Health Tracker App</TopLine>
             </InfoRow>
-            <Subtitle>Duration: 8 weeks</Subtitle>
+            <InfoRow>
+                <SubHeading>computing | C# | XAML </SubHeading>
+            </InfoRow>
             <br/>
-            <Subtitle>Date: August - September 2021</Subtitle>
             <br/>
-            <Subtitle>Nature: an individual, personal project conducted in Summer 2021 in response to the need of young people to have a way of tracking their exercise and health during the Covid-19 pandemic</Subtitle>
             <br/>
-            <Grid>
+            <br/>
+            <PortfolioGrid>
+                <PortfolioRow>
+                    <Column>
+                        <Image src={require('../../Visuals/Portfolio/TeddyBot/TeddyBot.png')}/>
+                    </Column>
+                    <Column>
+                        <Subtitle>Duration: 3 weeks</Subtitle>
+                        <br/>
+                        <br/>
+                        <Subtitle>Date: November - December 2021</Subtitle>
+                        <br/>
+                        <br/>
+                        <Subtitle>Nature: a project in response to a brief to create a machine which uses embedded computing and has a strong sense of user interaction as part of a Physical Computing module </Subtitle>
+                    </Column>
+                </PortfolioRow>
+                <br/>
+                <br/>
+                <PortfolioRow>
+                    <Column>
+                      <SectionHeading1>the problem</SectionHeading1>
+                      <Subtitle>Mathematics is considered to be the most boring subject for young children. The lack of interactivity means that children are frequently disengaged and do not enjoy this vital subject.</Subtitle>
+                      <br/>
+                    </Column>
+                    <Column>
+                      <SectionHeading2>the solution</SectionHeading2>
+                      <Subtitle>In order to make learning maths more interactive  experience, I designed a robotic maths game to teach addition and subtraction to young children (3 - 4).</Subtitle>
+                        <br/>
+                        <br/>
+                    </Column>
+                </PortfolioRow>
+                <br/>
+                <InfoRow><YoutubeEmbed/></InfoRow>
+                <br/>
                 <Row>
-                    <VideoColumn><YoutubeEmbed/></VideoColumn>
+                    <PDFDiv>
+                        <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
+                    </PDFDiv>
                 </Row>
-            </Grid>
+                <br/>  
+                <br/>  
+                <br/>      
+            </PortfolioGrid>
+            
         </InfoWrapper>
     </InfoContainer>
   )
 }
 
-export default HealthTrackerApp
+export default TeddyBot
