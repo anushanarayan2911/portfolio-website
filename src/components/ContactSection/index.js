@@ -5,7 +5,8 @@ import { InfoContainer,
     TopLine,
     ContactGrid, 
     ContactRow,
-    Column,
+    Column1,
+    Column2,
     Image,
     Subtitle
 } from './ContactElements'
@@ -19,20 +20,17 @@ const ContactSection = () => {
             <br/>
             <br/>
             <br/>
-            <InfoRow>
-                <TopLine>C O N T A C T</TopLine>
-            </InfoRow>
             <ContactGrid>
               <ContactRow>
-                <Column><Image src={require('../../Visuals/Contact/Images/1.png')}/></Column>
-                <Column><Subtitle>anusha.narayan2002@outlook.com</Subtitle></Column>
+                <Column1><Image src={require('../../Visuals/Contact/Images/1.png')}/></Column1>
+                <Column2><Subtitle>anusha.narayan2002@outlook.com</Subtitle></Column2>
               </ContactRow>
               <br/>
               <br/>
               <br/>
               <ContactRow>
-                <Column><Image src={require('../../Visuals/Contact/Images/2.png')}/></Column>
-                <Column><Subtitle>https://www.linkedin.com/in/a-k-narayan/</Subtitle></Column>
+                <Column1><Image src={require('../../Visuals/Contact/Images/2.png')}/></Column1>
+                <Column2><Subtitle>https://www.linkedin.com/in/a-k-narayan/</Subtitle></Column2>
               </ContactRow>
               <br/>
               <br/>

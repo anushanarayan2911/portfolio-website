@@ -67,7 +67,7 @@ const Navbar = ({toggle, id}) => {
               offset={-80}>GALLERY</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact"
+              <NavLinks to={"/ContactPage"}
               smooth={true} 
               duration={500}
               spy={true}

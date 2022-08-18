@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-    background: #f0f0f0;
+    background: #ffffff;
     width: 100%;
     height: 100%
     overflow: hidden;
@@ -66,17 +66,23 @@ export const ContactGrid = styled.div`
 export const ContactRow = styled.div`
     display: flex;
     width: 100%;
+    justify-content: left;
     flex-direction: row;
+    align-items: left;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
     }
 `
 
-export const Column = styled.div`
-    max-width: max-content;
-    padding: 0;
-    vertical-align: vertical;
+export const Column1 = styled.div`
+    max-width: 20%;
+    padding: 0px 5% 0px 0px;
+`
+
+export const Column2 = styled.div`
+    max-width: 70%;
+    padding: 0px 5% 0px 0px;
 `
 
 export const Image = styled.img`
