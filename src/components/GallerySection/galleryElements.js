@@ -1,27 +1,26 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
+import {Link as LinkR} from 'react-router-dom'
 
 export const InfoContainer = styled.div`
-    background: #f0f0f0;
+    background-color: #ffffff;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-
+    overflow: hidden
+    
     @media screen and (max-width: 768px) {
-        padding: 0px;
+        padding: 0px
     }
 `
 
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
+    background-color: #ffffff;
     height: 100%;
     width: auto;
     margin-right: 10%;
     margin-left: 10%;
-    align-items: center;
-    justify-content: center;
+    overflow: hidden;
 
     @media screen and (max-width: 768px) {
         margin-right: 5%;
@@ -32,12 +31,13 @@ export const InfoWrapper = styled.div`
         margin-right: 0%;
         margin-left: 0%;
     }
+
 `
 
 export const InfoRow = styled.div`
     display: grid;
     margin-top: 0px;
-    grid-auto-columns: minmax(auto, 1fr);
+    grid-auto-columns: minmax(auto, 1fr)
     align-items: left;
     overflow: hidden;
 `
@@ -51,24 +51,16 @@ export const TopLine = styled.p`
     margin-bottom: 30px;
 `
 
-export const Subtitle = styled.p`
-    max-width: max-content;
-    font-size: 1em;
-    line-height: 24px;
-    color: #4b4b4b;
-    text-align: justify;
-`
-
-export const GalleryGrid = styled.div`
+export const PortfolioGrid = styled.div`
     width: 100%;
     overflow: hidden;
     align-items: center;
-    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 `
-
-export const GalleryRow = styled.div`
+export const PortfolioRow = styled.div`
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
     flex-direction: row;
 
@@ -79,25 +71,24 @@ export const GalleryRow = styled.div`
 
 export const Column = styled.div`
     max-width: max-content;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+`
+
+export const LinkWrap = styled.nav`
+    display: flex;
+    align-items: center
+`
+
+export const ImageLink = styled(LinkR)`
+    background: #ffffff;
 `
 
 export const Image = styled.img`
     width: 100%;
-    opacity: ${({ opacity }) => (opacity ? '0.25' : '1')};
-`
 
-export const ImageOverlay = styled.img`
-    width: 50%;
-    z-index: 2;
-    padding: 15px 5px 15px 5px;
-    position: fixed;
-    top: 10%;
-    left: 25%;
-    
-    ${({ visible }) => {
-        return css`
-            visibility: ${visible ? 'visible' : 'hidden'};
-        `;
-    }}
+    &:hover{
+        width: 104%;
+        opacity: 60%;
+        transition: all 0.3s ease-in-out;
+    }
 `
