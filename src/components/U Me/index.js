@@ -65,6 +65,8 @@ const UMe = () => {
                     </Column>
                 </PortfolioRow>
                 <br/>
+                <YoutubeEmbed/>
+                <br/>
                 <Row>
                     <PDFDiv>
                         <Image src={require('../../Visuals/Portfolio/U Me/Team 8 Phase 02-1.png')}/>
