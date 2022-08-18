@@ -4,6 +4,7 @@ import Home from './Pages'
 import React from 'react'
 import AboutPage from './Pages/AboutPage';
 import PortfolioPage from './Pages/PortfolioPage';
+import GalleryPage from './Pages/GalleryPage';
 import ThePeriodSteriliserPage from './Pages/ThePeriodSteriliserPage';
 import ReStandPage from './Pages/ReStandPage';
 import TeddyBotPage from './Pages/TeddyBotPage';
@@ -22,6 +23,7 @@ function App() {
       <Route exact path="/" component={withRouter(Home)}/>
       <Route exact path="/AboutPage" component={withRouter(AboutPage) }/>
       <Route path="/PortfolioPage" component={PortfolioPage} exact/>
+      <Route path="/GalleryPage" component={GalleryPage} exact/>
       <Route exact path="/ThePeriodSteriliserPage" component={withRouter(ThePeriodSteriliserPage)}/>
       <Route path="/ReStandPage" component={ReStandPage} exact/>
       <Route path="/TeddyBotPage" component={TeddyBotPage} exact/>
