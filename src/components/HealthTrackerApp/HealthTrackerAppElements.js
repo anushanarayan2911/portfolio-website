@@ -63,7 +63,7 @@ export const TopLine = styled.p`
 `
 
 export const SubHeading = styled.p`
-    color: #a8b1bf;
+    color: #9078d6;
     font-size: 15px;
     font-weight: 500;
 `
@@ -105,13 +105,13 @@ export const Image = styled.img`
 `
 
 export const SectionHeading1 = styled.p`
-    color: #a8b1bf;
+    color: #9078d6;
     font-size: 25px;
     font-weight: 500;
 `
 
 export const SectionHeading2 = styled.p`
-    color: #a8b1bf;
+    color: #9078d6;
     font-size: 25px;
     font-weight: 500;
 `
@@ -124,7 +124,7 @@ export const Row = styled.div`
 export const YoutubeEmbed = ({ }) => (
     <div className='video-responsive'>
         <iframe
-        src="https://www.youtube.com/watch?v=jOqSIPo2E-w"
+        src="https://www.youtube.com/watch?v=_cKZxIXLOJM"
         allow="autoplay; encrypted-media; fullscreen"
         allowFullScreen
         title="video"

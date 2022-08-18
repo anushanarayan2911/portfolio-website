@@ -53,12 +53,14 @@ const TeddyBot = () => {
                 <PortfolioRow>
                     <Column>
                       <SectionHeading1>the problem</SectionHeading1>
-                      <Subtitle>Mathematics is considered to be the most boring subject for young children. The lack of interactivity means that children are frequently disengaged and do not enjoy this vital subject.</Subtitle>
+                      <Subtitle>During the Covid-19 pandemic, several young adults saw a decrease in their physical health due to the fact that they were not allowed outside.</Subtitle>
+                      <br/>
+                      <br/>
                       <br/>
                     </Column>
                     <Column>
                       <SectionHeading2>the solution</SectionHeading2>
-                      <Subtitle>In order to make learning maths more interactive  experience, I designed a robotic maths game to teach addition and subtraction to young children (3 - 4).</Subtitle>
+                      <Subtitle>I designed a desktop application on which users could track their exercising and eating habits, as well as features for timetabling exercising and setting goals to motivation.</Subtitle>
                         <br/>
                         <br/>
                     </Column>
@@ -66,11 +68,6 @@ const TeddyBot = () => {
                 <br/>
                 <InfoRow><YoutubeEmbed/></InfoRow>
                 <br/>
-                <Row>
-                    <PDFDiv>
-                        <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
-                    </PDFDiv>
-                </Row>
                 <br/>  
                 <br/>  
                 <br/>      
