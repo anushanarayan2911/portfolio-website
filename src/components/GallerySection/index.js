@@ -1,9 +1,10 @@
-import React from 'react'
+import {React, useState} from 'react'
 import Link from 'react-scroll/modules/components/Link'
 import { InfoContainer, 
   InfoWrapper, 
   InfoRow, 
   TopLine, 
+  ImageOverlay,
   PortfolioGrid, 
   PortfolioRow,
   Column,
@@ -13,6 +14,27 @@ import { InfoContainer,
 } from './galleryElements'
 
 const GallerySection = () => {
+  const [isOverlay, setIsOverlay] = useState(false);
+  const [isImage, setIsImage] = useState('')
+
+  var imagesPath = [
+    require('../../Visuals/Gallery/Images/1.png'),
+    require('../../Visuals/Gallery/Images/2.png'),
+    require('../../Visuals/Gallery/Images/3.png'),
+    require('../../Visuals/Gallery/Images/4.png'),
+    require('../../Visuals/Gallery/Images/5.png'),
+    require('../../Visuals/Gallery/Images/6.png'),
+    require('../../Visuals/Gallery/Images/7.png'),
+    require('../../Visuals/Gallery/Images/8.png'),
+  ]
+
+  const setImage = (sourceLink) => {
+    setIsImage(imagesPath[sourceLink]);
+  }
+
+  const showOverlay = () => {
+    setIsOverlay(!isOverlay);
+  }
   return (
     <InfoContainer id="portfolio">
       <InfoWrapper>
@@ -20,6 +42,7 @@ const GallerySection = () => {
         <br/>
         <br/>
         <br/>
+        <ImageOverlay src={isImage} visible={isOverlay}/>
         <PortfolioGrid>
           <PortfolioRow>
             <Column>

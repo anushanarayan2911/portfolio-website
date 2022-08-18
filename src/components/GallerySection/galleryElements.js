@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
 
 export const InfoContainer = styled.div`
@@ -51,6 +51,21 @@ export const TopLine = styled.p`
     margin-bottom: 30px;
 `
 
+export const ImageOverlay = styled.img`
+    width: 50%;
+    z-index: 2;
+    padding: 15px 5px 15px 5px;
+    position: fixed;
+    top: 2.5%;
+    left: 25%;
+    
+    ${({ visible }) => {
+        return css`
+            visibility: ${visible ? 'visible' : 'hidden'};
+        `;
+    }}
+`
+
 export const PortfolioGrid = styled.div`
     width: 100%;
     overflow: hidden;
@@ -87,8 +102,7 @@ export const Image = styled.img`
     width: 100%;
 
     &:hover{
-        width: 104%;
-        opacity: 60%;
+        width: 102%;
         transition: all 0.3s ease-in-out;
     }
 `
