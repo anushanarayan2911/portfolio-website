@@ -124,7 +124,7 @@ export const Row = styled.div`
 export const YoutubeEmbed = ({ }) => (
     <div className='video-responsive'>
         <iframe
-        src="https://www.youtube.com/watch?v=Hsf9Sks_270"
+        src="https://www.youtube.com/embed/Hsf9Sks_270"
         allow="autoplay; encrypted-media; fullscreen"
         allowFullScreen
         title="video"

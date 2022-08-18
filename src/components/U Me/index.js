@@ -65,7 +65,7 @@ const UMe = () => {
                     </Column>
                 </PortfolioRow>
                 <br/>
-                <YoutubeEmbed/>
+                <InfoRow><YoutubeEmbed/></InfoRow>
                 <br/>
                 <Row>
                     <PDFDiv>
