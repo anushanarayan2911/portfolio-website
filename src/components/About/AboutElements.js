@@ -48,15 +48,28 @@ export const InfoRow = styled.div`
 
 export const Column1 = styled.div`
     margin-bottom: 0px;
-    padding: 0 10% 0 0;
+    padding: 0 0% 0 0;
     grid-area: col1;    
+    
+
+    @media screen and (max-width: 768px) {
+        padding: 10% 0 0 0;
+        align-items: center;
+        justify-content: center;
+    }
 `
 
 export const Column2 = styled.div`
     margin-bottom: 15px;
     padding: 0 0 0 0;
     grid-area: col2;
-    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        padding: 10% 0 0 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
 `
 
 export const Subtitle = styled.p`
