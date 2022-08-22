@@ -2,6 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route, withRouter} from 'react-router-dom';
 import Home from './Pages'
 import React from 'react'
+import Sidebar from './components/SideBar'
 import AboutPage from './Pages/AboutPage';
 import PortfolioPage from './Pages/PortfolioPage';
 import GalleryPage from './Pages/GalleryPage';
@@ -21,6 +22,7 @@ import PDFPortfolioPage from './Pages/PDFPortfolioPage';
 function App() {
   return (
     <Switch>
+      
       <Route exact path="/" component={withRouter(Home)}/>
       <Route exact path="/AboutPage" component={withRouter(AboutPage) }/>
       <Route path="/PortfolioPage" component={PortfolioPage} exact/>

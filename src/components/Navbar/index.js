@@ -33,7 +33,7 @@ const Navbar = ({toggle, id}) => {
 
   return (
     <>
-      <Nav scrollNav={scrollNav} id={id}>
+      <Nav id={id}>
           <NavLogo to="/" onClick={toggleHome}>
             <Img src={require("../../Visuals/Home/Images/Logo.png")}/>
           </NavLogo>
